@@ -2,8 +2,8 @@ site_name: Edu-Wiki
 site_description: 高中知识维基百科
 site_author: Edu-Wiki Team
 site_url: https://edu-wiki.pages.dev/
-repo_name: edu-wiki/edu-wiki
-repo_url: https://github.com/edu-wiki/edu-wiki
+repo_name: Nick-zheng-official/edu-wiki
+repo_url: https://github.com/Nick-zheng-official/edu-wiki
 edit_uri: blob/master/docs/zh/docs/
 copyright: Copyright &copy; 2025 Edu-Wiki Team
 theme:
@@ -17,59 +17,59 @@ theme:
     repo: fontawesome/brands/github-alt
   logo: static/img/logo.png
   features:
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - search.suggest
-  - search.highlight
-  - search.share
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
   font:
     text: Noto Sans
     code: Source Code Pro
 plugins:
-- search
-- minify:
-    minify_html: true
+  - search
+  - minify:
+      minify_html: true
 nav:
-- 首页: index.md
-- 数学:
-  - 代数: 数学/代数.md
-  - 几何: 数学/几何.md
-- 物理:
-  - 力学: 物理/力学.md
+  - 首页: index.md
+  - 数学:
+      - 代数: 数学/代数.md
+      - 几何: 数学/几何.md
+  - 物理:
+      - 力学: 物理/力学.md
 markdown_extensions:
-- admonition
-- md_in_html
-- codehilite:
-    guess_lang: false
-- def_list
-- footnotes
-- meta
-- toc:
-    permalink: true
-- pymdownx.arithmatex
-- pymdownx.caret
-- pymdownx.critic
-- pymdownx.details
-- pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji ''
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg ''
-- pymdownx.highlight
-- pymdownx.inlinehilite
-- pymdownx.keys
-- pymdownx.magiclink
-- pymdownx.mark
-- pymdownx.smartsymbols
-- pymdownx.superfences:
-    custom_fences:
-    - name: mermaid
-      class: mermaid
-      format: !!python/name:pymdownx.superfences.fence_code_format ''
-- pymdownx.tasklist:
-    custom_checkbox: true
-- pymdownx.tilde
+  - admonition
+  - md_in_html
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji ""
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg ""
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format ""
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 extra:
   copyright: CC BY-NC-SA 4.0
 extra_javascript:
-- https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
+  - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
 extra_css:
-- static/css/extra.css
+  - static/css/extra.css
