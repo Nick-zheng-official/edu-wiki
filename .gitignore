@@ -1,6 +1,37 @@
-_build/
-docs_build/
+# MkDocs build output
 site/
+docs/zh/site/
+docs/en/site/
+docs/zh-tw/site/
+
+# Dependencies
+node_modules/
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE
 .vscode/
-**/.DS_Store
-.env
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# CI
+.github/workflows/
+
+# Misc
+*.zip
+*.tar.gz
+*.rar
