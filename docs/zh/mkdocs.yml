@@ -18,11 +18,11 @@ theme:
   logo: static/img/logo.png
   favicon: static/img/favicon.png
   features:
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - search.suggest
-  - search.highlight
-  - search.share
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
   font:
     text: Noto Sans
     code: Source Code Pro
