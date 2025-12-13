@@ -2,6 +2,7 @@
 # 端点效应
 
 [【高考常客！端点效应「保姆级讲解」】](https://www.bilibili.com/video/BV1rw4m1e7tC?vd_source=52aa8bd45c28e534d02e312968f55355)
+
 [【端点效应失效了！咋办？】](https://www.bilibili.com/video/BV1Br4y1Q7ay?vd_source=52aa8bd45c28e534d02e312968f55355)
 
 ---
