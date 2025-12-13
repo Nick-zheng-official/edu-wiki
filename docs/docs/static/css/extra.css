@@ -14,7 +14,8 @@ blockquote.page-copyright {
 }
 
 /* 禁止滚动回弹效果 */
-html, body {
+html,
+body {
   overscroll-behavior: none;
   overscroll-behavior-x: none;
   overscroll-behavior-y: none;
@@ -41,7 +42,8 @@ html, body {
 
 /* iOS Safari 特定样式 */
 @supports (-webkit-overflow-scrolling: touch) {
-  html, body {
+  html,
+  body {
     -webkit-overflow-scrolling: auto;
   }
 }
