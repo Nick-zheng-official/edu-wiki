@@ -6,6 +6,7 @@ repo_name: Nick-zheng-official/edu-wiki
 repo_url: https://github.com/Nick-zheng-official/edu-wiki
 edit_uri: blob/master/docs/docs/
 copyright: Copyright &copy; 2025 Edu-Wiki Team
+use_directory_urls: true
 theme:
   name: material
   language: zh
@@ -83,5 +84,6 @@ extra:
   copyright: CC BY-NC-SA 4.0
 extra_javascript:
   - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
 extra_css:
   - static/css/extra.css
