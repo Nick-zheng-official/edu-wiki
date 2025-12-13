@@ -36,22 +36,19 @@ plugins:
 
 nav:
   - 首页: index.md
-  - 测试文档: test.md
-  - LaTeX 测试: latex-test.md
-  - 换行测试: test-break.md
   - 语文:
-      - 简介: chinese/index.md
+      - 简介: chinese/introduction.md
   - 数学:
-      - 简介: math/index.md
+      - 简介: math/introduction.md
   - 英语:
-      - 简介: english/index.md
+      - 简介: english/introduction.md
   - 物理:
-      - 简介: physics/index.md
+      - 简介: physics/introduction.md
       - 冲量与动量: physics/impulse-and-momentum.md
   - 化学:
-      - 简介: chemistry/index.md
+      - 简介: chemistry/introduction.md
   - 生物:
-      - 简介: biology/index.md
+      - 简介: biology/introduction.md
 
 markdown_extensions:
   # 基础扩展
