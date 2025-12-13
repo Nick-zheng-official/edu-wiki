@@ -7,6 +7,7 @@ repo_url: https://github.com/Nick-zheng-official/edu-wiki
 edit_uri: blob/master/docs/docs/
 copyright: Copyright &copy; 2025 Edu-Wiki Team
 use_directory_urls: true
+
 theme:
   name: material
   language: zh
@@ -27,10 +28,12 @@ theme:
   font:
     text: Noto Sans
     code: Source Code Pro
+
 plugins:
   - search
   - minify:
       minify_html: true
+
 nav:
   - 首页: index.md
   - 测试文档: test.md
@@ -47,24 +50,27 @@ nav:
       - 简介: chemistry/index.md
   - 生物:
       - 简介: biology/index.md
+
 markdown_extensions:
   # 基础扩展
-  - markdown.extensions.admonition
-  - markdown.extensions.md_in_html
-  - markdown.extensions.tables
-  - markdown.extensions.fenced_code
-  - markdown.extensions.attr_list
-  - markdown.extensions.abbr
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
+  - admonition
+  - md_in_html
+  - tables
+  - fenced_code
+  - attr_list
+  - abbr
+  - def_list
+  - footnotes
+  - meta
+  - toc:
       permalink: true
-  - markdown.extensions.codehilite
-  - markdown.extensions.nl2br
-
-  # PyMdown Extensions
+  - codehilite
+  - nl2br
+  
+  # 数学公式扩展
   - pymdownx.arithmatex
+  
+  # PyMdown Extensions
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.critic
@@ -86,10 +92,13 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
 extra:
   copyright: CC BY-NC-SA 4.0
+
 extra_javascript:
-  - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+  - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
+
 extra_css:
   - static/css/extra.css
