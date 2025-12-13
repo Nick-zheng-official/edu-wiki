@@ -49,8 +49,10 @@ nav:
 markdown_extensions:
   - admonition
   - md_in_html
-  - codehilite:
-      guess_lang: false
+  - tables
+  - fenced_code
+  - attr_list
+  - abbr
   - def_list
   - footnotes
   - meta
@@ -81,6 +83,6 @@ extra:
   copyright: CC BY-NC-SA 4.0
 extra_javascript:
   - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - static/css/extra.css
