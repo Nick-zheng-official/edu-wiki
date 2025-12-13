@@ -12,3 +12,36 @@ blockquote.page-copyright {
 .gt-container .gt-meta {
   z-index: auto !important;
 }
+
+/* 禁止滚动回弹效果 */
+html, body {
+  overscroll-behavior: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+/* 禁止各个滚动容器的回弹 */
+.md-main__inner {
+  overscroll-behavior: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+.md-sidebar__scrollwrap {
+  overscroll-behavior: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+.md-content__inner {
+  overscroll-behavior: none;
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+/* iOS Safari 特定样式 */
+@supports (-webkit-overflow-scrolling: touch) {
+  html, body {
+    -webkit-overflow-scrolling: auto;
+  }
+}
