@@ -36,6 +36,7 @@ plugins:
 
 nav:
   - 首页: index.md
+  - 换行测试: line-break-test.md
   - 语文:
       - 简介: chinese/introduction.md
   - 数学:
