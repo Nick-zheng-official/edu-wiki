@@ -36,14 +36,14 @@ nav:
       - 语文: 语文/index.md
   - 数学:
       - 数学: 数学/index.md
-      - 代数: 数学/代数.md
-      - 几何: 数学/几何.md
+      - 代数: 数学/algebra.md
+      - 几何: 数学/geometry.md
   - 英语:
       - 英语: 英语/index.md
   - 物理:
       - 物理: 物理/index.md
-      - 力学: 物理/力学.md
-      - 冲量与动量: 物理/冲量与动量.md
+      - 力学: 物理/mechanics.md
+      - 冲量与动量: 物理/impulse&momentum.md
   - 化学:
       - 化学: 化学/index.md
   - 生物:
