@@ -61,9 +61,11 @@ markdown_extensions:
   - markdown.extensions.toc:
       permalink: true
   - markdown.extensions.codehilite
+  - markdown.extensions.nl2br
 
   # PyMdown Extensions
   - pymdownx.arithmatex
+  - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
