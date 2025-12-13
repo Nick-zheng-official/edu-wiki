@@ -34,21 +34,21 @@ plugins:
 nav:
   - 首页: index.md
   - 语文:
-      - 语文: chinese/index.md
+      - 简介: chinese/index.md
   - 数学:
-      - 数学: math/index.md
+      - 简介: math/index.md
       - 代数: math/algebra.md
       - 几何: math/geometry.md
   - 英语:
-      - 英语: english/index.md
+      - 简介: english/index.md
   - 物理:
-      - 物理: physics/index.md
+      - 简介: physics/index.md
       - 力学: physics/mechanics.md
       - 冲量与动量: physics/impulse&momentum.md
   - 化学:
-      - 化学: chemistry/index.md
+      - 简介: chemistry/index.md
   - 生物:
-      - 生物: biology/index.md
+      - 简介: biology/index.md
 markdown_extensions:
   - admonition
   - md_in_html
