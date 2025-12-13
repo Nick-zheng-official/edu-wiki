@@ -40,15 +40,21 @@ nav:
       - 简介: chinese/introduction.md
   - 数学:
       - 简介: math/introduction.md
+      - 端点效应: math/endpoint-effect.md
+      - 极值点偏移: math/extreme-point-offset.md
+      - 数学技巧: math/math-tricks.md
   - 英语:
       - 简介: english/introduction.md
   - 物理:
       - 简介: physics/introduction.md
       - 冲量与动量: physics/impulse-and-momentum.md
+      - 电磁感应: physics/electromagnetic-induction.md
   - 化学:
       - 简介: chemistry/introduction.md
+      - 化学反应速率: chemistry/chemical-reaction-rate.md
   - 生物:
       - 简介: biology/introduction.md
+      - 生态系统: biology/ecosystem.md
 
 markdown_extensions:
   # 基础扩展
