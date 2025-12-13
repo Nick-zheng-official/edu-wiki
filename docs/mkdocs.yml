@@ -55,17 +55,17 @@ markdown_extensions:
   # 基础扩展
   - admonition
   - md_in_html
-  - tables
-  - fenced_code
-  - attr_list
-  - abbr
+  - codehilite:
+      guess_lang: false
   - def_list
   - footnotes
   - meta
   - toc:
       permalink: true
-  - codehilite
-  - nl2br
+  - tables
+  - fenced_code
+  - attr_list
+  - abbr
   
   # 数学公式扩展
   - pymdownx.arithmatex
@@ -97,8 +97,9 @@ extra:
   copyright: CC BY-NC-SA 4.0
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
   - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
+  - static/js/extra.js
+  - https://cdnjs.loli.net/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML
 
 extra_css:
   - static/css/extra.css

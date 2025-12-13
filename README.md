@@ -64,7 +64,6 @@ python -m mkdocs build -f docs/mkdocs.yml
 项目配置了 GitHub Actions 自动部署，当代码推送到 `master` 分支时，会自动触发部署流程。
 
 部署流程：
-
 1. 检查代码仓库
 2. 设置 Python 环境
 3. 安装依赖
@@ -95,7 +94,6 @@ python -m mkdocs build -f docs/mkdocs.yml
 ### mkdocs.yml
 
 主要配置项：
-
 - `site_name`：网站名称
 - `site_description`：网站描述
 - `theme`：主题配置
@@ -106,7 +104,6 @@ python -m mkdocs build -f docs/mkdocs.yml
 ### cloudflare-pages.yml
 
 GitHub Actions 部署配置，包含：
-
 - 触发条件：推送代码到 `master` 分支
 - 构建命令：`python -m mkdocs build -f docs/mkdocs.yml`
 - 部署目录：`docs/site`
