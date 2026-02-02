@@ -1,4 +1,4 @@
-# 冲量与动量
+# 冲量与动量 (待完善)
 
 [【124.【高中物理选修 3-5】【动量守恒】冲量】](https://www.bilibili.com/video/BV1W4411J7sq?vd_source=52aa8bd45c28e534d02e312968f55355)  
 [【125.【高中物理选修 3-5】【动量守恒】动量】](https://www.bilibili.com/video/BV1W4411J7ah?vd_source=52aa8bd45c28e534d02e312968f55355)  

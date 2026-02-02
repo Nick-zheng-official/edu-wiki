@@ -43,6 +43,8 @@ nav:
       - 导数:
           - 端点效应: math/calculus/endpoint-effect.md
           - 极值点偏移: math/calculus/extreme-point-offset.md
+      - 圆锥曲线:
+          - 椭圆: math/conic-sections/ellipse.md
       - 数学技巧: math/math-tricks.md
       - 原神:
           - 启动: math/genshin/start.md
@@ -54,6 +56,8 @@ nav:
           - 冲量与动量: physics/kinematics/impulse-and-momentum.md
       - 磁学:
           - 电磁感应: physics/magnetism/electromagnetic-induction.md
+      - 交流电:
+          - 交流电: physics/alternating-current/alternating-current.md
   - 化学:
       - 化学简介: chemistry/introduction.md
       - 化学反应原理:
