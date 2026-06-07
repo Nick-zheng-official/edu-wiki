@@ -5,12 +5,12 @@
 ### 1.1 审查现有格式
 
 - **操作**：打开并审查 `d:\edu-wiki\docs\docs\english\vocabs\TEM.md` 文件，了解当前词汇条目的格式
-- **预期结果**：熟悉结构，包括章节标题、音标标注风格和内容组织方式, 准备直接写入 ` d:\edu-wiki\docs\docs\english\vocabs\TEM.md` 文件
+- **预期结果**：熟悉结构，包括章节标题、音标标注风格和内容组织方式, 准备直接写入    ` d:\edu-wiki\docs\docs\english\vocabs\TEM.md` 文件
 
 ### 1.2 读取源单词
 
 - **操作**：从 `d:\桌面\vocab temp\temp.txt` 中读取所有单词
-- **预期结果**：了解待处理的新词汇列表
+- **预期结果**：了解待处理的新词汇列表, 以便按顺序逐个写入文档
 
 ### 1.3 拼写检查
 
@@ -21,7 +21,7 @@
 
 ### 2.1 核心研究要求
 
-直接写入TEM.md文档, 对于每个单词，需研究以下信息：
+直接继续向后写入TEM.md文档(序号从当前最后一个继续编号, 如最后一个编号是240的话从241开始, 不要改动以前的), 对于每个单词，需研究以下信息：
 
 1. **音标标注**：标准IPA发音
 2. **词性转换**：单词的不同形式（名词、动词、形容词、副词等）
@@ -41,26 +41,26 @@
 每个词汇条目必须遵循以下Markdown格式：
 
 ```markdown
-### 序号. 单词 /音标/
+## 序号. 单词 /音标/
 
 **1. 词性转换**
 
-* **word (词性)** 释义。
-  * **transformation1 (词性)** 释义。
-  * **transformation2 (词性)** 释义。
+- **word (词性)** 释义。
+  - **transformation1 (词性)** 释义。
+  - **transformation2 (词性)** 释义。
 
 **2. 固定搭配/地道表达**
 
-* **搭配1**：解释。
-* **搭配2**：解释。
-* **习语1**：解释。
+- **搭配1**：解释。
+- **搭配2**：解释。
+- **习语1**：解释。
 
 **3. 重点辨析** (仅适用于重点词汇)
 
-* **word vs. similar_word**
+- **word vs. similar_word**
   `word` 解释 vs. `similar_word` 解释。
-  *例句：使用word的句子。*
-  *例句：使用similar_word的句子。*
+  _例句：使用word的句子。_
+  _例句：使用similar_word的句子。_
 ```
 
 ### 3.2 内容要求
@@ -114,23 +114,23 @@
 
 **1. 词性转换**
 
-* **grim (adj.)** 严峻的；严肃的；令人不快的。
-  * **grimly (adv.)** 严峻地；严肃地。
-  * **grimness (n.)** 严峻；严肃。
+- **grim (adj.)** 严峻的；严肃的；令人不快的。
+  - **grimly (adv.)** 严峻地；严肃地。
+  - **grimness (n.)** 严峻；严肃。
 
 **2. 固定搭配/地道表达**
 
-* **A grim situation/outlook**：严峻的形势/前景。
-* **To look grim**：表情严肃，看起来严峻。
-* **The grim reality/truth**：残酷的现实/真相。
-* **Grim news**：令人不快的消息。
+- **A grim situation/outlook**：严峻的形势/前景。
+- **To look grim**：表情严肃，看起来严峻。
+- **The grim reality/truth**：残酷的现实/真相。
+- **Grim news**：令人不快的消息。
 
 **3. 重点辨析**
 
-* **grim vs. gloomy**
+- **grim vs. gloomy**
   `Grim` 强调"严峻、令人担忧"，常指形势、消息等；`Gloomy` 更侧重"令人沮丧、阴暗"，可形容天气、心情或前景。
-  *例句：The economic forecast looks grim.* (经济前景看起来严峻。)
-  *例句：He had a gloomy expression all day.* (他一整天都愁眉苦脸的。)
+  _例句：The economic forecast looks grim._ (经济前景看起来严峻。)
+  _例句：He had a gloomy expression all day._ (他一整天都愁眉苦脸的。)
 ```
 
 ## 7. 更新精简版Word文档

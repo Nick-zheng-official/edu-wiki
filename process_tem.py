@@ -17,8 +17,8 @@ def process_markdown(file_path):
         content = f.read()
     
     # 匹配词汇条目
-    # 格式：### 1. provincial /prəˈvɪnʃl/
-    pattern = r'### (\d+)\. (\w+) /([^/]+)/\n\n(.*?)(?=### \d+\. |$)'
+    # 格式：## 1. provincial /prəˈvɪnʃl/
+    pattern = r'## (\d+)\. (\w+) /([^/]+)/\n\n(.*?)(?=## \d+\. |$)'
     entries = re.findall(pattern, content, re.DOTALL)
     
     processed_entries = []
