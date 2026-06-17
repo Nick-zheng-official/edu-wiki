@@ -75,6 +75,10 @@ nav:
           - 电学: physics/electricity/electricity.md
       - 机械波:
           - 机械波: physics/mechanical-waves/mechanical-waves.md
+      - 原子物理:
+          - 原子物理: physics/atomic-physics/atomic-physics.md
+      - 热力学:
+          - 热力学: physics/thermodynamics/thermodynamics.md
   - 化学:
       - 化学简介: chemistry/introduction.md
       - 化学反应原理:
