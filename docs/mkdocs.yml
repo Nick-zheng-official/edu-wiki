@@ -58,6 +58,8 @@ nav:
           - 集合与逻辑用语: math/sets-and-logic/sets-and-logic.md
       - 概率统计:
           - 概率统计: math/probability-and-statistics/probability-and-statistics.md
+      - 数列:
+          - 数列: math/sequences/sequences.md
       - 数学技巧: math/math-tricks.md
   - 英语:
       - 英语简介: english/introduction.md
