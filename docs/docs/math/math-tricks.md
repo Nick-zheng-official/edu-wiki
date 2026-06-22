@@ -2,7 +2,7 @@
 
 ## 运算技巧
 
-1. 对于高斯函数 $\lfloor x \rfloor$ , 一般考虑拆分子把分数拆为整数 $+$ 小数的部分, 如 $\lfloor \frac{n^2 + 1}{n + 2} \rfloor = n - 2 + \lfloor \frac{5}{n + 2} \rfloor , n \in \Z$ (常出现与数列题目中), 但要注意后面分式部分也不一定小于 $1$ , 需要对 $n$ 较小时特殊考虑. 
+1. 对于高斯函数 $\lfloor x \rfloor$ , 一般考虑拆分子把分数拆为整数 $+$ 小数的部分, 如 $\lfloor \frac{n^2 + 1}{n + 2} \rfloor = n - 2 + \lfloor \frac{5}{n + 2} \rfloor , n \in \mathbb{Z}$ (常出现与数列题目中), 但要注意后面分式部分也不一定小于 $1$ , 需要对 $n$ 较小时特殊考虑. 
 
 ## 三角变换
 
