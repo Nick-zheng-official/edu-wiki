@@ -131,8 +131,14 @@ $$正推乘传递效率, 逆推除以传递效率$$
    - 抵抗力稳定性: 保持原状的能力(越复杂越稳定)
    - 恢复力稳定性: 破坏后恢复原状的能量(越简单越易恢复)
 
-![图1](images/稳定性1.png)
-![图2](images/稳定性2.png)
+<figure style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+  <img src="images/稳定性1.png" width="500" />
+  <figcaption>图1</figcaption>
+</figure>
+<figure style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+  <img src="images/稳定性2.png" width="500" />
+  <figcaption>图2</figcaption>
+</figure>
 
 图一: 两种稳定性都很低的生态系统:
 $$荒漠, 苔原$$

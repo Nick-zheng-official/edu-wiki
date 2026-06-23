@@ -22,7 +22,10 @@
 1. 形式相同的两个式子
    - 平方性质明显则相减(如点差法)
    - 参数是系数则可以相除(好处是消掉参数, 有时还能出现同构, 如图$1$)
-     ![图1](images/参数化简1.png)
+     <figure style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+  <img src="images/参数化简1.png" width="500" />
+  <figcaption>图1</figcaption>
+</figure>
 
 ## 圆锥曲线
 

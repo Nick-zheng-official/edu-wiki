@@ -147,7 +147,10 @@ $d$ 为板间间距, 板间插入金属板会减小 $d$ . $k$ 为静电力常数
 
 静电计: 测 $U$ . 偏转角 $\theta$ 越大 $U$ 越大. 与验电器外形相似但有差别. 
 
-![电路中的电容器](../images/电路电容器.png)
+<figure style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+  <img src="../images/电路电容器.png" width="500" />
+  <figcaption>电路中的电容器</figcaption>
+</figure>
 
 电容器符号与电源相似, 但其两条竖线等长. 充电时$Q \uparrow$ 相当于特殊的用电器, 电路稳定后(两金属板分别带正负电)在电路中相当于断路(或理想电压表), 放电时 $Q \downarrow$ 相当于电源. 
 

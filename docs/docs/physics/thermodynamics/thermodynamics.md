@@ -154,7 +154,10 @@ $$
 
 若继续考虑, 比较稳定后 $\Delta p_A$ 与 $\Delta p_B$ 的大小, 则需要注意此时稳定后的 $\Delta p$ 与先前计算的瞬时的 $\Delta p$ 不一致, 因为在稳定前液柱会移动导致体积与压强等变化. 此时考虑求解初状态与移动后的末状态相减, 列两个等式 $\begin{cases}p_A = p_B + h \\ p_A' = p_B' + h\end{cases}$ (仅举例, 表达式依题目变化, 液柱移动前后体积不变, 在直试管中高度不变), 作差即可得到稳定后 $\Delta p_A = \Delta p_B$ , 且二者均为正. 若将试管改为上粗下细的试管( $A$ 在上 $B$ 在下 ), 则移动后 $h'$ 会减小, 作差之后有 $\Delta p_A < \Delta p_B$ . 可以发现由于 $V_总 = V_A + V_B + V_液$ 不变, 则 $\Delta V_A = \Delta V_B$ . 若比较两气体对液面压力大小, 则考虑 $F = pS$ , 若 $\Delta p_A < \Delta p_B$ , 且 $S_A < S_B$ (以在上粗下细的试管中为例, 不论变化前后面积均符合此, 由于试管壁变化均匀则 $\Delta S_A = \Delta S_B$ ), 则易得 $\Delta F_A < \Delta F_B$ .
 
-![不是两气挤压](../images/非两气挤压.png)
+<figure style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
+  <img src="../images/非两气挤压.png" width="500" />
+  <figcaption>不是两气挤压</figcaption>
+</figure>
 
 注意有类题目易与两气挤压混淆, 如图, 实际上此类题目为下文介绍的恒压变化的题目, 因为对于 $A$ 与 $B$ 均有 $p = p_0 + h$ 始终没有变化. 由于涉及到变化量且 $p$ 恒定(直线过原点), 可以使用 $\frac{V}{T} = \frac{\Delta V}{\Delta T}$ 移项来求解 $\Delta V$ 的大小, 由 $V_A > V_B$ 发现 $\Delta V_A > \Delta V_B$ , 故均液柱向下移动且 $A$ 移动较多.
 
