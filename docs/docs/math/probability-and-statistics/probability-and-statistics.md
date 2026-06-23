@@ -48,6 +48,8 @@ $$
 \frac{n!}{n} = (n - 1)!
 $$
 
+若有相同元素则需要除序, 方法同分组分配问题.
+
 错排公式:
 
 $$
@@ -163,7 +165,7 @@ $$
 随机变量分为离散型随机变量和连续型随机变量.
 
 | $X$ | $x_1$ | $x_2$ | $\dots$ | $x_n$ |
-| ----- | ------- | ------- | --------- | ------- |
+| --- | ----- | ----- | ------- | ----- |
 | $P$ | $p_1$ | $p_2$ | $\dots$ | $p_n$ |
 
 上表即是一个分布列. 表达为 $P(X = x_i) = P_i, i = 1, 2, \dots, n$ . 其中 $X$ 为随机变量, 可以运算, 如 $X + Y = 8 \Rightarrow E(X) = E(8 - Y)$ 从而转化为已知的线性运算. 满足 $p_i \ge 0, \sum_{i = 1}^n p_i = 1$ . 数学期望实际上就是均值, 有 $E(X) = \sum_{i = 1}^n x_i p_i$ . 方差为 $D(X) = \sum_{i = 1}^n (x_i - E(X))^2 p_i = E(X^2) - (E(X))^2$ . 线性变换: $E(aX + b) = aE(X) + b, D(aX + b) = a^2 D(X)$ .
@@ -176,10 +178,10 @@ $$
 两点分布描述一次试验中事件 $A$ 发生的次数, $X$ 取值仅为 $0$ (不发生)与 $1$ (发生). 如下表.
 
 | $X$ |   $0$   | $1$ |
-| :---: | :-------: | :---: |
+| :-: | :-----: | :-: |
 | $P$ | $1 - p$ | $p$ |
 
-<img src="../images/图表.png" width="200" />
+<div style="display: flex; justify-content: center;"><img src="../images/图表.png" width="200" /></div>
 
 上方图表在遇见两个随机变量且关系复杂时常用, 便于挖掘隐藏信息.
 
@@ -196,13 +198,13 @@ $$
 
 正态分布的概率密度函数符合 $f(x) = \frac{1}{\sqrt{2\pi}\sigma} \cdot e^{-\frac{(x - \mu)^2}{2\sigma^2}}$ , 其中 $f$ 为概率密度, $\mu$ 为对称轴(平均值/期望), $\sigma$ 为标准差( $\sigma^2$ 为方差). 函数图像与 $x$ 轴围成的面积恒为 $1$ , 面积代表概率. 服从正态分布可写为 $X \sim N(\mu, \sigma^2)$ . 注意括号内和表达式中为 $\sigma^2$ 而非 $\sigma$ , 题目给出的也要注意是方差还是标准差.
 
-<img src="../images/正态分布.png" width="300" />
+<div style="display: flex; justify-content: center;"><img src="../images/正态分布.png" width="300" /></div>
 
 可以发现由 $\mu$ 与 $\sigma$ 即可确定曲线, 上图中 $\mu_2 > \mu_1$ , $\sigma_1^2 > \sigma_2^2$ (数据更集中于对称轴, 对称轴函数值越大, 方差小). 有时比较概率大小但面积不好比较时可以考虑转化到另一侧去比较(用概率和为 $1$ ).
 
 $3\sigma$ 原则:
 
-<img src="../images/3sm原则.png" width="500" />
+<div style="display: flex; justify-content: center;"><img src="../images/3sm原则.png" width="500" /></div>
 
 注意以上数据可能有精度问题, 更可能的数值是: $0.6827, 0.9545, 0.9973$ .
 
@@ -237,7 +239,7 @@ $$
 
 另说考虑标准化数据, 由于平移(第一步)与伸缩(第二步)不改变线性相关性, 则有以下步骤:
 
-<img src="../images/标准化.png" width="500" />
+<div style="display: flex; justify-content: center;"><img src="../images/标准化.png" width="500" /></div>
 
 注意到若我们构造两个向量 $\vec a = (x_1', x_2', x_3', \dots, x_n'), \vec b = (y_1', y_2', y_3', \dots, y_n')$ , 符合 $cos \theta = \frac{\sum_{i = 1}^nx_i'y_i'}{\sqrt{\sum_{i = 1}^nx_i'^2}\sqrt{\sum_{i = 1}^ny_i'^2}}$ . 实际上标准化后 $\sum_{i = 1}^nx_i'^2 = \sum_{i = 1}^ny_i'^2 = n$ , 继续化简得到 $\frac{1}{n}\sum_{i = 1}^n x_i' y_i'$ . 注意到此式在上述线性相关系数推导过程出现过, 就是 $r$ . 故 $r$ 的几何意义为 $n$ 维空间标准化后两向量夹角的余弦值 $cos \theta$ . 此结论在寻找多个变量之间, 多个相关系数之间的关系/最值常用. 一般以三维空间作为画图辅助理解并求解. 所以此类问题本质可能考察立体几何与三角函数技巧.
 
@@ -250,20 +252,20 @@ $$
 
 我们考虑将非线性回归分析问题转化为线性回归分析问题.
 
-<img src="../images/非线性回归.png" width="500" />
+<div style="display: flex; justify-content: center;"><img src="../images/非线性回归.png" width="500" /></div>
 
 前者不妨令 $t = lnx$ 即可转化为线性回归; 后者考虑同时取对数下头, 再令 $\hat t = ln\hat y$ 即可; 若遇见 $\hat y = \hat ax^{\hat b} + \hat c$ 需要先移项为 $\hat y - \hat c = \hat ax^{\hat b}$ 以方便下头, 再转化为 $ln(\hat y - \hat c) = \hat blnx + ln\hat a$, 换元 $lnx, ln(\hat y - \hat c)$ 即可(实际上就是将图像上下平移). 当遇见其他形式(如 $x^2, \sqrt x$ 等)的非线性回归分析把握变形换元转化为线形回归的关键.
 
-<img src="../images/独立性检验.png" width="400" />
+<div style="display: flex; justify-content: center;"><img src="../images/独立性检验.png" width="400" /></div>
 
 独立性检验实际上就是看 $2 \times 2$ 联表中对角线上数据的差异大小. 卡方检验要求先做零假设(原假设) $H_0$ , 即两变量相互独立, $p(A|B) = p(B|A)$. 公式可以计算卡方, 卡方值越大两变量相互影响越大, $H_0$ 犯错概率越大, 成立概率越小, 两变量独立概率越小.
 
-<img src="../images/联表柱形图.png" width="200" />
+<div style="display: flex; justify-content: center;"><img src="../images/联表柱形图.png" width="200" /></div>
 
 这种性状的柱形图可以转化为列联表.
 
 | $\alpha$   | $0.10$  | $0.05$  | $0.010$ | $0.005$ | $0.001$  |
-| ------------ | --------- | --------- | --------- | --------- | ---------- |
+| ---------- | ------- | ------- | ------- | ------- | -------- |
 | $x_\alpha$ | $2.706$ | $3.841$ | $6.635$ | $7.879$ | $10.828$ |
 
 由此表格可以通过卡方得到概率, 表述一般为:

@@ -10,7 +10,7 @@
 
 以葡萄为例, 酿酒时需先用温水清洗实验器皿并用 $70\%$ 的酒精进行消毒处理. 而后挑选新鲜无霉斑的葡萄并冲洗, 注意不要反复冲洗洗去表皮上的酵母菌; 清洗时不要去除枝梗以免杂菌侵入. 
 
-![](../images/果酒发酵罐.png)
+<div style="display: flex; justify-content: center;"><img src="../images/果酒发酵罐.png" width="500" /></div>
 
 以上是果醋果酒发酵罐. 酵母菌首先需要有氧环境大量繁殖, 当密封瓶中氧气耗尽后进行酒精发酵(故瓶中需留有 $\frac{1}{3}$ 空气并不时放气排除 $CO_2$ 以防发酵液溢出; 如果使用塑料瓶可以拧松瓶盖, 但不能拿下以防杂菌污染). 随着酒精的积累, 杂菌增殖被抑制. 
 
@@ -58,7 +58,7 @@
 
 根据化学成分, 可以分为天然培养基与合成培养基. 根据用途, 可以分为选择培养基和鉴别培养基. 
 
-![](../images/培养基用途.png)
+<div style="display: flex; justify-content: center;"><img src="../images/培养基用途.png" width="500" /></div>
 
 伊红-美蓝培养基现作伊红-亚甲蓝培养基. 
 
@@ -70,7 +70,7 @@
 
 ### 无菌技术
 
-![](../images/无菌技术.png)
+<div style="display: flex; justify-content: center;"><img src="../images/无菌技术.png" width="500" /></div>
 
 注意不能对人体进行灭菌处理; 高压蒸汽灭菌法是湿热灭菌最具代表性的一种. 
 
@@ -90,7 +90,7 @@
 
 使用接种环在琼脂固体培养基表面连续划线, 将聚集的菌种逐步稀释到培养基表面. 一般划线五次, 在最后一次末端可以发现单菌落. 
 
-![](../images/平板划线法.png)
+<div style="display: flex; justify-content: center;"><img src="../images/平板划线法.png" width="500" /></div>
 
 注意棉塞不要放下, 划线时培养皿盖不要完全掀开, 每一次划线前都需灼烧灭菌(首次需冷却再蘸取菌液, 后续不再蘸取菌液, 使用上一次留在培养基上的菌种进行稀释), 操作完成后要对工具进行灭菌, 整个过程需在酒精灯旁完成. 
 
@@ -102,8 +102,8 @@
 
 将菌液进行一系列梯度稀释(可以使用无菌水), 然后涂布到琼脂固体培养基表面进行培养. 
 
-![](../images/梯度稀释.png)
-![](../images/涂布平板.png)
+<div style="display: flex; justify-content: center;"><img src="../images/梯度稀释.png" width="500" /></div>
+<div style="display: flex; justify-content: center;"><img src="../images/涂布平板.png" width="500" /></div>
 
 涂布时转动培养皿而非涂布器, 类似烙煎饼一般. 
 

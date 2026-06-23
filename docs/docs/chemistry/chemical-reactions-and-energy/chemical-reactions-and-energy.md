@@ -11,7 +11,7 @@
 - 电子(流)从正极流向负极, 导线中电流由正极流向负极.
 - 阳离子往正极移动, 阴离子往负极移动 (正正负负)
 
-![](../images/原电池.png)
+<div style="display: flex; justify-content: center;"><img src="../images/原电池.png" width="500" /></div>
 
 如图为单液原电池与双液原电池. 其中盐桥中有饱和 $KCl$ 溶液和琼胶, 用于维持电中性并形成闭合回路. 盐桥中离子移动仍然遵循 "正正负负" 的原则. 有时会用到离子交换膜, 就是只有特定离子可以通过的膜. 
 
@@ -34,11 +34,11 @@ $$
 常见的化学电源有一次电池, 二次电池以及燃料电池.    
 一次电池就是放电之后不可充电的电池, 其中电解液制成胶装或糊状, 不流动, 故也可称为干电池. 常见的一次电池有锌锰干电池(酸性/碱性), 纽扣式银锌电池等.  
 
-![](../images/酸性锌锰电池.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酸性锌锰电池.png" width="500" /></div>
 
-![](../images/碱性锌锰电池.png)
+<div style="display: flex; justify-content: center;"><img src="../images/碱性锌锰电池.png" width="500" /></div>
 
-![](../images/纽扣电池.png)
+<div style="display: flex; justify-content: center;"><img src="../images/纽扣电池.png" width="500" /></div>
 
   二次电池又称蓄电池, 其在放点时发生的氧化还原反应在充电时可以逆向进行(把反应物生成物交换), 充电时为电解池(详见后文), 阴极就是放电时负极, 阳极就是放电时正极, 一般通过画电子流确定正负/阴阳极, 常见的有铅酸蓄电池, 镉镍电池, 锂离子电池. 
 
@@ -147,7 +147,7 @@ $$
 
 这部分关于化学反应中的热量与焓变. 如图是中和热测定的实验装置. 中和热是指强酸与强碱的稀溶液发生中和反应生成 __一摩尔液态__ 水所放出的热量, 约为 $57.3 kJ/mol$ .
 
-![](../images/中和热测定.png)
+<div style="display: flex; justify-content: center;"><img src="../images/中和热测定.png" width="500" /></div>
 
 注意此处需要玻璃搅拌器而非金属搅拌器避免热量散失, 更不能用温度计搅拌或振荡防止做功生热, 同时要快速倒入反应物, 所以说不能一边滴定一边测定反应热. 初始温度为反应物温度平均值, 用温度计读取反应后温度并作差, 三次平行重复实验删除坏点. 计算公式:  $Q = Cm\Delta t$ , 其中 $C$ 为比热容. 在高中范围内我们认为稀溶液的比热容与水一致, 故需要用稀溶液(而且浓溶液加入水也会放热).    
 
@@ -158,11 +158,11 @@ $$
 
 焓: $H$, 单位 $J$ 或 $kJ$, 公式: $H = U + pV$, $Q = U + W$, 其中 $U, W, p, V$ 分别为内能, 功, 压强以及体积. 若在等压反应中, 能量没有转变为光能, 电能等能量, 则有 $Q = \Delta H$, $Q$ 为反应热, $\Delta H$ 为焓变, 有正负表示吸热/放热, 书写时正负号要保留.  
 
-![](../images/焓变.png)
+<div style="display: flex; justify-content: center;"><img src="../images/焓变.png" width="500" /></div>
 
 可以通过画箭头的方式来记忆焓变正负对应的吸放热. 
 
-![](../images/焓正负判断.png)
+<div style="display: flex; justify-content: center;"><img src="../images/焓正负判断.png" width="500" /></div>
 
 即先将正负号化为 $\Delta H \gtrless 0$, 然后在大于/小于号上画一个类似正弦函数的图形, 根据箭头指向的趋势即可判断内能上升还是下降, 即吸热还是放热. 
 
@@ -178,7 +178,7 @@ $$
 
 化学反应的反应热只与反应体系的始末有关, 与途径无关. 
 
-![](../images/盖斯定律.png)
+<div style="display: flex; justify-content: center;"><img src="../images/盖斯定律.png" width="500" /></div>
 
 如图, 由 $\Delta H = \Delta H_1 + \Delta H_2 = \Delta H_3 + \Delta H_4 + \Delta H_5$ .
 

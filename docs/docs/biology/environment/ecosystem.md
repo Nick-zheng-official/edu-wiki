@@ -76,7 +76,7 @@ $$正推乘传递效率, 逆推除以传递效率$$
 2. 循环性, 物质可以被生物群落反复利用
 
 碳循环:  
-![](images/碳循环.png)  
+<div style="display: flex; justify-content: center;"><img src="images/碳循环.png" width="500" /></div>  
 如何实现碳中和(读图): 
 1. 减少$CO_2$排放(具体为减少化石燃料燃烧, 开发新能源)
 2. 增加$CO_2$固定(具体为植树造林)

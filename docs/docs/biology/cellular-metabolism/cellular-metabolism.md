@@ -4,7 +4,7 @@
 
 探究历程:
 
-![](../images/酶的探究历程.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酶的探究历程.png" width="500" /></div>
 
 (注: 新教材奥特曼可能修改为奥尔特曼. )
 
@@ -22,11 +22,11 @@
 
 酶的专一性体现在其只能催化一种或一类化学反应, 通过底物与酶的活性部位相结合催化底物转化为产物, 而活性部位的结合位点限制了与酶结合的底物类型.  
 
-![](../images/酶的最适温度.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酶的最适温度.png" width="500" /></div>
 
 与蛋白质变性类似地, 温度降低化学反应速率下降, 但酶不失活, 升高温度仍然可以恢复; 但温度升高酶逐渐变性, 再次降低温度无法恢复催化作用. 动物体内酶的最适温度大约在 $35 \sim 40^\circ C$ 左右, 植物在 $40 \sim 50^\circ C$ 左右. 保存酶制剂适于在低温($0 \sim 4^\circ C$)保存. 
 
-![](../images/酶的最适酸碱度.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酶的最适酸碱度.png" width="500" /></div>
 
 过酸与过碱环境与高温一致, 会使酶失活, 不可逆. 各种酶的最适酸碱度差异较大, 如胃蛋白酶可以低至 $1.5$ , 胰蛋白酶高至 $8.0 \sim 9.0$ . 
 
@@ -36,9 +36,9 @@
 1. 竞争型抑制剂: 与底物竞争结合位点从而阻碍酶与底物的结合.
 2. 非竞争型抑制剂: 通过改变酶的结合位点从而阻止酶与底物的结合.
 
-![](../images/酶抑制剂.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酶抑制剂.png" width="500" /></div>
 
-![](../images/酶抑制剂曲线.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酶抑制剂曲线.png" width="500" /></div>
 
 第一幅图为竞争型抑制剂, 在底物浓度足够大时, 竞争型抑制剂竞争不过底物; 第二幅图为非竞争型抑制剂, 其与酶一旦结合, 酶上的结合位点形态发生改变, 不再有底物可以与之结合, 故即便底物足够多, 也不再提升反应速率. 
 
@@ -46,7 +46,7 @@
 
 $ATP$ , 即腺苷三磷酸, 结构简式为 $A - P \sim P \sim P$ , 详细如下. 
 
-![](../images/ATP.png)
+<div style="display: flex; justify-content: center;"><img src="../images/ATP.png" width="500" /></div>
 
 $ATP$ 中 $A$ 代表腺苷, $T$ 代表三($tri-$)($D$ 代表二($di-$), $ADP$; $M$ 代表一($mono-$), $AMP$,), $P$ 代表磷酸基团, $\sim$ 代表高能磷酸键. 
 
@@ -66,7 +66,7 @@ $ADP + Pi + 能量 \xrightarrow[\quad]{酶} ATP$, 能量用以形成高能磷酸
 以上两个反应不是可逆反应, 所需要酶的类型不同(一个是 $ATP$ 合成酶一个是 $ATP$ 水解酶), 且场所与能量来源也不同. $ATP$ 与 $ADP$ 的含量很少, 但相互转化非常迅速. 
 
 $ATP$ 所释放的能量可以为主动运输功能:   
-![](../images/钙泵.png)  
+<div style="display: flex; justify-content: center;"><img src="../images/钙泵.png" width="500" /></div>  
 
 囊泡的移动也需要能量.
 
@@ -109,7 +109,7 @@ $ATP$ 所释放的能量可以为主动运输功能:
 
 这里只给出总方程式:
 
-![](../images/呼吸作用.png)
+<div style="display: flex; justify-content: center;"><img src="../images/呼吸作用.png" width="500" /></div>
 
 注意两侧的水不能约掉, 反应条件为酶的催化, 有机方程式需要使用箭头, 能量不能省略. 图中的箭头标识了各元素的去向(值得注意的是水中的氧由且仅由氧气中的氧转化, 其余物质元素均为底物中(除了氧气)的全部此元素转化得到), 通过有氧呼吸具体步骤即可得到, 这在处理同位素标记的题型中会使用(注意 $^{18}O, ^{15}N$ 是稳定同位素, 无放射性, 以及时间足够长的情况下, 可能重复利用导致同位素标记的扩散, 如 $^{18}O_2 \to H_2^{18}O \xrightarrow{长时间} C^{18}O_2$). 
 
@@ -160,13 +160,13 @@ C_6H_{12}O_6 \xrightarrow[\quad]{酶} 2C_2H_5OH(酒精) + 2CO_2 + 少量能量$$
 
 检测二氧化碳的有无可以使用澄清石灰水(通入变浑浊), 或使用溴麝香草酚蓝溶液(随着通入由蓝变绿再变黄). 
 
-![](../images/溴麝香草酚蓝溶液.png)
+<div style="display: flex; justify-content: center;"><img src="../images/溴麝香草酚蓝溶液.png" width="500" /></div>
 
 检测酒精可以使用酸性重铬酸钾溶液, 重铬酸钾在酸性条件下与酒精反应由橙色变为灰绿色. 
 
-![](../images/酸性重铬酸钾.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酸性重铬酸钾.png" width="500" /></div>
 
-![](../images/酵母菌呼吸.png)
+<div style="display: flex; justify-content: center;"><img src="../images/酵母菌呼吸.png" width="500" /></div>
 
 可以使用如图装置检测酵母菌的呼吸方式. 注意向酵母菌培养液中通入空气时要使用氢氧化钠除去二氧化碳, 以免干扰检测(甲装置第一个澄清石灰水用于检测是否除尽 $CO_2$ ). 当然, 乙装置需要无氧环境, 需要先封口放置一段时间消耗瓶中氧气再接入澄清石灰水. 
 
@@ -180,11 +180,11 @@ C_6H_{12}O_6 \xrightarrow[\quad]{酶} 2C_2H_5OH(酒精) + 2CO_2 + 少量能量$$
 
 外因: 有反应总方程式可得, 温度(酶活性), 氧气浓度, 二氧化碳浓度, 水分等会影响呼吸速率. 应用分别有: 低温储存果蔬(适度, 零下会冻伤), 大棚种植夜间与阴天降温减少有机物消耗; 透气的纱布包扎伤口避免厌氧菌(如破伤风杆菌, 伤口较深时无氧呼吸易繁殖, 需注射血清), 酿酒时早起通气扩大培养, 后期密闭产生酒精, 土壤松土, 稻田排水提高土壤含氧量, 促进有氧呼吸进而促进主动运输吸收矿质元素, 无土栽培向培养液通气防止无氧呼吸烂根, 低氧保存果蔬减少有机物消耗, 有氧运动而非无氧运动减少乳酸产生使肌肉酸痛; 增加二氧化碳浓度抑制呼吸作用, 减少有机物消耗, 延长果蔬保鲜时间; 储存种子要先晒干除去部分自由水, 保持干燥减弱呼吸, 但水分较多的果蔬需要湿度适宜以保鲜. 
 
-![](../images/氧气浓度.png)
+<div style="display: flex; justify-content: center;"><img src="../images/氧气浓度.png" width="500" /></div>
 
 图中 $CO_2$ 释放最少的点($5\%$ 左右)就是最适宜蔬果保存的氧气浓度(因为 $CO_2$ 中的 $C$ 对应这有机物的消耗).
 
-![](../images/液滴移动问题.png)
+<div style="display: flex; justify-content: center;"><img src="../images/液滴移动问题.png" width="500" /></div>
 
 ($U$ 形管装置同理)
 

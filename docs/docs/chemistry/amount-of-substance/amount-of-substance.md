@@ -22,7 +22,7 @@ $$n = \frac{m}{M}$$
 
 物质体积的大小的影响因素如下. 
 
-![](../images/决定体积大小.png)
+<div style="display: flex; justify-content: center;"><img src="../images/决定体积大小.png" width="500" /></div>
 
 其中(理想)气体自身粒子的体积可以忽略, 与容器的大小(压强, 分子间距)等有关. 下面我们详细讨论理想气体的体积. 
 
@@ -84,11 +84,11 @@ $$c = \frac{1000\rho \omega}{M}$$
 6. 洗涤烧杯中残留的药品并倒入容量瓶.
 7. 定容, 倾倒时同样需要引流, 当液面接近刻度线时, 需要改用滴管. 若超过刻度线则需要从头开始.
 
-![](../images/容量瓶误差.png)
+<div style="display: flex; justify-content: center;"><img src="../images/容量瓶误差.png" width="500" /></div>
 
 注意摇匀后溶液会粘在刻度线以上, 液面略微下降, 此时不可补加水. 俯仰视问题要注意操作人员目光始终盯紧刻度线, 画图解决问题. 
 
-![](../images/容量瓶俯仰视.png)
+<div style="display: flex; justify-content: center;"><img src="../images/容量瓶俯仰视.png" width="500" /></div>
 
 ## 十字交叉法
 

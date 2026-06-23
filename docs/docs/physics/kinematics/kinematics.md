@@ -25,7 +25,7 @@
 
 速度变化量: 变化量均为末状态减出状态, 速度变化量 $\Delta v$ 同理, $\Delta v = v_t - v_0$ , 矢量, 直线运动方向由计算得到. 求 $\Delta v$ 前要先判断速度方向(正负). 更一般地, 在平面内速度变化量的方向为初速度箭头指向末速度箭头. 
 
-![](../images/速度变化量.png)
+<div style="display: flex; justify-content: center;"><img src="../images/速度变化量.png" width="500" /></div>
 
 加速度( $a$ ): 矢量, 描述物体速度变化快慢(速度变化率)的物理量, $a = \frac{\Delta v}{\Delta t}$ , 单位 $m/s^2$ (米每二次方秒), 方向与 $\Delta v$ 相同. 其中 $\Delta t$ 为力作用时间(速度真正改变的时间).
 
@@ -39,7 +39,7 @@
 
 $x - t$ 图像, 即位移 $-$ 时间图像(实际上是位置), 描述物体的位置随时间得变化. 平行于 $x$ 轴的直线静止, 其余合法的直线为匀速运动, 斜率 $k$ 为速度, 其正负表示运动方向, 大小表示速度的大小. 匀变速直线运动为一条抛物线. 往返运动斜率(速度)正负发生改变. $x - t$ 图像只能表示两个方向, 故只适用于直线运动. 图像上位移通过末位置减初位置体现, 与过程无关. 
 
-![](../images/x-t.png)
+<div style="display: flex; justify-content: center;"><img src="../images/x-t.png" width="500" /></div>
 
 图中 $C$ 为加速直线运动, $A$ 为往返运动, $B$ 为直线运动, 注意均为直线运动. 三者位移 $x_A = x_B = x_C$ 相等, 平均速度相等, 路程 $s_A > s_B = s_C$ , 因为 $A$ 往返, $C$ 看似是曲线实则描述加速, 与曲线一点联系都没有. 
 
@@ -56,7 +56,7 @@ $$少 x: v_t = v_0 + at\\
 少 v_t: x = v0_t + \frac{1}{2}at^2\\
 少 t: 2ax = v_t^2 - v_0^2$$
 
-![](../images/v-t.png)
+<div style="display: flex; justify-content: center;"><img src="../images/v-t.png" width="500" /></div>
 
 图像法也是可以被接受的(更推荐公式法). 少 $x$ 与少 $a$ 的公式可以有图像得到, 少 $v_0, v_t$ 的公式需要将梯形割补为矩形与直角三角形. 
 

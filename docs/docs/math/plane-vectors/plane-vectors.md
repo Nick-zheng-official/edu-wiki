@@ -26,7 +26,7 @@
 
 ### 三点共线定理
 
-![](../images/三点共线定理.png)
+<div style="display: flex; justify-content: center;"><img src="../images/三点共线定理.png" width="500" /></div>
 
 $$\overrightarrow{OC} = \mu\overrightarrow{OA} + \lambda\overrightarrow{OB}, \mu + \lambda = 1 \Leftrightarrow A, B, C 三点共线$$
 
@@ -40,7 +40,7 @@ $$\overrightarrow{OC} = \mu\overrightarrow{OA} + \lambda\overrightarrow{OB}, \mu
 
 等和线是三点共线的推论.
 
-![](../images/等和线.png)
+<div style="display: flex; justify-content: center;"><img src="../images/等和线.png" width="500" /></div>
 
 确定等和线 $\mu + \lambda$ 的值就看 $O$ 到等和线距离是初始距离( $O$ 到 $AB$ )的几倍即可.
 

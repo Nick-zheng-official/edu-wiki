@@ -21,7 +21,7 @@ $$mol \cdot L^{-1} \cdot s^{-1} 或 mol / (L \cdot s)$$
 
 ## 三段式法
 对于比较复杂的化学反应速率计算, 常用三段式解决.  
-![](images/三段式.png)  
+<div style="display: flex; justify-content: center;"><img src="images/三段式.png" width="500" /></div>  
 注意计算的时候单位必须一致(譬如 __不能__ 有些填浓度有些填物质的量, 建议填数时带单位); 不要忽略体积; 大胆设未知数.
 
 ---
@@ -47,11 +47,11 @@ $$mol \cdot L^{-1} \cdot s^{-1} 或 mol / (L \cdot s)$$
 
 有效碰撞模型: 基元反应发生的先决条件是反应物分子发生有效碰撞. 其实, 并非每次碰撞都是有效碰撞, 能够发生有效碰撞的分子叫做活化分子, 其具有更高的能量; 分子除了需要足够的能量, 还需要适合的碰撞取向才能发生有效碰撞. 总之就是下图所示.
 
-![](../images/有效碰撞.png)
+<div style="display: flex; justify-content: center;"><img src="../images/有效碰撞.png" width="500" /></div>
 
 在一定条件下, 活化分子所占的百分数是不变的. 活化分子百分数越大, 有效碰撞就越多, 速率快. 改变温度由此影响速率. 单位体积内活化分子数越多, 碰撞多, 有效的自然多, 速率快. 改变浓度/压强就是由此改变反应速率.
 
-![](../images/活化能.png)
+<div style="display: flex; justify-content: center;"><img src="../images/活化能.png" width="500" /></div>
 
 如图, $E_1$ 是正反应活化能, $E_2$ 是逆反应活化能. 显然, 反应需要先到达活化能才能发生. 而催化剂可以通过走其他的反应历程来实现降低活化能. 催化剂也可以看做是降低了成为活化分子的门槛, 提升了活化分子百分数.  
 
@@ -59,7 +59,7 @@ $$mol \cdot L^{-1} \cdot s^{-1} 或 mol / (L \cdot s)$$
 
 只经过一步的反应称作基元反应. 多步为复杂反应. 常见的多数反应都是复杂反应. 
 
-![](../images/反应历程.png)
+<div style="display: flex; justify-content: center;"><img src="../images/反应历程.png" width="500" /></div>
 
 如图, $TS1$ 等是过渡态, 中间生成但随即消耗不出现在总反应里的是中间产物, 图中有三步基元反应. 
 

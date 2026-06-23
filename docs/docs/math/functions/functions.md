@@ -33,11 +33,11 @@
 
 ### 对钩与双刀函数
 
-![](../images/对勾函数.png)
+<div style="display: flex; justify-content: center;"><img src="../images/对勾函数.png" width="500" /></div>
 
 对钩函数是 $f(x) = ax + \frac{b}{x}, a, b > 0$ 所对应的函数图像. 对勾函数 $x > 0$ 时的最小值可以有基本不等式求得. 
 
-![](../images/双刀函数.png)
+<div style="display: flex; justify-content: center;"><img src="../images/双刀函数.png" width="500" /></div>
 
 双刀函数是 $f(x) = ax - \frac{b}{x}, a, b > 0$ 所对应的函数图像. 
 
@@ -168,7 +168,7 @@ $$
 
 形如 $f(x) = x^a$ 的函数. 注意系数必须为 $1$. 
 
-![](../images/幂函数.png)
+<div style="display: flex; justify-content: center;"><img src="../images/幂函数.png" width="500" /></div>
 
 注意指数是分数时需要考虑根式限制的定义域. 还有指数运算时指数上的分数约分需要考虑对结果正负所带来的影响. 遇见根号变为指数方便运算. 注意 $\sqrt[n]{\dots^n}$ , 若 $n$ 为偶数则开出来为 $|\dots|$ .
 
@@ -178,7 +178,7 @@ $$
 
 形如 $f(x) = a^x, a>0, a \ne 1$ 的函数. 
 
-![](../images/指数函数.png)
+<div style="display: flex; justify-content: center;"><img src="../images/指数函数.png" width="500" /></div>
 
 值域: $(0, +\infty)$ ; 定点: $(0, 1)$ .
 
@@ -189,8 +189,8 @@ $$
 类二次函数: $y = a^x + a^{-x}$ ;  
 类三次函数: $y = a^x - a^{-x}$ .  
 
-![](../images/类二次函数.png)
-![](../images/类三次函数.png)
+<div style="display: flex; justify-content: center;"><img src="../images/类二次函数.png" width="500" /></div>
+<div style="display: flex; justify-content: center;"><img src="../images/类三次函数.png" width="500" /></div>
 
 类二次函数是偶函数, 类三次函数是奇函数. 二者与对钩, 双刀函数的图像类似地可以用"渐进"的思想来不严谨地画. 
 
@@ -211,7 +211,7 @@ y = \ln(\sqrt{x^2 + 1} \pm x)$$
 
 形如 $f(x) = \log_ax, a > 0, a \ne 1$ 的函数为对数函数. 其中 $x > 0$, 定义域为 $(0, +\infty)$ , 特别注意. 
 
-![](../images/对数函数.png)
+<div style="display: flex; justify-content: center;"><img src="../images/对数函数.png" width="500" /></div>
 
 特殊地, $\log_a1 = 0; \log_aa = 1$, 这也是函数图像中的定点($(1, 0)$). 
 
@@ -281,7 +281,7 @@ e^2 \approx 7.39, e^3 \approx 20.09, e^{0.1} \approx 1.105, \pi^2 \approx 9.8$$
 
 发现 $lnb$ 的结构总出现, 考虑换元. 注意到题目中两等式形式十分相似, 且换元时常常连同系数常数一起换掉以简化, 还有可以得到两个左侧为未知数右侧为复杂式子的优秀结构. 故令 $c = 3 + lnb \Rightarrow c = e^{7 - c}$, 发现与 $a = e^{7 - a}$ 形式一致, 为同一方程的两根. 由于为超越方程, 考虑画图分析. 
 
-![](../images/根与交点.png)
+<div style="display: flex; justify-content: center;"><img src="../images/根与交点.png" width="500" /></div>
 
 发现方程仅有一解, 得到 $a = c$. 即有 $a = 3 + lnb$. 考虑到问题中 $ab$ 地位相等, 且想从 $lnb$ 得到 $ab$ 需要 $lna + lnb$, 故使用 $a = e^{7 - a} \Rightarrow lna = 7 - a$ 代换 $a$ , 得到 $3 + lnb = 7 - lna, ab = e^4$ . 
 
@@ -289,11 +289,11 @@ e^2 \approx 7.39, e^3 \approx 20.09, e^{0.1} \approx 1.105, \pi^2 \approx 9.8$$
 
 若 $f(x)$ 在 $[a, b]$ 上图像为一条连续不断地曲线, 且 $f(a) \cdot f(b) < 0$ , 则 $f(x)$ 在 $[a, b]$ 上必有零点. 注意这个结论一般不能逆用, 如图. 但若函数为单调函数(或此范围内单调), 则可以逆用. 
 
-![](../images/零点存在定理.png)
+<div style="display: flex; justify-content: center;"><img src="../images/零点存在定理.png" width="500" /></div>
 
 ## 函数不等式
 
-![](../images/函数不等式.png)
+<div style="display: flex; justify-content: center;"><img src="../images/函数不等式.png" width="500" /></div>
 
 首先判断对称性与奇偶性. 若始终单调, 则直接脱衣服; 若如图单调性变化且存在对称轴, 则要将函数值大小比较翻译为到对称轴的距离比较(如图, 对称轴 $x = a$ , 则 $f(m) > f(n) \Rightarrow |m - a| > |n - a|$); 若函数单调且存在对称中心, 则要将函数值之和与对称中心纵坐标关系翻译成两点横坐标之和与对称中心的横坐标之间的关系(如图, 对称中心 $(a, b)$, $f(m) + f(n) > 2b \Rightarrow m + n < 2a$).
 
