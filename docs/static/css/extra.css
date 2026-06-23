@@ -1,6 +1,10 @@
 .md-typeset table:not([class]) th {
   min-width: 0rem;
 }
+.md-typeset img {
+  display: block;
+  margin: 0 auto;
+}
 .md-nav__link--active {
   color: inherit;
 }
