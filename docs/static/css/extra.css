@@ -16,3 +16,28 @@ blockquote.page-copyright {
 .gt-container .gt-meta {
   z-index: auto !important;
 }
+
+/* 数学公式容器横向滚动 */
+.md-typeset .MathJax_Display,
+.md-typeset .MathJax_SVG_Display,
+.md-typeset mjx-container[jax="CHTML"][display="true"],
+.md-typeset mjx-container[jax="SVG"][display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.md-typeset .MathJax_Display::-webkit-scrollbar,
+.md-typeset .MathJax_SVG_Display::-webkit-scrollbar,
+.md-typeset mjx-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.md-typeset .MathJax_Display::-webkit-scrollbar-thumb,
+.md-typeset .MathJax_SVG_Display::-webkit-scrollbar-thumb,
+.md-typeset mjx-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}

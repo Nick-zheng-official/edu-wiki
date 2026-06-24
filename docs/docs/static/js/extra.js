@@ -14,6 +14,24 @@ window.MathJax = {
       fonts: "STIXGeneral,'Arial Unicode MS'",
     },
   },
+  "HTML-CSS": {
+    linebreaks: {
+      automatic: true,
+      width: "container",
+    },
+  },
+  SVG: {
+    linebreaks: {
+      automatic: true,
+      width: "container",
+    },
+  },
+  CommonHTML: {
+    linebreaks: {
+      automatic: true,
+      width: "container",
+    },
+  },
   showProcessingMessages: false,
   messageStyle: "none",
 };
