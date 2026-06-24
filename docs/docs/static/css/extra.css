@@ -47,3 +47,23 @@ body {
     -webkit-overflow-scrolling: auto;
   }
 }
+
+/* MathJax 公式自动换行样式 */
+.MathJax_Display,
+.MathJax_SVG_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+.MathJax {
+  word-wrap: break-word;
+}
+
+.mjx-chtml {
+  max-width: 100%;
+}
+
+.mjx-math {
+  max-width: 100%;
+}
