@@ -18,7 +18,7 @@
 
 ### 感应起电
 
-<div style="display: flex; justify-content: center;"><img src="../images/感应起电.png" width="500" /></div>
+![](../images/感应起电.png){ width=500px }
 
 一个带电导体靠近另一个导体(不接触), 如图, 导体棒左端感应出与小球异种电荷, 右端感应出同种电荷. 可以简单认为是同性相吸, 异性相斥, 引起了电子的移动, 而正电荷不能移动就留在原地, 导致了电荷分布不均匀. 当然拿走带电金属后电荷因为正负吸引重新均匀, 除非将正负电荷分开, 电荷就无法恢复.   
 
@@ -44,23 +44,23 @@ $$E = k\frac{Q}{r^2}$$
 
 我们可以用电场线来描述电场的方向与强弱. 电场线在现实中不存在, 是人为想象出来的. 电场线的方向代表了电场强度的方向, 疏密程度代表了电场强度. 可以发现, 我们可以由电场线推得电场中带电物体的手里方向, 正电物体与电场线箭头方向一致, 负电物体与其相反. 可以得到正, 负点电荷的电场线, 即从正点电荷指出, 指入负点电荷. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/正电场线.png" width="500" /></div>
-<div style="display: flex; justify-content: center;"><img src="../images/负电场线.png" width="500" /></div>
+![](../images/正电场线.png){ width=500px }
+![](../images/负电场线.png){ width=500px }
 
 以下是等量异/同种电荷之间产生的电场线, 如果带电量不相等则会使图形偏移导致不对称. 其中的电荷受力方向为电场线切线方向. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/异种电荷电场线.png" width="500" /></div>
-<div style="display: flex; justify-content: center;"><img src="../images/同种电荷电场线.png" width="500" /></div>
+![](../images/异种电荷电场线.png){ width=500px }
+![](../images/同种电荷电场线.png){ width=500px }
 
 由此我们也可以得出其中场强的变化. 若不通过电场线, 可以考虑极限法, 当无限趋近于电荷时, 场强趋近于无穷, 由此可以判断连线上场强变化. 连线中垂线上的分析可以通过始末状态, 距离无穷远的位置场强为零. 要注意的是, 等量同种电荷连线中点场强为零, 无穷远地方场强为零, 故在中垂线上从中点开始运动是先增大后减小. 当然, 直接画电场线往往会更加直观简单.  
 
 电场线不能相交, 闭合, 电场可以叠加(矢量). 匀强电场是电场强度(方向, 大小)处处相等的电场, 可以用一组平行的电场线来表示. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/匀强电场.png" width="500" /></div>
+![](../images/匀强电场.png){ width=500px }
 
 场强是可以叠加的, 符合矢量合成. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/-`_`-模型.png" width="500" /></div>
+![](../images/-`_`-模型.png){ width=500px }
 
 如图所示, 形如-\`_\`-的这类题往往除了比较显然的场强为零的点意外, 还有在外部的一个点场强为零(通过受力分析可以判断). 直线上场强方向为 
 $$-<->-\ominus-<-\oplus->->-$$ 
@@ -68,13 +68,13 @@ $$-<->-\ominus-<-\oplus->->-$$
 
 带电圆环内部只有圆心场强为零. (对称思想) 所以一条垂直穿过圆环中心的直线上(从圆心到无穷远)电场的变化为从零开始先增大再减小为零. 球体和球壳所带电量均可以看作全部在其中心. 注意只有球壳内部场强处处为零, 球体不是.  带电圆盘也不能用点电荷的公式计算, 只能通过其他电荷受力来反推. 半球壳/半圆环补成完整球壳/圆环, 不完整图形要补成完整图形, 因为圆环和圆球对应的条件必须用上, 要不然也不会给特殊图形. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/电荷金属板.png" width="500" /></div>
+![](../images/电荷金属板.png){ width=500px }
 
 这种接地的金属板会因为右侧的点电荷感应出负电, 二者的电场线与等量异种电荷的一半一致, 可以看做将右侧正电荷关于金属板对称到左侧的负电荷. 
 
 遇到特别多个(一般大于四个)小球围成环状时, 我们可以考虑单独看一个(最特殊的), 把剩余的看成不规则整体由对称性直接看合场强. 如图中例题, 我们为了使用对称性把不完整的圆环补成完整圆环将 $A$ 变为 $+q$ 分析, 然后单独考虑 $A$ 以及其他电荷的合场强即可得到 $A$ 为 $-q$ 时其产生的场强. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/50个小球.png" width="500" /></div>
+![](../images/50个小球.png){ width=500px }
 
 
 
@@ -92,8 +92,8 @@ $$U_{ab} = \phi_a - \phi_b$$
 
 电势越靠近正电荷越高, 越靠近负电荷越低, 沿电场线降低. 默认无穷远或接地为零势能点, 同一位置正负电荷电势能相反, 电势相同. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/异种电荷电场线.png" width="500" /></div>
-<div style="display: flex; justify-content: center;"><img src="../images/同种电荷电场线.png" width="500" /></div>
+![](../images/异种电荷电场线.png){ width=500px }
+![](../images/同种电荷电场线.png){ width=500px }
 
 第一幅图中两点电荷连线的中垂线是零势能面, 始终距离正负电荷一样近(或者从电场线来看一直垂直于电场线运动电势不变). 第二幅图中连线上电势先减小再增大(距离谁近受谁影响大(或者由对称性可以得到)), 中垂线上(从中点到无穷远)距离正电荷越来越远, 电势越来越小. 
 
@@ -101,7 +101,7 @@ $$U_{ab} = \phi_a - \phi_b$$
 
 等势面(线)上电势相等. 等势面总垂直于电场线. 沿着等势面移动电荷电场力不做功(电势不变, 电势能不变). 在等差等势面越密集(电势变化越快), 电场强度就越大. 见到等势线一般要转化成电场线. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/等势线.png" width="500" /></div>
+![](../images/等势线.png){ width=500px }
 
 等量异种电荷中垂线是 $0V$ 等势面. 用这条线也可以区分两电荷是否为异种电荷. 
 
@@ -115,7 +115,7 @@ $$
 注意求电势差的题目要在最后判断正负不容易出错.  
 推论: 匀强电场中, 若两线段平行或共线, 那么两端电压之比等于长度之比.  
 
-<div style="display: flex; justify-content: center;"><img src="../images/定性电势.png" width="500" /></div>
+![](../images/定性电势.png){ width=500px }
 
 若$\phi_A = 10V, \phi_C = 8V$ , 由$E = \frac{U}{d}$, 且沿电场线方向距离 $d_{AB}, d_{BC}$ 均相等, 故 $E$ 越大, $U$ 越大, 可以得到 $U_{AB} > U_{BC}, \phi_B < 9V$ . 或者感性理解,无穷远处电势为零, 而 $AC$ 就变化了 $2V$ , 所以电势差一定是越来越小. 
 
@@ -141,16 +141,13 @@ C = \frac{\epsilon S}{4\pi kd}
 $$
 其中 $\epsilon$ 为相对介电常数, 由绝缘介质影响, 空气(真空)最小, 只要放东西(绝缘物体) $\epsilon$ 都会变大, 反之同理. $S$ 为正对面积, 如图. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/正对面积.png" width="500" /></div>
+![](../images/正对面积.png){ width=500px }
 
 $d$ 为板间间距, 板间插入金属板会减小 $d$ . $k$ 为静电力常数. 由此我们可以发现板间插入任何东西 $C$ 都会增大. 
 
 静电计: 测 $U$ . 偏转角 $\theta$ 越大 $U$ 越大. 与验电器外形相似但有差别. 
 
-<figure style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
-  <img src="../images/电路电容器.png" width="500" />
-  <figcaption>电路中的电容器</figcaption>
-</figure>
+![电路中的电容器](../images/电路电容器.png){ width=500px }
 
 电容器符号与电源相似, 但其两条竖线等长. 充电时$Q \uparrow$ 相当于特殊的用电器, 电路稳定后(两金属板分别带正负电)在电路中相当于断路(或理想电压表), 放电时 $Q \downarrow$ 相当于电源. 
 
@@ -177,12 +174,12 @@ $d$ 为板间间距, 板间插入金属板会减小 $d$ . $k$ 为静电力常数
 
 ## 静电屏蔽
 
-<div style="display: flex; justify-content: center;"><img src="../images/静电屏蔽.png" width="500" /></div>
+![](../images/静电屏蔽.png){ width=500px }
 
 如图有两个电场, 第一个是点电荷形成的, 第二个是由于导体内部感应起电导致正负电荷不均匀而形成的(注意这个不是匀强电场, 场强要根据与点电荷场强平衡来判断). 导体内部电子持续移动, 直到两个电场平衡, 导体内部电场为零, 电子不再移动, 达到静电平衡状态. 此时带电导体的带电量只会分布在表面, 内部合场强为零(内部无电场线), 带电导体是一个等势体(电势相等但不等于零), (外部)电场线与表面(等势面)垂直. 由于成为等势体, 则在其表面接导线不会产生电流, 即使在正负电荷聚集的区域接导线也没有电流. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/感应电场线.png" width="500" /></div>
-<div style="display: flex; justify-content: center;"><img src="../images/静电电势.png" width="500" /></div>
+![](../images/感应电场线.png){ width=500px }
+![](../images/静电电势.png){ width=500px }
 
 图示 $\phi - x$ 图为正点电荷感应枕形导体时的图像. 可以发现电场线在导体处中断, 导体内部电势不再变化但不为零. 
 

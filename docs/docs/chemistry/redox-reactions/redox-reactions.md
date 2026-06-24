@@ -23,9 +23,9 @@ $$升失氧还(还氧), 降得还氧(氧还)$$
 
 ### 双线桥与单线桥
 
-<div style="display: flex; justify-content: center;"><img src="../images/双线桥.png" width="500" /></div>
+![](../images/双线桥.png){ width=300px }
 
-<div style="display: flex; justify-content: center;"><img src="../images/单线桥.png" width="500" /></div>
+![](../images/单线桥.png){ width=300px }
 
 ### 氧化还原配平
 

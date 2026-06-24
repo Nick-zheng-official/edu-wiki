@@ -104,7 +104,7 @@ $$糖类\begin{cases}
 
 脂肪向糖类转化要难于糖类向脂肪转化. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/磷脂分子.png" width="500" /></div>
+![](../images/磷脂分子.png){ width=300px }
 
 磷脂分子的极性部分亲水, 非极性部分亲脂, 构成细胞膜与细胞器膜. 
 
@@ -142,7 +142,7 @@ $$
 
 数有几个氨基酸可以通过肽键, 找含有 " $- CO - NH -$ "(肽键旧形式)的结构并断开. 脱水缩合后水中的氢一个来自于氨基, 一个来自于羧基; 氧来自于羧基. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/氨基酸脱水缩合.png" width="500" /></div>
+![](../images/氨基酸脱水缩合.png){ width=300px }
 
 计算质量时可以用 $氨基酸总重 - 脱去水总重(一个肽键贡献18) - 二硫键总重(一条二硫键贡献2(脱去2个氢))$ 计算. 
 
@@ -163,9 +163,9 @@ $$
 
 组成核酸的基本单位为核苷酸. 组成 $DNA$ 的为脱氧核糖核苷酸(脱氧核苷酸), $RNA$ 的为核糖核苷酸. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/核酸.png" width="500" /></div>
+![](../images/核酸.png){ width=300px }
 
-<div style="display: flex; justify-content: center;"><img src="../images/核苷酸.png" width="500" /></div>
+![](../images/核苷酸.png){ width=300px }
 
 脱氧核苷酸与核糖核苷酸的差异在脱氧核苷酸 $2'$ 号碳上少一个氧, 分别含有脱氧核糖与核糖. 二者均有磷酸基团, 含氮碱基, 但含氮碱基的类型不完全相同. 脱氧核苷酸有 $A, T, C, G$ 四种含氮碱基, 而核糖核苷酸有 $A, U, C, G$ 四种($A, U, T, C, G$中文分别为腺嘌呤, 尿嘧啶, 胸腺嘧啶, 胞嘧啶, 鸟嘌呤). 嘌呤为双环结构, 嘧啶为单环结构(可以记忆为嘌呤零(圈)比较多). 可以发现二者 $A, C, G$ 相同, 区别在于 $T$ 和 $U$ .
 
@@ -173,11 +173,11 @@ $$
 
 ### 双螺旋
 
-<div style="display: flex; justify-content: center;"><img src="../images/双螺旋.png" width="500" /></div>
+![](../images/双螺旋.png){ width=300px }
 
 一条脱氧核苷酸链核苷酸之间通过磷酸二酯键(蓝箭头指出部位)连接. 两条链通过氢键连接. 值得注意的是, $A = T$ 之间通过两条氢键相连, 但 $C \equiv G$ 间为三条氢键, 故 $C \equiv G$ 碱基对含量高的脱氧核酸更加稳定(记忆: $G, C$ 较胖, 氢键条数多). 以及, 两个碱基之间可以通过氢键相连(不同链上), 也可以通过"脱氧核糖 - 磷酸基团 - 脱氧核糖" 相连(同一条链上). 可以发现, 核酸间总是符合 $A - T$ ($A - U$), $C - G$ 之间配对, 即符合碱基互补配对原则. 
 
-<div style="display: flex; justify-content: center;"><img src="../images/螺旋.png" width="500" /></div>
+![](../images/螺旋.png){ width=300px }
 
 如图, 两条链反向平行(由 $5'$ 端的磷酸基团与 $3'$ 端的五碳糖可以看出), 形成双螺旋结构. 题目有时会框起一个结构问是不是核苷酸, 要注意磷酸基团接在 $5'$ 号碳上的才是当前核苷酸的, 否则是上一个核苷酸的. 
 

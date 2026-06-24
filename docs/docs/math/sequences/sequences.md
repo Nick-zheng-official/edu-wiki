@@ -162,7 +162,7 @@ $$F_n = \frac{1}{\sqrt 5} ((\frac{1 + \sqrt{5}}{2})^n - (\frac{1 - \sqrt{5}}{2})
 
 当然除了奇偶讨论数列还会有更多"花式"讨论, 此时只需要把每一关键项在草稿纸上排开, 画出图标清项数等找准宏观上的关系即可. 当然包括插入与增删问题等, 画图理解十分方便.
 
-<div style="display: flex; justify-content: center;"><img src="../images/数列画图.png" width="500" /></div>
+![](../images/数列画图.png){ width=500px }
 
 ### 不等式证明
 

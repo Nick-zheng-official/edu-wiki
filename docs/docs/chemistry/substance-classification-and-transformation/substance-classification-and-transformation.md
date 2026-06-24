@@ -1,6 +1,6 @@
 # 物质的分类及转化
 
-<div style="display: flex; justify-content: center;"><img src="../images/物质分类.png" width="500" /></div>
+![](../images/物质分类.png){ width=300px }
 
 同素异形体: 同种元素形成的不同单质, 如 $O_2, O_3$ , 他们不是同一种物质, 相互转化属于化学变化; 只含同种物质不一定是纯净物, 如氧气与臭氧的混合物. 
 
@@ -21,7 +21,7 @@ $$氧化物
 
 ## 分散系
 
-<div style="display: flex; justify-content: center;"><img src="../images/分散系.png" width="500" /></div>
+![](../images/分散系.png){ width=300px }
 
 胶体本质特征为分散质粒子直径为 $1$ ~ $100 nm$ , 溶液小于 $1nm$ , 浊液大于 $100nm$ . 
 
