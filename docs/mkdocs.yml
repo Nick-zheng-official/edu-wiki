@@ -83,6 +83,8 @@ nav:
           - 原子物理: physics/atomic-physics/atomic-physics.md
       - 热力学:
           - 热力学: physics/thermodynamics/thermodynamics.md
+      - 光学:
+          - 光学: physics/optics/optics.md
   - 化学:
       - 化学简介: chemistry/introduction.md
       - 化学反应原理:
