@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Word documents - diff as plain text
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+# Vendored files - exclude from GitHub language stats
+static/* linguist-vendored
+docs/static/* linguist-vendored
+*.py linguist-vendored
+*.js linguist-vendored
+*.json linguist-vendored
+*.css linguist-vendored

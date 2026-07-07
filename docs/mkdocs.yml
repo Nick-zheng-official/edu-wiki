@@ -101,6 +101,8 @@ nav:
           - 物质的量: chemistry/amount-of-substance/amount-of-substance.md
       - 离子反应:
           - 离子反应: chemistry/ionic-reactions/ionic-reactions.md
+      - 有机化学:
+          - 有机化学: chemistry/organic-chemistry/organic-chemistry.md
       - 化学知识积累: chemistry/chemistry-knowledge-accumulation.md
   - 生物:
       - 生物简介: biology/introduction.md
@@ -131,7 +133,6 @@ nav:
 markdown_extensions:
   # 基础扩展
   - admonition
-  - bilibili
   - md_in_html
   - codehilite:
       guess_lang: false
@@ -172,7 +173,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra:
-  copyright: 本作品采用 知识共享署名-非商业性使用 4.0 国际许可协议 (CC BY-NC 4.0) 进行许可
+  copyright: 本作品采用 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0) 进行许可
 
 extra_javascript:
   - https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js

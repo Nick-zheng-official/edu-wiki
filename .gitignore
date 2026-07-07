@@ -1,8 +1,6 @@
 # MkDocs build output
 site/
-docs/zh/site/
-docs/en/site/
-docs/zh-tw/site/
+docs/site/
 
 # Dependencies
 node_modules/
@@ -23,13 +21,6 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Docker
-Dockerfile
-.dockerignore
-
-# CI
-.github/workflows/
 
 # Misc
 *.zip

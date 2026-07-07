@@ -1,55 +1,59 @@
+<div align="center">
+
+<a href="https://edu-wiki.pages.dev/" target="_blank"><img src="docs/docs/static/img/logo.png" width="128" height="128"></a>
+
 # Edu-Wiki
 
-## 项目简介
+<p align="center">
 
-Edu-Wiki 是一个基于 MkDocs 的高中知识维基百科，用于整理和分享高中各科知识点。
+高中知识，自由共享。
 
-## 技术栈
+[![](https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white")](https://github.com/Nick-zheng-official/edu-wiki/stargazers) [![](https://img.shields.io/github/actions/workflow/status/Nick-zheng-official/edu-wiki/cloudflare-pages.yml?style=for-the-badge&branch=master&label=Build")](https://github.com/Nick-zheng-official/edu-wiki/actions) [![](https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site)](https://edu-wiki.pages.dev/)
 
-- **构建工具**：MkDocs
-- **主题**：Material for MkDocs
-- **部署平台**：Cloudflare Pages
-- **CI/CD**：GitHub Actions
+</p>
 
-## 目录结构
+</div>
 
-```
-eduwiki/
-├── docs/                      # 文档目录
-│   ├── docs/                  # Markdown文档存放目录
-│   │   ├── index.md           # 网站首页
-│   │   ├── chinese/           # 语文学科
-│   │   ├── math/              # 数学学科
-│   │   ├── english/           # 英语学科
-│   │   ├── physics/           # 物理学科
-│   │   ├── chemistry/         # 化学学科
-│   │   ├── biology/           # 生物学科
-│   │   └── static/            # 静态资源
-│   └── mkdocs.yml             # MkDocs配置文件
-├── .github/                   # GitHub配置
-│   └── workflows/             # GitHub Actions工作流
-│       └── cloudflare-pages.yml # Cloudflare Pages部署配置
-├── requirements.txt           # Python依赖
-└── README.md                  # 项目说明
-```
+## 内容
 
-## 安装和使用
+高中学习任务繁重，知识点多且杂，网上资料大都零散琐碎，同学们往往不知道该如何系统地整理和复习各科知识。
 
-### 1. 安装依赖
+为了方便高中生更好地学习和复习，**Edu-Wiki** 诞生了。这是一个基于 MkDocs 的高中知识维基百科，致力于整理和分享高中各科知识点，帮助大家更高效地学习。
+
+目前，**Edu-Wiki** 涵盖以下学科：
+
+- 语文
+- 数学
+- 英语
+- 物理
+- 化学
+- 生物
+
+**Edu-Wiki** 源于社区，提倡**知识自由**，在未来也绝不会商业化，将始终保持独立自由的性质。
+
+---
+
+## 部署
+
+本项目采用 [MkDocs](https://github.com/mkdocs/mkdocs) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 主题，部署在 [Cloudflare Pages](https://edu-wiki.pages.dev/)。
+
+### 本地预览
 
 ```bash
+# 1. clone
+git clone https://github.com/Nick-zheng-official/edu-wiki.git
+cd edu-wiki
+
+# 2. 安装依赖
 pip install -r requirements.txt
-```
 
-### 2. 本地预览
-
-```bash
+# 3. 本地预览，访问 http://127.0.0.1:8000/
 python -m mkdocs serve -f docs/mkdocs.yml
 ```
 
-访问 http://127.0.0.1:8000/ 查看网站。
+**mkdocs 本地部署的网站是动态更新的，即当你修改并保存 md 文件后，刷新页面就能随之动态更新。**
 
-### 3. 构建网站
+### 构建静态文件
 
 ```bash
 python -m mkdocs build -f docs/mkdocs.yml
@@ -57,57 +61,47 @@ python -m mkdocs build -f docs/mkdocs.yml
 
 构建后的静态文件会生成在 `docs/site` 目录。
 
-## 部署
+---
 
-### 1. 自动部署
+## 如何参与完善 Edu-Wiki
 
-项目配置了 GitHub Actions 自动部署，当代码推送到 `master` 分支时，会自动触发部署流程。
+我们非常欢迎你为 **Edu-Wiki** 编写内容，将自己的所学所得与大家分享。
 
-部署流程：
-1. 检查代码仓库
-2. 设置 Python 环境
-3. 安装依赖
-4. 构建网站
-5. 部署到 Cloudflare Pages
+### 添加新文档
 
-### 2. 手动部署
+1. 在对应学科目录下创建 Markdown 文件（如 `docs/docs/physics/optics.md`）
+2. 图片文件放到对应学科的 `images/` 文件夹中
+3. 在 `docs/mkdocs.yml` 中添加导航配置
+4. 本地测试构建无误后提交
 
-将 `docs/site` 目录下的所有文件上传到静态网站托管服务即可。
-
-## 贡献指南
-
-### 1. 添加新文档
-
-1. 在对应学科目录下创建 Markdown 文件
-2. 在 `docs/mkdocs.yml` 中添加导航配置
-3. 测试本地构建
-4. 提交代码到 GitHub
-
-### 2. 修改现有文档
+### 修改现有文档
 
 1. 直接修改对应的 Markdown 文件
-2. 测试本地构建
+2. 本地测试构建
 3. 提交代码到 GitHub
 
-## 配置文件说明
+> 文件夹和 Markdown 文件请使用英文命名，图片引用请使用带宽度属性的格式。
 
-### mkdocs.yml
+---
 
-主要配置项：
-- `site_name`：网站名称
-- `site_description`：网站描述
-- `theme`：主题配置
-- `nav`：导航配置
-- `plugins`：插件配置
-- `markdown_extensions`：Markdown 扩展配置
+## 配置说明
 
-### cloudflare-pages.yml
+| 文件 | 说明 |
+|------|------|
+| `docs/mkdocs.yml` | MkDocs 主配置文件（主题、导航、插件、扩展） |
+| `requirements.txt` | Python 依赖 |
+| `.github/workflows/` | GitHub Actions 自动部署到 Cloudflare Pages |
 
-GitHub Actions 部署配置，包含：
-- 触发条件：推送代码到 `master` 分支
-- 构建命令：`python -m mkdocs build -f docs/mkdocs.yml`
-- 部署目录：`docs/site`
+---
 
-## 许可证
+## 版权声明
 
-ISC
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0)</a>进行许可。
+
+换言之，使用过程中您可以自由地共享、演绎，但是必须署名、以相同方式共享，且不得用于商业目的。
+
+---
+
+## 鸣谢
+
+本项目受 [OI Wiki](https://oi-wiki.org/) 和 [CTF Wiki](https://ctf-wiki.org/) 的启发，在编写过程中参考了诸多资料，在此一并致谢。

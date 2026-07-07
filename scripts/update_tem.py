@@ -15,7 +15,7 @@ class VocabProcessor:
     def __init__(self):
         self.tem_file = "d:\\edu-wiki\\docs\\docs\\english\\vocabs\\TEM.md"
         self.temp_file = "d:\\桌面\\vocab temp\\temp.txt"
-        self.process_script = "d:\\edu-wiki\\process_tem.py"
+        self.process_script = "d:\\edu-wiki\\scripts\\process_tem.py"
     
     def read_temp_file(self):
         """读取temp.txt文件中的单词"""
