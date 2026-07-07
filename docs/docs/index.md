@@ -24,7 +24,7 @@ Edu-Wiki是一个开源的高中知识平台，致力于为高中生提供高质
 
 ## 贡献指南
 
-欢迎大家参与Edu-Wiki的建设，具体贡献方式请参考[贡献指南](contribute/before-contributing.md)。
+欢迎大家参与Edu-Wiki的建设，具体贡献方式请参考[GitHub仓库](https://github.com/Nick-zheng-official/edu-wiki)。
 
 ## 许可证
 
