@@ -85,6 +85,8 @@ nav:
           - 热力学: physics/thermodynamics/thermodynamics.md
       - 光学:
           - 光学: physics/optics/optics.md
+      - 天体物理:
+          - 天体物理: physics/astrophysics/astrophysics.md
   - 化学:
       - 化学简介: chemistry/introduction.md
       - 化学反应原理:

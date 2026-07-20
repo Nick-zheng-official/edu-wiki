@@ -77,7 +77,7 @@ cat "D:/edu-wiki/docs/mkdocs.yml"
 
 ### 3.1 操作目的
 
-将桌面学科文件夹中的图片复制到项目对应的images文件夹，并清空桌面文件夹。
+将桌面学科文件夹中的图片复制到项目对应的images文件夹。
 
 ### 3.2 操作步骤
 
@@ -96,16 +96,6 @@ Copy-Item -Path "D:/桌面/物理/*" -Destination "D:/edu-wiki/docs/docs/physics
 ```powershell
 # 检查目标文件夹中的图片
 Get-ChildItem -Path "D:/edu-wiki/docs/docs/*/images/"
-```
-
-#### 3.2.3 清空桌面文件夹
-
-```powershell
-# 使用Remove-Item命令清空桌面文件夹
-Remove-Item -Path "D:/桌面/化学/*" -Recurse -Force
-Remove-Item -Path "D:/桌面/生物/*" -Recurse -Force
-Remove-Item -Path "D:/桌面/数学/*" -Recurse -Force
-Remove-Item -Path "D:/桌面/物理/*" -Recurse -Force
 ```
 
 ### 3.3 图片引用方式
@@ -173,7 +163,6 @@ mkdocs build
 - [ ] 所有中文文件夹和md文件已改为英文
 - [ ] 配置文件已更新
 - [ ] 所有图片已复制到项目images文件夹
-- [ ] 桌面学科文件夹已清空
 - [ ] 文档构建成功
 - [ ] 网站预览正常
 
@@ -201,7 +190,6 @@ mkdocs build
 
 - 图片文件使用清晰、描述性的名称
 - 图片文件大小控制在合理范围内
-- 定期清理无用的图片文件
 
 ### 6.4 文档质量
 

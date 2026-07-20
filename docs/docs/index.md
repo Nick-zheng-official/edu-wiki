@@ -22,6 +22,10 @@ Edu-Wiki是一个开源的高中知识平台，致力于为高中生提供高质
 3. 使用搜索功能查找特定内容
 4. 点击页面右上角的GitHub图标参与贡献
 
+## 本地部署
+
+鉴于高中生的实际需求和设备限制，Edu-Wiki不支持本地部署。但我们为您提供可下载的PDF版本与Word文档版本, 以供学习。
+
 ## 贡献指南
 
 欢迎大家参与Edu-Wiki的建设，具体贡献方式请参考[GitHub仓库](https://github.com/Nick-zheng-official/edu-wiki)。
