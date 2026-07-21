@@ -53,26 +53,28 @@ nav:
       - 语文简介: chinese/introduction.md
   - 数学:
       - 数学简介: math/introduction.md
-      - 导数:
-          - 导数: math/calculus/derivative.md
-      - 圆锥曲线:
-          - 椭圆: math/conic-sections/ellipse.md
-      - 三角函数:
-          - 三角函数: math/trigonometric-functions/trigonometric-functions.md
+      - 初高衔接:
+          - 初高衔接: math/high-school-transition/high-school-transition.md
+      - 集合与逻辑用语:
+          - 集合与逻辑用语: math/sets-and-logic/sets-and-logic.md
       - 不等式:
           - 不等式: math/inequalities/inequalities.md
       - 函数:
           - 函数: math/functions/functions.md
-      - 初高衔接:
-          - 初高衔接: math/high-school-transition/high-school-transition.md
+      - 三角函数:
+          - 三角函数: math/trigonometric-functions/trigonometric-functions.md
       - 平面向量:
           - 平面向量: math/plane-vectors/plane-vectors.md
-      - 集合与逻辑用语:
-          - 集合与逻辑用语: math/sets-and-logic/sets-and-logic.md
-      - 概率统计:
-          - 概率统计: math/probability-and-statistics/probability-and-statistics.md
+      - 立体几何:
+          - 立体几何: math/solid-geometry/solid-geometry.md
+      - 圆锥曲线:
+          - 椭圆: math/conic-sections/ellipse.md
       - 数列:
           - 数列: math/sequences/sequences.md
+      - 导数:
+          - 导数: math/calculus/derivative.md
+      - 概率统计:
+          - 概率统计: math/probability-and-statistics/probability-and-statistics.md
       - 数学技巧: math/math-tricks.md
   - 英语:
       - 英语简介: english/introduction.md
@@ -81,6 +83,7 @@ nav:
       - 运动学:
           - 冲量与动量: physics/kinematics/impulse-and-momentum.md
           - 简谐运动: physics/kinematics/simple-harmonic-motion.md
+          - 圆周运动: physics/kinematics/circular-motion.md
           - 运动学: physics/kinematics/kinematics.md
       - 磁学:
           - 电磁感应: physics/magnetism/electromagnetic-induction.md
