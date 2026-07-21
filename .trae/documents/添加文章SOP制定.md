@@ -121,16 +121,16 @@ Get-ChildItem -Path "D:/edu-wiki/docs/docs/*/images/"
 
 ```markdown
 # 生物学图片
-![细胞结构](../../biology/images/细胞核结构.png){ width=300px }
+![](../../biology/images/细胞核结构.png){ width=300px }
 
 # 化学实验图片
-![中和热测定](../../chemistry/images/中和热测定.png){ width=300px }
+![](../../chemistry/images/中和热测定.png){ width=300px }
 
 # 物理学图片
-![光电效应](../../physics/images/光电效应.png){ width=300px }
+![](../../physics/images/光电效应.png){ width=300px }
 
 # 数学图片
-![椭圆基础](../../math/images/椭圆基础.png){ width=300px }
+![](../../math/images/椭圆基础.png){ width=300px }
 ```
 
 ### 3.4 注意事项

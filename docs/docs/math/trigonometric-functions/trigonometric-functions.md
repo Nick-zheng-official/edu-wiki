@@ -85,15 +85,15 @@ $\sin(\frac{(2k - 1)\pi}{2} \pm \alpha), \cos(\frac{(2k - 1)\pi}{2} \pm \alpha),
 
 三角函数具有周期性.
 
-![正弦函数](../images/正弦函数.png){ width=500px }
+![](../images/正弦函数.png){ width=500px }
 
 正弦函数图像定义域为 $\mathbb{R}$ , 值域 $[-1, 1]$ , 对称轴(分为两种, 取最大值时与最小值时) $x = \frac{\pi}{2} + k\pi$ , 对称中心(两种, 上行零点与下行零点所对应的) $(k\pi, 0), k \in \mathbb{Z}$, $2\pi$ 为最小正周期 $T$ (任何周期函数有无数个周期). 正弦函数是奇函数.
 
-![余弦函数](../images/余弦函数.png){ width=500px }
+![](../images/余弦函数.png){ width=500px }
 
 余弦函数定义域为 $\mathbb{R}$ , 值域 $[-1, 1]$ , 对称轴 $x = k\pi$ , 对称中心 $(\frac{\pi}{2} + k\pi, 0) , k \in \mathbb{Z}$ , $T = 2\pi$ . 余弦函数是偶函数.
 
-![正切函数](../images/正切函数.png){ width=500px }
+![](../images/正切函数.png){ width=500px }
 
 特殊地, 正切函数定义域为 $x \ne k\pi + \frac{\pi}{2}$ , 值域为 $\mathbb{R}$ , 渐近线 $x = k\pi + \frac{\pi}{2}$ , 对称中心(两种, 一种是图像零点, 一种是渐近线与横轴交点) $(\frac{k\pi}{2}, 0) , k \in \mathbb{Z}, T = \pi$ .
 
