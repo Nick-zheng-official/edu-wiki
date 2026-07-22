@@ -87,9 +87,8 @@ nav:
           - 运动学: physics/kinematics/kinematics.md
       - 磁学:
           - 电磁感应: physics/magnetism/electromagnetic-induction.md
-      - 交流电:
-          - 交流电: physics/alternating-current/alternating-current.md
       - 电学:
+          - 交流电: physics/alternating-current/alternating-current.md
           - 电学: physics/electricity/electricity.md
       - 机械波:
           - 机械波: physics/mechanical-waves/mechanical-waves.md
