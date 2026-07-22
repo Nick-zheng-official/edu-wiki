@@ -8,7 +8,7 @@
 
 高中知识，自由共享。
 
-[![](https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white")](https://github.com/Nick-zheng-official/edu-wiki/stargazers) [![](https://img.shields.io/github/actions/workflow/status/Nick-zheng-official/edu-wiki/cloudflare-pages.yml?style=for-the-badge&branch=master&label=Build")](https://github.com/Nick-zheng-official/edu-wiki/actions) [![](https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site)](https://edu-wiki.pages.dev/)
+[![](https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white)](https://github.com/Nick-zheng-official/edu-wiki/stargazers) [![](https://img.shields.io/github/actions/workflow/status/Nick-zheng-official/edu-wiki/cloudflare-pages.yml?style=for-the-badge&branch=master&label=Build)](https://github.com/Nick-zheng-official/edu-wiki/actions) [![](https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site)](https://edu-wiki.pages.dev/)
 
 </p>
 
@@ -80,23 +80,23 @@ python -m mkdocs build -f docs/mkdocs.yml
 2. 本地测试构建
 3. 提交代码到 GitHub
 
-> 文件夹和 Markdown 文件请使用英文命名，图片引用请使用带宽度属性的格式。
+> 文件夹和 Markdown 文件请使用英文命名
 
 ---
 
 ## 配置说明
 
-| 文件 | 说明 |
-|------|------|
-| `docs/mkdocs.yml` | MkDocs 主配置文件（主题、导航、插件、扩展） |
-| `requirements.txt` | Python 依赖 |
-| `.github/workflows/` | GitHub Actions 自动部署到 Cloudflare Pages |
+| 文件                   | 说明                                        |
+| ---------------------- | ------------------------------------------- |
+| `docs/mkdocs.yml`    | MkDocs 主配置文件（主题、导航、插件、扩展） |
+| `requirements.txt`   | Python 依赖                                 |
+| `.github/workflows/` | GitHub Actions 自动部署到 Cloudflare Pages  |
 
 ---
 
 ## 版权声明
 
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0)</a>进行许可。
+`<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />``</a><br />`本作品采用`<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">`知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0)`</a>`进行许可。
 
 换言之，使用过程中您可以自由地共享、演绎，但是必须署名、以相同方式共享，且不得用于商业目的。
 
