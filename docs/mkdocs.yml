@@ -14,13 +14,6 @@ theme:
   name: material
   language: zh
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      accent: red
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue
@@ -28,6 +21,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
   icon:
     repo: fontawesome/brands/github-alt
   logo: static/img/logo.png
@@ -48,7 +48,7 @@ plugins:
       minify_html: true
 
 nav:
-  - 首页: index.md
+  - 首页: home/index.md
   - 语文:
       - 语文简介: chinese/introduction.md
   - 数学:
