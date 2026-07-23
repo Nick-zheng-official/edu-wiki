@@ -48,12 +48,13 @@ plugins:
       minify_html: true
 
 nav:
-  - 首页: home/index.md
-  - 贡献指南: home/contributing.md
-  - FAQ: home/faq.md
-  - 讨论: home/discussions.md
-  - 格式手册: home/style-guide.md
-  - 数学符号表: home/math-symbols.md
+  - 首页: index.md
+  - 简介:
+      - 贡献指南: home/contributing.md
+      - FAQ: home/faq.md
+      - 讨论: home/discussions.md
+      - 格式手册: home/style-guide.md
+      - 数学符号表: home/math-symbols.md
   - 语文:
       - 语文简介: chinese/introduction.md
   - 数学:
