@@ -30,7 +30,9 @@
 
 ![](../images/三点共线定理.png)
 
-$$\overrightarrow{OC} = \mu\overrightarrow{OA} + \lambda\overrightarrow{OB}, \mu + \lambda = 1 \Leftrightarrow A, B, C 三点共线$$
+$$
+\overrightarrow{OC} = \mu\overrightarrow{OA} + \lambda\overrightarrow{OB}, \mu + \lambda = 1 \Leftrightarrow A, B, C 三点共线
+$$
 
 对于系数 $\mu, \lambda$ 没有正负要求, 可以为负数. 但当二者均为正数时, $C$ 在 $AB$ 之间, 否则 $C$ 在 $AB$ 外侧, 此时一般首先移项将系数全部变为正数(自己写也是先写正数再移项). 确定 $\mu, \lambda$ 的取值可以通过找对边所占整条线段 $AB$ 的比例, 如 $\mu$ 为 $\frac{BC}{AB}$ , $\lambda$ 为 $\frac{AC}{AB}$ . 可以发现, 此定理与 $AB$ 边上的等分点(比例)关系密切. 
 
@@ -56,7 +58,9 @@ $$\overrightarrow{OC} = \mu\overrightarrow{OA} + \lambda\overrightarrow{OB}, \mu
 
 数量积公式($\theta$ 为夹角, $\theta \in [0, \pi]$, 即 $\theta = \langle \vec a, \vec b \rangle$):
 
-$$\vec a \cdot \vec b = |\vec a||\vec b|cos\theta$$
+$$
+\vec a \cdot \vec b = |\vec a||\vec b|cos\theta
+$$
 
 变形可得夹角公式 $cos\theta = \frac{\vec a \cdot \vec b}{|\vec a||\vec b|}$ , 此公式的多维形式可与概率统计模块相关系数建立联系. 
 
@@ -139,25 +143,35 @@ $\vec b$ 上单位向量可以表示为 $\vec e = \frac{\vec b}{|\vec b|}$ , $\v
 
 余弦定理:
 
-$$a^2 = b^2 + c^2 - 2bc \cdot \cos A$$
+$$
+a^2 = b^2 + c^2 - 2bc \cdot \cos A
+$$
 
 及其推论:
 
-$$\cos A = \frac{b^2 + c^2 - a^2}{2bc}$$
+$$
+\cos A = \frac{b^2 + c^2 - a^2}{2bc}
+$$
 
 可用于解决涉及三边一角的问题. 出现平方项相加减也可考虑. 
 
 正弦定理:
 
-$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2r$$
+$$
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2r
+$$
 
 其中 $r$ 为外接圆半径, 故题目出现外接圆时可以考虑, 此公式可使用外接圆推导得出. 因为三角形中角的范围为 $(0, \pi)$ , 故 $\sin$ 可以做分母, 但 $\cos$ 可能等于零( $\frac{\pi}{2}$ ). 可以发现在存在两对对边对角时可以考虑正弦定理. 其推论:
 
-$$a = 2r\sin A$$
+$$
+a = 2r\sin A
+$$
 
 或
 
-$$a : b : c = \sin A : \sin B : \sin C$$
+$$
+a : b : c = \sin A : \sin B : \sin C
+$$
 
 意味着在式子中齐次的( $2r$ 可以消掉)边角可以互化, 不论是等号两侧还是分数线上下. 三角函数的二次式也可考虑换成边使用余弦定理. 
 
@@ -165,19 +179,25 @@ $$a : b : c = \sin A : \sin B : \sin C$$
 
 射影定理:
 
-$$a = b\cos C + c \cos B$$
+$$
+a = b\cos C + c \cos B
+$$
 
 证明比较显然, 过 $A$ 做 $BC$ 垂线即可. 
 
 面积公式: 
 
-$$S = \frac{1}{2}ab\sin C$$
+$$
+S = \frac{1}{2}ab\sin C
+$$
 
 本质上就是用三角函数表示高. 公式中蕴含着两边夹一角即可得出三角形面积. 
 
 有时我们已知两角, 但可能不是特殊角, 可以考虑根据内角和为 $\pi$ 求出第三角就可能出现特殊角或便于使用正余弦定理. 根据诱导公式始终存在:
 
-$$\sin(B + C) = \sin A\\\cos(B + C) = -\cos A$$
+$$
+\sin(B + C) = \sin A\\\cos(B + C) = -\cos A
+$$
 
 此式也可将一个不相关, 出现次数少的角转化成另外两角, 尤其是三个角同时出现时可以考虑. 
 
@@ -205,11 +225,15 @@ $$\sin(B + C) = \sin A\\\cos(B + C) = -\cos A$$
 
 特殊地, 若出现中线始终满足中线长定理: 
 
-$$AB^2 + AC^2 = 2(AD^2 + BD^2)$$
+$$
+AB^2 + AC^2 = 2(AD^2 + BD^2)
+$$
 
 双余弦贴贴法可以得到. 也叫对角线定理, 将三角形以 $BC$ 为对角线补成一个平行四边形 $ABEC$, 满足四条边的平方和等于对角线的平方和:
 
-$$AB^2 + BE^2 + EC^2 + CA^2 = 2(AB^2 + AC^2) = AE^2 + BC^2$$
+$$
+AB^2 + BE^2 + EC^2 + CA^2 = 2(AB^2 + AC^2) = AE^2 + BC^2
+$$
 
 ![](../images/中线长.png)
 

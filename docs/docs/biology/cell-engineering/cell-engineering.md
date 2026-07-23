@@ -13,7 +13,9 @@
 
 一般过程为:
 
-$$外植体 \xrightarrow{脱分化} 愈伤组织 \xrightarrow{再分化} 生根生芽或变为胚状体 \xrightarrow{\quad} 完整植株$$
+$$
+外植体 \xrightarrow{脱分化} 愈伤组织 \xrightarrow{再分化} 生根生芽或变为胚状体 \xrightarrow{\quad} 完整植株
+$$
 
 外植体一般选择幼嫩部位(分裂旺盛)或花药(得到单倍体)等. 
 

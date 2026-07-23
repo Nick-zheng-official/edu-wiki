@@ -36,7 +36,10 @@
 ## 单摆
 
 角度较小($< 5^\circ$), 可认为小球做直线运动且近似认为 $sin\theta = \theta$ 时单摆为简谐运动. 如此可以将一小段圆弧看作直线. 回复力沿切线方向, 结合半径为绳长 $R = L$ 与弧长公式 $x = R \cdot \theta$ 有 $F = mgsin\theta = mg\theta = \frac{mg}{L} x$ , 即可证明其为简谐运动. 结合公式 $T = 2\pi\sqrt\frac{m}{k}$ 可得单摆的周期公式:
-$$T = 2\pi\sqrt\frac{L}{g}$$
+
+$$
+T = 2\pi\sqrt\frac{L}{g}
+$$
 
 注意单摆中平衡位置并不平衡, 在沿半径方向上仍有向心力.
 

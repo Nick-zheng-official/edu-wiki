@@ -98,10 +98,16 @@ $Cl_2$ 与非金属单质反应:
 2. $P$ 在氯气中燃烧, 释放大量热, 生成白色烟和雾: $2P + 3Cl_2 \xlongequal[\quad]{\triangle} 2PCl_3(l), PCl_3 + Cl_2 \xrightleftharpoons{\quad} PCl_5(s)$ .
 
 $Cl_2$ 与水的反应制备新制氯水(歧化, 可逆反应):
-$$Cl_2 + H_2O \xrightleftharpoons{\quad} H^+ + Cl^- + HClO$$
+
+$$
+Cl_2 + H_2O \xrightleftharpoons{\quad} H^+ + Cl^- + HClO
+$$
 
 由于此反应为可逆反应, 且反应程度很小, 故新制氯水中多为氯气而非盐酸与次氯酸(故氯水呈现浅黄绿色). 注意氯水不是液氯, 液氯为氯单质. 新制氯水放置一段时间会因为次氯酸光照分解而变质为盐酸: 
-$$2HClO \xlongequal[\quad]{光照} 2HCl + O_2\uparrow$$
+
+$$
+2HClO \xlongequal[\quad]{光照} 2HCl + O_2\uparrow
+$$
 
 由于平衡移动, 次氯酸减少也会导致溶于水的氯气减少, 故久置氯水可以认为是稀盐酸. 
 
@@ -123,26 +129,37 @@ $NaClO$ 为漂白液($84$ 消毒液)的有效成分, $Ca(ClO)_2$ 为漂白粉的
 注意 $84$ 消毒液不可与洁厕灵($HCl$)混用: $ClO^- + Cl^- + 2H^+ \xlongequal{\quad} Cl_2\uparrow +H_2O$ .
 
 氯气是强氧化剂, 如: 
+
 $$
 Cl_2 + H_2S \xlongequal{\quad} S\downarrow + 2HCl\\
 Cl_2 + SO_2 +2H_2O \xlongequal{\quad} 2HCl + H_2SO_4
 $$
+
 (注意硫的不同价态的对应产物: $S^{2-} \to S, SO_2 \to SO_4^{2-}$, 一般不跳跃逐级上升).
 
 氨与氯气的反应生成白烟(白色固体颗粒 $NH_4Cl$ ), 可以检查运输液氯的管道是否漏气: 
-$$8NH_3 + 3Cl_2 \xlongequal{\quad} N_2 +6NH_4Cl$$
+
+$$
+8NH_3 + 3Cl_2 \xlongequal{\quad} N_2 +6NH_4Cl
+$$
 
 氯的单质与化合物可以对自来水消毒(强氧化性令蛋白质变性失活), 除了上文提及的强氧化性物质以外, 还有 $ClO_2$ 等. (当然 $O_3, K_2FeO_4$ (高铁酸钾)也可) . 但明矾( $KAl(SO_4)_2 \cdot 12H_2O$ )是净水剂而非消毒剂, 铝离子与水反应生成的 $Al(OH)_3$ 胶体只聚沉杂质, 无杀菌作用. 
 
 氯气的尾气处理可以使用氢氧化钠溶液或碱石灰. 
 
 氯气的实验室制法(工业上使用氯碱工业制取): 
-$$MnO_2 + 4HCl(浓) \xlongequal[\quad]{\triangle} MnCl_2 + Cl_2\uparrow + 2H_2O$$
+
+$$
+MnO_2 + 4HCl(浓) \xlongequal[\quad]{\triangle} MnCl_2 + Cl_2\uparrow + 2H_2O
+$$
 
 这个反应必须在加热条件下与浓盐酸反应才可以制得氯气, 不浓不行不加热不行. 随着反应的进行, 浓盐酸逐渐变为稀盐酸, 反应会逐渐停止. 由于浓盐酸具有挥发性, 故制取氯气后要先除去氯化氢杂质(和水蒸气). 一般使用饱和食盐水除去氯化氢气体. 氯化氢极易溶于水, 故需要溶液洗气; 氯气也与水发生可逆反应, 故要增大溶液中氯离子浓度来控制平衡移动减小反应程度, 抑制氯气与水反应, 从而降低氯气溶于水的损失. 用中性或酸性干燥剂(如浓硫酸)除水蒸汽(防止碱性干燥剂与氯气反应).
 
 当然也可用高锰酸钾与浓盐酸制取氯气, 此反应无需加热(高锰酸钾氧化性更强): 
-$$2KMnO_4 + 16HCl(浓) \xlongequal{\quad} 2KCl + 2MnCl_2 + 5Cl_2\uparrow + 8H_2O$$
+
+$$
+2KMnO_4 + 16HCl(浓) \xlongequal{\quad} 2KCl + 2MnCl_2 + 5Cl_2\uparrow + 8H_2O
+$$
 
 所有除杂环节一定是: 除杂后除水. 因为洗气瓶中的液体会使气体再度含有水蒸气. 使用集气瓶收集氯气验满可以使用湿润的淀粉碘化钾试纸靠近瓶口, 若变蓝则收集完成. 
 

@@ -8,18 +8,30 @@ $\alpha = \frac{l}{r}$ , 其中 $l$ 为圆心角所对弧长, $r$ 为半径, 此
 
 ![](../images/特殊角.png){ width=500px }
 
-$$1 rad \approx 57.3^\circ$$
+$$
+1 rad \approx 57.3^\circ
+$$
 
 弧长公式与面积公式. $n^\circ$ 是用角度值表示的角, $\alpha$ 是弧度制表示的角.
 
 角度制:
-$$\frac{360^\circ}{n^\circ} = \frac{2\pi r}{l}\\\frac{360^\circ}{n^\circ} = \frac{2\pi r^2}{S}$$
+
+$$
+\frac{360^\circ}{n^\circ} = \frac{2\pi r}{l}\\\frac{360^\circ}{n^\circ} = \frac{2\pi r^2}{S}
+$$
 
 弧度制:
-$$l = \alpha r\\S = \frac{1}{2} \alpha r^2$$
+
+$$
+l = \alpha r\\S = \frac{1}{2} \alpha r^2
+$$
 
 可以发现弧度制角度的定义表达式即为弧长公式. 同时可以推导出:
-$$S = \frac{1}{2} lr$$
+
+$$
+S = \frac{1}{2} lr
+$$
+
 若将扇形近似地看做三角形, 则此公式与三角形面积公式一致, 可以类比记忆.
 
 ## 任意角
@@ -166,7 +178,10 @@ $$
 $$
 
 所以遇见 $1$ 加减一个余弦值就可以转化为其半角的三角函数值. 结合同样地形式正弦记忆, 作为升次降角公式:
-$$1 \pm \sin2\alpha = (\sin\alpha \pm \cos\alpha)^2$$
+
+$$
+1 \pm \sin2\alpha = (\sin\alpha \pm \cos\alpha)^2
+$$
 
 以及降次升角公式(遇见平方项三角函数; 或想维持式子对称性但需要消掉 $\sin^2\alpha$ 与 $\cos^2\alpha$ 同时存在的平方项时两式同时使用从而避免使用$\sin^2\alpha + \cos^2\alpha = 1$ 破坏对称性):
 
