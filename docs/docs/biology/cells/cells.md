@@ -58,7 +58,9 @@
 
 ## 分泌蛋白
 
-$$氨基酸 \xrightarrow{脱水缩合} 多肽链 \xrightarrow{盘曲折叠} 蛋白质 \xrightarrow{分泌} 细胞外$$
+$$
+氨基酸 \xrightarrow{脱水缩合} 多肽链 \xrightarrow{盘曲折叠} 蛋白质 \xrightarrow{分泌} 细胞外
+$$
 
 分泌蛋白是指在细胞内合成后, 分泌到细胞外发挥作用的蛋白质, 如消化酶, 抗体, 部分激素等. 
 

@@ -1,6 +1,12 @@
-# Edu-Wiki
+# Edu Wiki
 
-欢迎来到Edu-Wiki，一个专注于高中知识的维基百科。
+欢迎来到 Edu Wiki !
+
+icon
+
+目标
+致谢
+(也可复制readme.md)
 
 ## 关于我们
 
@@ -32,4 +38,4 @@ Edu-Wiki是一个开源的高中知识平台，致力于为高中生提供高质
 
 ## 许可证
 
-本项目采用[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)许可证。
+本项目采用[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)许可证。

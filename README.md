@@ -64,7 +64,7 @@ mkdocs serve
  
  我们非常欢迎你为 Wiki 编写内容，将自己的所学所得与大家分享。我们期待着你的加入！
 
-在你决定要贡献内容之前，请你务必看完 [Contributing](https://edu-wiki.pages.dev/contributing.md)。其中包含了详细的贡献方式。
+在你决定要贡献内容之前，请你务必看完 [Contributing](https://edu-wiki.pages.dev/home/contributing/)。其中包含了详细的贡献方式。
 
 非常感谢一起完善 EDU Wiki 的小伙伴们: 
 
@@ -93,9 +93,9 @@ mkdocs serve
 
 
 ## Copyleft
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
 
-换言之，使用过程中您可以自由地共享、演绎，但是必须署名、以相同方式共享、分享时没有附加限制。
+换言之，使用过程中您可以自由地共享、演绎，但是必须署名、以相同方式共享。
 
 
 
