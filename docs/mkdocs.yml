@@ -49,7 +49,7 @@ plugins:
 
 nav:
   - 首页: 
-      - 简介: home/index.md
+      - 简介: index.md
       - 贡献指南: 
           - 贡献方式: home/contributions/contributing.md
           - 讨论: home/contributions/discussions.md
