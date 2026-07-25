@@ -59,7 +59,7 @@ nav:
           - Latex 入门: home/contributions/latex.md
           - Git: home/contributions/git.md
           - 命令行: home/contributions/cmd.md
-      - F.A.Q.: home/faq.md
+      - FAQ: home/faq.md
       - 学习路线: home/learning-route.md
   - 语文:
       - 语文简介: chinese/introduction.md
