@@ -48,13 +48,19 @@ plugins:
       minify_html: true
 
 nav:
-  - 首页: index.md
-  - 简介:
-      - 贡献指南: home/contributing.md
-      - FAQ: home/faq.md
-      - 讨论: home/discussions.md
-      - 格式手册: home/style-guide.md
-      - 数学符号表: home/math-symbols.md
+  - 首页: 
+      - 简介: homde/about.md
+      - 贡献指南: 
+          - 贡献方式: home/contributions/contributing.md
+          - 讨论: home/contributions/discussions.md
+          - 格式手册: home/contributions/style-guide.md
+          - 数学符号表: home/contributions/math-symbols.md
+          - VS Code: home/contributions/vscode.md
+          - Latex 入门: home/contributions/latex.md
+          - Git: home/contributions/git.md
+          - 命令行: home/contributions/cmd.md
+      - F.A.Q.: home/faq.md
+      - 学习路线: home/learning-route.md
   - 语文:
       - 语文简介: chinese/introduction.md
   - 数学:
