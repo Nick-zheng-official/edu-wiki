@@ -26,6 +26,10 @@ jobs:
         run: |
           python -m mkdocs build -f docs/mkdocs.yml
 
+      - name: Copy _redirects to build output
+        run: |
+          cp _redirects docs/site/_redirects
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:

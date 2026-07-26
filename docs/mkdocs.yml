@@ -53,12 +53,8 @@ nav:
       - 贡献指南: 
           - 贡献方式: home/contributions/contributing.md
           - 讨论: home/contributions/discussions.md
-          - 格式手册: home/contributions/style-guide.md
+          - 文章撰写: home/contributions/article-writing.md
           - 数学符号表: home/contributions/math-symbols.md
-          - VS Code: home/contributions/vscode.md
-          - Latex 入门: home/contributions/latex.md
-          - Git: home/contributions/git.md
-          - 命令行: home/contributions/cmd.md
       - FAQ: home/faqs.md
       - 学习路线: home/learning-route.md
   - 语文:
