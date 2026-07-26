@@ -58,23 +58,23 @@ nav:
       - FAQ: home/faqs.md
       - 学习路线: home/learning-route.md
   - 语文:
-      - 语文简介: chinese/introduction.md
+      - 语文简介: chinese/intro.md
   - 数学:
-      - 数学简介: math/introduction.md
+      - 数学简介: math/intro.md
       - 初高衔接:
-          - 初高衔接: math/high-school-transition/high-school-transition.md
+          - 初高衔接: math/transition/transition.md
       - 集合与逻辑用语:
-          - 集合与逻辑用语: math/sets-and-logic/sets-and-logic.md
+          - 集合与逻辑用语: math/logic/logic.md
       - 不等式:
           - 不等式: math/inequalities/inequalities.md
       - 函数:
           - 函数: math/functions/functions.md
       - 三角函数:
-          - 三角函数: math/trigonometric-functions/trigonometric-functions.md
+          - 三角函数: math/trigonometry/trigonometry.md
       - 平面向量:
-          - 平面向量: math/plane-vectors/plane-vectors.md
+          - 平面向量: math/vectors/vectors.md
       - 立体几何:
-          - 立体几何: math/solid-geometry/solid-geometry.md
+          - 立体几何: math/solid/solid.md
       - 圆锥曲线:
           - 椭圆: math/conic-sections/ellipse.md
       - 数列:
@@ -82,76 +82,76 @@ nav:
       - 导数:
           - 导数: math/calculus/derivative.md
       - 概率统计:
-          - 概率统计: math/probability-and-statistics/probability-and-statistics.md
-      - 数学技巧: math/math-tricks.md
+          - 概率统计: math/statistics/statistics.md
+      - 数学技巧: math/tricks.md
   - 英语:
-      - 英语简介: english/introduction.md
+      - 英语简介: english/intro.md
   - 物理:
-      - 物理简介: physics/introduction.md
+      - 物理简介: physics/intro.md
       - 运动学:
-          - 冲量与动量: physics/kinematics/impulse-and-momentum.md
-          - 简谐运动: physics/kinematics/simple-harmonic-motion.md
-          - 圆周运动: physics/kinematics/circular-motion.md
+          - 冲量与动量: physics/kinematics/momentum.md
+          - 简谐运动: physics/kinematics/shm.md
+          - 圆周运动: physics/kinematics/circular.md
           - 运动学: physics/kinematics/kinematics.md
       - 磁学:
-          - 电磁感应: physics/magnetism/electromagnetic-induction.md
+          - 电磁感应: physics/magnetism/induction.md
       - 电学:
-          - 交流电: physics/alternating-current/alternating-current.md
+          - 交流电: physics/ac/ac.md
           - 电学: physics/electricity/electricity.md
       - 机械波:
-          - 机械波: physics/mechanical-waves/mechanical-waves.md
+          - 机械波: physics/waves/waves.md
       - 原子物理:
-          - 原子物理: physics/atomic-physics/atomic-physics.md
+          - 原子物理: physics/atomic/atomic.md
       - 热力学:
-          - 热力学: physics/thermodynamics/thermodynamics.md
+          - 热力学: physics/thermo/thermo.md
       - 光学:
           - 光学: physics/optics/optics.md
       - 天体物理:
-          - 天体物理: physics/astrophysics/astrophysics.md
+          - 天体物理: physics/astro/astro.md
   - 化学:
-      - 化学简介: chemistry/introduction.md
+      - 化学简介: chemistry/intro.md
       - 化学反应原理:
-          - 化学反应速率: chemistry/chemical-reaction-principles/chemical-reaction-rate.md
+          - 化学反应速率: chemistry/reaction-rate/reaction-rate.md
       - 元素化合物:
-          - 元素化合物: chemistry/elemental-compounds/elemental-compounds.md
+          - 元素化合物: chemistry/elements/elements.md
       - 化学反应与能量:
-          - 化学反应与能量: chemistry/chemical-reactions-and-energy/chemical-reactions-and-energy.md
+          - 化学反应与能量: chemistry/energy/energy.md
       - 氧化还原:
-          - 氧化还原: chemistry/redox-reactions/redox-reactions.md
+          - 氧化还原: chemistry/redox/redox.md
       - 物质分类及转化:
-          - 物质分类及转化: chemistry/substance-classification-and-transformation/substance-classification-and-transformation.md
+          - 物质分类及转化: chemistry/classification/classification.md
       - 物质的量:
-          - 物质的量: chemistry/amount-of-substance/amount-of-substance.md
+          - 物质的量: chemistry/amount/amount.md
       - 离子反应:
-          - 离子反应: chemistry/ionic-reactions/ionic-reactions.md
+          - 离子反应: chemistry/ionic/ionic.md
       - 有机化学:
-          - 有机化学: chemistry/organic-chemistry/organic-chemistry.md
-      - 化学知识积累: chemistry/chemistry-knowledge-accumulation.md
+          - 有机化学: chemistry/organic/organic.md
+      - 化学知识积累: chemistry/chem-accumulation.md
   - 生物:
-      - 生物简介: biology/introduction.md
+      - 生物简介: biology/intro.md
       - 生物与环境:
           - 生态系统: biology/environment/ecosystem.md
       - 显微镜:
           - 显微镜: biology/microscope/microscope.md
       - 有机物:
-          - 有机物: biology/organic-compounds/organic-compounds.md
+          - 有机物: biology/compounds/compounds.md
       - 物质运输:
-          - 物质运输: biology/substance-transport/substance-transport.md
+          - 物质运输: biology/transport/transport.md
       - 稳态与调节:
-          - 神经调节: biology/homeostasis-and-regulation/neural-regulation.md
-          - 稳态: biology/homeostasis-and-regulation/homeostasis.md
+          - 神经调节: biology/regulation/neural.md
+          - 稳态: biology/regulation/homeostasis.md
       - 细胞:
           - 细胞: biology/cells/cells.md
-          - 走进细胞: biology/cells/introduction-to-cells.md
+          - 走进细胞: biology/cells/cells-intro.md
       - 细胞代谢:
-          - 细胞代谢: biology/cellular-metabolism/cellular-metabolism.md
+          - 细胞代谢: biology/metabolism/metabolism.md
       - 发酵工程:
-          - 发酵工程: biology/fermentation-engineering/fermentation-engineering.md
+          - 发酵工程: biology/fermentation/fermentation.md
       - 基因工程:
-          - 基因工程: biology/genetic-engineering/genetic-engineering.md
+          - 基因工程: biology/genetics/genetics.md
       - 细胞工程:
-          - 细胞工程: biology/cell-engineering/cell-engineering.md
-      - 生物知识积累: biology/biology-knowledge-accumulation.md
+          - 细胞工程: biology/cell-eng/cell-eng.md
+      - 生物知识积累: biology/bio-accumulation.md
 
 markdown_extensions:
   # 基础扩展
