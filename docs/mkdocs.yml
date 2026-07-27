@@ -84,8 +84,6 @@ nav:
       - 概率统计:
           - 概率统计: math/statistics/statistics.md
       - 数学技巧: math/tricks.md
-  - 英语:
-      - 英语简介: english/intro.md
   - 物理:
       - 物理简介: physics/intro.md
       - 运动学:
