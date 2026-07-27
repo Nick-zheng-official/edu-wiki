@@ -129,7 +129,7 @@ GitHub API 在文件目录变更后不能跟踪统计，所以我们在文件头
 
 1. 标题请写明本次 PR 的目的（做了 **什么** 工作，修复了 **什么** 问题）．
 2. 内容请简要叙述修改的内容．如果修复了一个 issue 的问题，请在内容中添加 `fix #xxxx` 字段，其中 `xxxx` 代表 issue 的编号．
-3. 请您仔细阅读 [贡献方式](https://github.com/Nick-zheng-official/edu-wiki/blob/main/docs/docs/home/contributions/contributing.md) ，并在同意后勾选 PR 模板中的框，表示您同意了以上贡献方式．
+3. 请您仔细阅读 [贡献方式](https://github.com/Nick-zheng-official/edu-wiki/blob/main/docs/docs/home/contrib/contrib.md) ，并在同意后勾选 PR 模板中的框，表示您同意了以上贡献方式．
 
 对于 Pull Request 的标题，推荐使用如下格式书写：
 

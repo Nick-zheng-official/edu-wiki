@@ -72,7 +72,7 @@ $$
 
 尽管一些基础的符号可以直接键入，但大多数特殊符号需要使用命令来显示．
 
-本书只是数学符号使用的入门教程，LaTeX Wikibook 的数学符号章节是另一个更好更完整的教程．如果想要了解更多关于数学符号的内容请移步．如果你想找到一个特定的符号，可以使用 [Detexfiy](http://detexify.kirelabs.org)，它可以识别手写字符．当然, 也可查阅 [数学符号表](https://edu-wiki.pages.dev/home/contributions/math-symbols/) 来获取更多符号的命令．
+本书只是数学符号使用的入门教程，LaTeX Wikibook 的数学符号章节是另一个更好更完整的教程．如果想要了解更多关于数学符号的内容请移步．如果你想找到一个特定的符号，可以使用 [Detexfiy](http://detexify.kirelabs.org)，它可以识别手写字符．当然, 也可查阅 [数学符号表](https://edu-wiki.pages.dev/home/contrib/symbols/) 来获取更多符号的命令．
 
 #### 上标和下标
 
