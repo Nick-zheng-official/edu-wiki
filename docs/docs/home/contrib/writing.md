@@ -190,7 +190,7 @@ $$
     -   代码块只应使用 ` ``` ` 语法，且须标注语言．详见 [LINT-7](#LINT-7)、[MDFM-3](#MDFM-3)．
 
 -   LaTeX 公式：
-    -   不应与 [数学符号表](./symbol.md) 相冲突．详见 [MATH-1.1](#MATH-1.1)．
+    -   不应与 [数学符号表](./symbols.md) 相冲突．详见 [MATH-1.1](#MATH-1.1)．
 
     -   注意字体的使用，详见 [MATH-1.2](#MATH-1.2)、[MATH-1.15](#MATH-1.15)、[MATH-2.6](#MATH-2.6)、[MATH-2.7](#MATH-2.7)．
 
@@ -233,7 +233,7 @@ $$
 
 -   <a id="SAVE-6"></a>SAVE-6：请确保您的文档中的引用链接的稳定性．**不推荐** 引用 **自建** 服务中的资源（如自建 OJ 里的题目）．建议在添加时同时将该外链存于互联网档案馆[^webarchive]，以防无法替代的链接失效．
 
--   <a id="SAVE-7"></a>SAVE-7：站内链接请去掉网站域名，并且使用相对路径链接对应 `.md` 文件．例如，在本页面（`intro/format`）中链接杂项简介（`misc`），应使用 `[杂项简介](../misc/index.md)`．可以在链接中添加 hash 来链接到某一节，例如 [`[Pull Request 信息格式规范](./htc.md#pull-request-信息格式规范)`](./htc.md#pull-request-信息格式规范)，hash 的值可以通过位于每个标题右侧的按钮或者位于网页右侧的目录中的链接得到．
+-   <a id="SAVE-7"></a>SAVE-7：站内链接请去掉网站域名，并且使用相对路径链接对应 `.md` 文件．例如，在本页面（`intro/format`）中链接杂项简介（`misc`），应使用 `[杂项简介](../misc/index.md)`．可以在链接中添加 hash 来链接到某一节，例如 [`[Pull Request 信息格式规范](./contrib.md#pull-request-信息格式规范)`](./contrib.md#pull-request-信息格式规范)，hash 的值可以通过位于每个标题右侧的按钮或者位于网页右侧的目录中的链接得到．
 
 ### 文档的合理性
 
@@ -257,7 +257,7 @@ $$
 
         示例页面：[WSL (Windows 10)](../tools/wsl.md)
 
-除现有内容质量较低的情况外，建议尽量从 **补充** 的角度来做贡献，而非采取直接覆盖的方式．如果拿不准主意，可以参考 [关于本项目的交流方式](./about.md#交流方式) 一节，与 **OI Wiki** 项目组联系．
+除现有内容质量较低的情况外，建议尽量从 **补充** 的角度来做贡献，而非采取直接覆盖的方式．如果拿不准主意，可以参考 [关于本项目的交流方式](./discuss.md) 一节，与 **OI Wiki** 项目组联系．
 
 ### 文档的基本格式要求
 
@@ -571,7 +571,7 @@ $$
 
 LaTeX 作为公式排版的首选，我们应当正确地使用它．因此对于 LaTeX 的使用我们有严格的要求．如果您想要快速上手，可以阅读本章节末给出的表格．
 
--   <a id="MATH-1.1"></a>MATH-1.1：您使用的符号不应与 [数学符号表](./symbol.md) 规定的符号冲突．
+-   <a id="MATH-1.1"></a>MATH-1.1：您使用的符号不应与 [数学符号表](./symbols.md) 规定的符号冲突．
 
 -   <a id="MATH-1.2"></a>MATH-1.2：使用 Roman 体表示数字、常量、算子和函数．使用 Italic 体表示变量、下标．LaTeX 已经预先定义好了一些常见的常量、函数、运算符等，我们可以直接调用，包括但不限于：
 
@@ -631,7 +631,7 @@ LaTeX 作为公式排版的首选，我们应当正确地使用它．因此对�
 
 -   <a id="MATH-1.15"></a>MATH-1.15：请正确使用对应的 LaTeX 符号，尤其是公式中的希腊字母等特殊符号．如欧拉函数请使用 `$\varphi$`，圆的直径请使用 `$\Phi$`，黄金分割请使用 `$\phi$`．这些符号虽然同样表示希腊字母 Phi，但是在不同的环境下有不同的含义．切记 **不要使用输入法的插入特殊符号** 来插入这种符号．
 
-    另外，由于 LaTeX 历史原因，空集的符号应为 `$\varnothing$` 而不是 `$\emptyset$`；其他的符号应参照 [数学符号表](./symbol.md) 书写．
+    另外，由于 LaTeX 历史原因，空集的符号应为 `$\varnothing$` 而不是 `$\emptyset$`；其他的符号应参照 [数学符号表](./symbols.md) 书写．
 
 我们可以使用一个表格来总结一下上述内容．注意本表格没有举出所有符号的用法，只给出常见的错误．类似的情况类比即可．
 
@@ -851,7 +851,7 @@ $$
 
 [^note3]: 折叠框：参见 [Collapsible Blocks](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#collapsible-blocks)，有时我们也用「Details 语法」指代该语法，因其从功能上与 HTML 中的 [`<details>` 元素](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details) 功能一致．
 
-[^note4]: 移至 [如何贡献](./htc.md)．
+[^note4]: 移至 [如何贡献](./contrib.md)．
 
 [^note5]: 该规范写入了 [编辑前须知](../edit-landing.md) 并发布了公告，并未写入本文档．
 
@@ -861,7 +861,7 @@ $$
 
 [^ref2]: [CCF 关于恢复 NOIP 竞赛的公告 - 中国计算机学会](https://www.ccf.org.cn/c/2020-01-21/694716.shtml)
 
-[^ref3]: [我的公式为什么在目录里没有正常显示？好像双倍了](faq.md)
+[^ref3]: [我的公式为什么在目录里没有正常显示？好像双倍了](../faq.md)
 
 [^ref4]: [SVG|MDN](https://developer.mozilla.org/zh-CN/docs/Web/SVG)
 

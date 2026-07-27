@@ -4,7 +4,7 @@ site_author: Edu-Wiki Team
 site_url: https://edu-wiki.pages.dev/
 repo_name: Nick-zheng-official/edu-wiki
 repo_url: https://github.com/Nick-zheng-official/edu-wiki
-edit_uri: blob/master/docs/docs/
+edit_uri: blob/main/docs/docs/
 copyright: Copyright &copy; 2025 Edu-Wiki Team
 use_directory_urls: true
 
@@ -31,7 +31,7 @@ theme:
   icon:
     repo: fontawesome/brands/github-alt
   logo: static/img/logo.png
-  favicon: static/img/favicon.png
+  favicon: static/img/logo.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -56,7 +56,6 @@ nav:
           - 文章撰写: home/contrib/writing.md
           - 数学符号表: home/contrib/symbols.md
       - FAQ: home/faq.md
-      - 学习路线: home/route.md
   - 语文:
       - 语文简介: chinese/intro.md
   - 数学:

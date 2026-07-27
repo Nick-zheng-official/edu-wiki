@@ -54,13 +54,13 @@ A：因为我们希望可以真正帮到更多的选手或者对这些内容感�
 
 Q：我要怎么与项目组交流？
 
-A：可以通过 [关于本项目里的交流方式](./about.md#交流方式) 联系我们．
+A：可以通过 [关于本项目里的交流方式](./contrib/discuss.md) 联系我们．
 
 ---
 
 Q：我要怎么贡献代码或者内容？
 
-请参考 [如何参与](./htc.md) 页面．
+请参考 [如何参与](./contrib/contrib.md) 页面．
 
 ---
 
@@ -72,7 +72,7 @@ A：目录在项目根目录下的 [mkdocs.yml](https://github.com/OI-wiki/OI-wi
 
 Q：如何修改一个 topic 的内容？
 
-A：在对应页面右上方有一个编辑按钮`<i class="md-icon">`edit`</i>`，点击并确认阅读了 [如何贡献](./htc.md) 之后会跳转到 GitHub 上对应文件的位置．
+A：在对应页面右上方有一个编辑按钮`<i class="md-icon">`edit`</i>`，点击并确认阅读了 [如何贡献](./contrib/contrib.md) 之后会跳转到 GitHub 上对应文件的位置．
 
 或者也可以自行阅读目录 [(mkdocs.yml)](https://github.com/OI-wiki/OI-wiki/blob/master/mkdocs.yml) 查找文件位置．
 
@@ -83,7 +83,7 @@ Q：如何添加一个 topic？
 A：有两种选择：
 
 - 可以开一个 Issue，注明希望能添加的内容．
-- 可以开一个 Pull Request，在目录 [(mkdocs.yml)](https://github.com/OI-wiki/OI-wiki/blob/master/mkdocs.yml) 中加上新的 topic，并在 [docs](https://github.com/OI-wiki/OI-wiki/tree/master/docs) 文件夹下对应位置创建一个空的 `.md` 文件．文档的格式细节请参考 [格式手册](./format.md#贡献文档要求)．
+- 可以开一个 Pull Request，在目录 [(mkdocs.yml)](https://github.com/OI-wiki/OI-wiki/blob/master/mkdocs.yml) 中加上新的 topic，并在 [docs](https://github.com/OI-wiki/OI-wiki/tree/master/docs) 文件夹下对应位置创建一个空的 `.md` 文件．文档的格式细节请参考 [格式手册](./contrib/writing.md)．
 
 ---
 
@@ -284,7 +284,7 @@ copyright: SATA
 
 Q：为什么作者信息统计处没有我的名字？
 
-A：如果你发现自己写过一个页面中的部分内容，但是你没有被记录进作者列表，可以把自己的 GitHub ID 加入到文件头的 [author 字段](./htc.md#author-字段)．
+A：如果你发现自己写过一个页面中的部分内容，但是你没有被记录进作者列表，可以把自己的 GitHub ID 加入到文件头的 [author 字段](./contrib/writing.md)．
 
 ---
 
