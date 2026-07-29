@@ -24,11 +24,11 @@ jobs:
 
       - name: Build documentation
         run: |
-          python -m mkdocs build -f mkdocs.yml
+          python -m mkdocs build -f docs/mkdocs.yml
 
       - name: Copy _redirects to build output
         run: |
-          cp _redirects site/_redirects
+          cp _redirects docs/site/_redirects
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
@@ -36,5 +36,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: edu-wiki
-          directory: site
+          directory: docs/site
           branch: main
