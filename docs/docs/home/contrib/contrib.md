@@ -1,12 +1,70 @@
 # 贡献方式
 
-在文章开始之前，**EDU Wiki** 项目组全体成员十分欢迎您为本项目贡献页面! 
+在文章开始之前，**EDU Wiki** 项目组全体成员十分欢迎您为本项目贡献页面!
 
-这篇文章将主要叙述参与 **EDU Wiki** 编写的写作过程．请在撰稿或者修正 Wiki 页面以前，仔细阅读以下内容，以助您完成更高质量的内容! 
+这篇文章将主要叙述参与 **EDU Wiki** 编写的写作过程．请在撰稿或者修正 Wiki 页面以前，仔细阅读以下内容，以助您完成更高质量的内容!
+
+## 贡献流程(概括版)
+
+1. 在 Wiki 中确定要贡献的内容. 你可以从 [Issues](https://github.com/Nick-zheng-official/edu-wiki/issues) 或 [Projects](https://github.com/Nick-zheng-official/edu-wiki/projects) 中获取灵感. 
+2. 在阅读 [贡献指南](https://edu-wiki.pages.dev/home/contrib/contrib/) 后, 点击页面上的 **编辑** 按钮.
+3. 注册并登录 GitHub 账号. 你可能需要一些 [技巧](https://edu-wiki.pages.dev/home/contrib/contrib/#github) 来访问 GitHub 仓库.
+4. 检查 Issue 中是否有他人正在维护同样的页面, 或此查看关于此页面的问题讨论或任务建议.
+5. 如果你已经确定要贡献此部分内容, 请开启一个全新的 Issue 记录.
+6. 在编辑器中编辑页面内容. 如何编写请查看 [文章撰写](https://edu-wiki.pages.dev/home/contrib/writing/) .
+7. 如果你新增或删除了新的文件, 请修改 mkdocs.yml 文件, 以正确构建目录.
+8. 新建一个 Pull Request, 并在其中描述你所做的更改. 你可以通过 Cloudflare Pages 来预览你的更改效果.
+9. 等待项目维护者审核并合并你的更改, 或按照建议进行修改. 
+10.恭喜你! 你已经成功贡献了对 **EDU Wiki** 项目的修改!
 
 ## 项目结构
 
-项目结构介绍的图片以介绍项目的目录结构和文件组织方式．
+项目的基本目录结构如下所示：
+
+```plain
+edu-wiki/
+├── .github/
+│   ├── workflows/                       # GitHub Actions 配置
+│   └── PULL_REQUEST_TEMPLATE.md         # Pull Request 模板
+├── docs/                                # Wiki 文档主目录
+│   ├── docs/                            # 各学科具体内容
+│   │   ├── biology/                     # 生物
+│   │   ├── chemistry/                   # 化学
+│   │   ├── chinese/                     # 语文
+│   │   ├── home/                        # 首页及贡献文档
+│   │   ├── math/                        # 数学
+│   │   ├── physics/                     # 物理
+│   │   ├── static/                      # 静态资源（CSS, JS, 图片）
+│   │   └── index.md                     # 首页内容
+│   └── mkdocs.yml                       # MkDocs 核心配置
+├── scripts/                             # 辅助脚本
+├── .gitattributes                       # Git 属性配置
+├── .gitignore                           # Git 忽略规则
+├── LICENSE                              # 开源协议
+├── README.md                            # 项目简介
+├── requirements.txt                     # Python 依赖列表
+└── _redirects                           # 重定向规则
+```
+
+对于各学科文件夹, 以数学为例:
+
+```plain
+math/
+├── intro.md              # 数学介绍
+├── tricks.md             # 数学技巧, 用于记录零散的技巧方法
+├── images/               # 用于存储数学图片
+├── calculus/             # 导数
+├── conic-sections/       # 圆锥曲线
+├── functions/            # 函数
+├── inequalities/         # 不等式
+├── logic/                # 集合与逻辑
+├── sequences/            # 数列
+├── solid/                # 立体几何
+├── statistics/           # 概率统计
+├── transition/           # 初高衔接
+├── trigonometry/         # 三角函数
+└── vectors/             # 向量
+```
 
 ## 参与协作
 
@@ -28,7 +86,11 @@
 
 参与 **EDU Wiki** 的编写 **需要** 一个 GitHub 账号（可以前往 [GitHub 的账号注册页面](https://github.com/signup) 页面注册），但 **不需要** 高超的 GitHub 技巧，即使你是一名新手，只要按照下面所述的步骤操作，也能够 **非常出色** 地完成编辑．
 
-使用 Github 可能需要会遇见一些网络问题, 这里我们提供一个 bat(下载链接) 文件以帮助您使用. qwdawdashdoih待处理
+使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/scripts) 下, 您可以对此文件的安全性进行检查. 
+
+<a href="https://raw.githubusercontent.com/Nick-zheng-official/edu-wiki/main/scripts/github_hosts.bat" download="github_hosts.bat">Windows 下载</a>
+
+<a href="https://raw.githubusercontent.com/Nick-zheng-official/edu-wiki/main/scripts/github_hosts.sh" download="github_hosts.sh">macOS 或 Linux 下载</a>
 
  在你的更改被合并到 **EDU Wiki** 的主仓库之前，你对 **EDU Wiki** 的内容所作出的修改均不会出现在 **EDU Wiki** 的主站上，所以无需担心你的修改会破坏 **EDU Wiki** 上正在显示的内容．如果还是不放心，可以查看[GitHub 的官方教程](https://skills.github.com/)．
 

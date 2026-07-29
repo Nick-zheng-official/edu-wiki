@@ -23,4 +23,4 @@
 
 这里提供 [@学过石油的语文老师](https://space.bilibili.com/39737405) 分享的考试复盘 [选择题自检表](https://www.bilibili.com/video/BV19M4y1P7iN) . <a href="../images/自检表.png" download="选择题自检表.png"> 点击下载. </a> 
 
-![](../images/自检表.png)
+[](../images/自检表.png)
