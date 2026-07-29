@@ -6,7 +6,7 @@
 
 ## 贡献流程(概括版)
 
-1. 在 Wiki 中确定要贡献的内容. 你可以从 [Issues](https://github.com/Nick-zheng-official/edu-wiki/issues) 或 [Projects](https://github.com/Nick-zheng-official/edu-wiki/projects) 中获取灵感. 
+1. 在 Wiki 中确定要贡献的内容. 你可以从 [Issues](https://github.com/Nick-zheng-official/edu-wiki/issues) 或 [Projects](https://github.com/Nick-zheng-official/edu-wiki/projects) 中获取灵感.
 2. 在阅读 [贡献指南](https://edu-wiki.pages.dev/home/contrib/contrib/) 后, 点击页面上的 **编辑** 按钮.
 3. 注册并登录 GitHub 账号. 你可能需要一些 [技巧](https://edu-wiki.pages.dev/home/contrib/contrib/#github) 来访问 GitHub 仓库.
 4. 检查 Issue 中是否有他人正在维护同样的页面, 或此查看关于此页面的问题讨论或任务建议.
@@ -14,8 +14,10 @@
 6. 在编辑器中编辑页面内容. 如何编写请查看 [文章撰写](https://edu-wiki.pages.dev/home/contrib/writing/) .
 7. 如果你新增或删除了新的文件, 请修改 mkdocs.yml 文件, 以正确构建目录.
 8. 新建一个 Pull Request, 并在其中描述你所做的更改. 你可以通过 Cloudflare Pages 来预览你的更改效果.
-9. 等待项目维护者审核并合并你的更改, 或按照建议进行修改. 
+9. 等待项目维护者审核并合并你的更改, 或按照建议进行修改.
 10.恭喜你! 你已经成功贡献了对 **EDU Wiki** 项目的修改!
+
+后续可能考虑出一期视频教程. 
 
 ## 项目结构
 
@@ -26,21 +28,19 @@ edu-wiki/
 ├── .github/
 │   ├── workflows/                       # GitHub Actions 配置
 │   └── PULL_REQUEST_TEMPLATE.md         # Pull Request 模板
-├── docs/                                # Wiki 文档主目录
-│   ├── docs/                            # 各学科具体内容
-│   │   ├── biology/                     # 生物
-│   │   ├── chemistry/                   # 化学
-│   │   ├── chinese/                     # 语文
-│   │   ├── home/                        # 首页及贡献文档
-│   │   ├── math/                        # 数学
-│   │   ├── physics/                     # 物理
-│   │   ├── static/                      # 静态资源
-│   │   │   ├── scripts/                 # 辅助脚本
-│   │   │   ├── css/                     # 样式表
-│   │   │   ├── img/                     # 图片资源
-│   │   │   └── js/                      # 脚本
-│   │   └── index.md                     # 首页内容
-│   └── mkdocs.yml                       # MkDocs 核心配置
+├── docs/                                # Wiki 文档目录
+│   ├── biology/                         # 生物
+│   ├── chemistry/                       # 化学
+│   ├── chinese/                         # 语文
+│   ├── home/                            # 首页及贡献文档
+│   ├── math/                            # 数学
+│   ├── physics/                         # 物理
+│   ├── static/                          # 静态资源
+│   │   ├── css/                         # 样式表
+│   │   ├── img/                         # 图片资源
+│   │   └── js/                          # 脚本
+│   └── index.md                         # 首页内容
+├── scripts/                             # 辅助脚本
 ├── .gitattributes                       # Git 属性配置
 ├── .gitignore                           # Git 忽略规则
 ├── LICENSE                              # 开源协议
@@ -89,20 +89,24 @@ math/
 
 参与 **EDU Wiki** 的编写 **需要** 一个 GitHub 账号（可以前往 [GitHub 的账号注册页面](https://github.com/signup) 页面注册），但 **不需要** 高超的 GitHub 技巧，即使你是一名新手，只要按照下面所述的步骤操作，也能够 **非常出色** 地完成编辑．
 
-使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/docs/docs/static/scripts/) 下, 您可以对此文件的安全性进行检查. 使用时, 文件可能会寻求管理员或 Root 权限, 请在必要时运行在管理员或 Root 身份下以正常使用. 
+使用 Github 时可能会遇见一些网络问题, 这里我们提供修复工具以帮助您使用. 工具源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/scripts/) 下, 您可以对此文件的安全性进行检查. 使用时, 文件可能会寻求管理员或 Root 权限, 请在必要时运行在管理员或 Root 身份下以正常使用.
 
-<a href="/static/scripts/github_hosts.bat" download="github_hosts.bat">Windows 下载</a>
+<a href="https://raw.githubusercontent.com/Nick-zheng-official/edu-wiki/main/scripts/github_hosts.bat" download="github_hosts.bat">Windows 下载</a>
 
-<a href="/static/scripts/github_hosts.sh" download="github_hosts.sh">macOS 或 Linux 下载</a> 
+<a href="https://raw.githubusercontent.com/Nick-zheng-official/edu-wiki/main/scripts/github_hosts.sh" download="github_hosts.sh">macOS 或 Linux 下载</a>
 
-你也可以使用 GitClone 对 EDU Wiki 进行 Clone. 
+你也可以使用 [GitClone](https://www.gitclone.com/) 对 EDU Wiki 进行 Clone, 以加速 Clone. 将以下代码输入命令行即可.
+
+```Bash
+git clone https://gitclone.com/github.com/EDU-wiki/EDU-wiki
+```
 
  在你的更改被合并到 **EDU Wiki** 的主仓库之前，你对 **EDU Wiki** 的内容所作出的修改均不会出现在 **EDU Wiki** 的主站上，所以无需担心你的修改会破坏 **EDU Wiki** 上正在显示的内容．如果还是不放心，可以查看[GitHub 的官方教程](https://skills.github.com/)．
 
 #### 编辑单个页面内的内容
 
 1. 在 **EDU Wiki** 上找到对应页面；
-2. 点击正文右上方（目录左侧）的 **「编辑此页」**（<i class="md-icon">edit</i>）按钮，在确认您已经阅读了本页面和 [格式手册](./writing.md) 后点击按钮根据提示跳转到 GitHub 进行编辑；
+2. 点击正文右上方（目录左侧）的 **「编辑此页」**（<i class="md-icon">edit</i>）按钮，在确认您已经阅读了本页面和 [撰写文章](./writing.md) 后点击按钮根据提示跳转到 GitHub 进行编辑；
 3. 在编辑框内编写你想修改的内容．请注意，在修改和接下来的提交过程中，请 **关闭您的自动翻译软件**，因为它可能产生不必要的麻烦（例如您修改的文件有时会被其错误改名，从而影响目录结构）；
 4. 编写完成后滚动到页面下方，按照本文中 [commit 信息格式规范](#commit-信息格式规范) 填写 commit 信息，之后点击 **Propose changes** 按钮提交修改．点击按钮后，GitHub 会自动帮你创建一份 **EDU Wiki** 仓库的分支，并将你的提交添加到这个分支仓库．
 5. GitHub 会自动跳转到你的分支仓库的页面，此时页面上方会显示一个绿色的 **Create pull request** 按钮，点击后 GitHub 会跳转到一个创建 Pull Request 页面．向下滚动检查自己所作出的修改没有错误后，按照本文中 [Pull Request 信息格式规范](#pull-request-信息格式规范) 一节中的规范书写 Pull Request 信息，然后点击页面上的绿色的 **Create pull request** 按钮创建 Pull Request．
@@ -114,9 +118,16 @@ math/
 
 如果你需要同时编辑互相无关联的多个页面的内容，请按照上方的 [编辑单个页面内的内容](#编辑单个页面内的内容) 一节一次修改所有页面．
 
+或者, 你也可以:
+
+1. 打开 [EDU-Wiki/EDU-Wiki](https://github.com/Nick-zheng-official/EDU-Wiki) 仓库，点击键盘上的<kbd>.</kbd>按钮（或者将 URL 中的 `github.com` 更改为 `github.dev`）[^ref2]，进入 GitHub 的网页版 VS Code 编辑器；
+2. 在编辑器中作出对页面源文件的更改，可以使用页面右上方的预览按钮（或按下<kbd>Ctrl+K</kbd><kbd>V</kbd>快捷键）在右侧打开预览界面；
+3. 修改完成后使用左侧的 Source Control 选项卡，并按照本文中 [commit 信息格式规范](#commit-信息格式规范) 填写 commit 信息并提交，提交时会提示是否创建此仓库的分支，点击绿色的 **Fork Repository** 按钮即可．
+4. 提交后会在网页上方的中央弹出一个提示框，在第一次的提示框内填写标题，第二次的提示框内填写此提交要提交到的仓库内分支名称，之后右下角会弹出一个提示框，内容类似于 `Created Pull Request #1 for OI-Wiki/OI-Wiki.`，点击蓝字链接即可查看该 Pull Request．
+
 #### 向 Pull Request 追加更改
 
-1. 打开 [OI-Wiki 的 Pull Request 列表](https://github.com/Nick-zheng-official/edu-wiki/pulls)，找到您提交的 Pull Request 并点击．
+1. 打开 [EDU-Wiki 的 Pull Request 列表](https://github.com/Nick-zheng-official/edu-wiki/pulls)，找到您提交的 Pull Request 并点击．
 2. Pull Request 页面的标题下方将会有一段例如 `<您的ID> wants to merge x commits into edu-wiki:main from <您的ID>:patch-1` 的文字，点击 `<您的ID>:patch-1` 部分．
 3. 您应该会被重定向到您的分支仓库中，而且文件列表左上角的分支名称是你提交 Pull Request 的分支名称（在本示例中应为 `patch-1`）．
 4. 进行您需要的更改．
@@ -142,7 +153,7 @@ math/
 
 在 Pull Request 页面中, 可以在 `cloudflare-workers-and-pages Bot` 的评论中找到预览网页的部署情况(Status)及预览网址(Preview URL)，点击预览网址，可以进入自动构建的，由您变更后的页面供您预览．不过, 在预览之前 您可能需要注册 [Cloudflare 账号](https://dash.cloudflare.com/sign-up) , 并将注册邮箱填入预览网址, 获取验证码后可以预览. Cloudflare 账号是免费的，您可以在 [Cloudflare 注册](https://dash.cloudflare.com/sign-up) 页面注册, 建议直接使用 Github 授权．
 
-图片qaqaq
+![](../images/bots.png)
 
 ### 对于目录和引用的变更
 
