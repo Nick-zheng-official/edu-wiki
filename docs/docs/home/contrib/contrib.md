@@ -86,11 +86,11 @@ math/
 
 参与 **EDU Wiki** 的编写 **需要** 一个 GitHub 账号（可以前往 [GitHub 的账号注册页面](https://github.com/signup) 页面注册），但 **不需要** 高超的 GitHub 技巧，即使你是一名新手，只要按照下面所述的步骤操作，也能够 **非常出色** 地完成编辑．
 
-使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/scripts) 下, 您可以对此文件的安全性进行检查. 
+使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/scripts) 下, 您可以对此文件的安全性进行检查. 使用时, 文件可能会寻求管理员或 Root 权限, 请在必要时运行在管理员或 Root 身份下以正常使用. 
 
-[Windows 下载](../../../../scripts/github_hosts.bat)
+<a href="../../../../scripts/github_hosts.bat" download="github_hosts.bat"> Windows 下载. </a> 
 
-[MacOS 或 Linux 下载](https://edu-wiki.pages.dev/../../scripts/github_hosts.sh)
+<a href="../../../../scripts/github_hosts.sh" download="github_hosts.sh"> MacOS 或 Linux 下载. </a> 
 
 你也可以使用 GitClone 对 EDU Wiki 进行 Clone. 
 
