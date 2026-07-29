@@ -88,9 +88,11 @@ math/
 
 使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/scripts) 下, 您可以对此文件的安全性进行检查. 
 
-<a href="https://raw.githubusercontent.com/Nick-zheng-official/edu-wiki/main/scripts/github_hosts.bat" download="github_hosts.bat">Windows 下载</a>
+[Windows 下载](../../../../scripts/github_hosts.bat)
 
-<a href="https://raw.githubusercontent.com/Nick-zheng-official/edu-wiki/main/scripts/github_hosts.sh" download="github_hosts.sh">macOS 或 Linux 下载</a>
+[MacOS 或 Linux 下载](https://edu-wiki.pages.dev/../../scripts/github_hosts.sh)
+
+你也可以使用 GitClone 对 EDU Wiki 进行 Clone. 
 
  在你的更改被合并到 **EDU Wiki** 的主仓库之前，你对 **EDU Wiki** 的内容所作出的修改均不会出现在 **EDU Wiki** 的主站上，所以无需担心你的修改会破坏 **EDU Wiki** 上正在显示的内容．如果还是不放心，可以查看[GitHub 的官方教程](https://skills.github.com/)．
 
