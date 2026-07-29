@@ -26,24 +26,25 @@ edu-wiki/
 ├── .github/
 │   ├── workflows/                       # GitHub Actions 配置
 │   └── PULL_REQUEST_TEMPLATE.md         # Pull Request 模板
-├── docs/                                # Wiki 文档目录
-│   ├── biology/                         # 生物
-│   ├── chemistry/                       # 化学
-│   ├── chinese/                         # 语文
-│   ├── home/                            # 首页及贡献文档
-│   ├── math/                            # 数学
-│   ├── physics/                         # 物理
-│   ├── static/                          # 静态资源
-│   │   ├── scripts/                     # 辅助脚本
-│   │   ├── css/                         # 样式表
-│   │   ├── img/                         # 图片资源
-│   │   └── js/                          # 脚本
-│   └── index.md                         # 首页内容
+├── docs/                                # Wiki 文档主目录
+│   ├── docs/                            # 各学科具体内容
+│   │   ├── biology/                     # 生物
+│   │   ├── chemistry/                   # 化学
+│   │   ├── chinese/                     # 语文
+│   │   ├── home/                        # 首页及贡献文档
+│   │   ├── math/                        # 数学
+│   │   ├── physics/                     # 物理
+│   │   ├── static/                      # 静态资源
+│   │   │   ├── scripts/                 # 辅助脚本
+│   │   │   ├── css/                     # 样式表
+│   │   │   ├── img/                     # 图片资源
+│   │   │   └── js/                      # 脚本
+│   │   └── index.md                     # 首页内容
+│   └── mkdocs.yml                       # MkDocs 核心配置
 ├── .gitattributes                       # Git 属性配置
 ├── .gitignore                           # Git 忽略规则
 ├── LICENSE                              # 开源协议
 ├── README.md                            # 项目简介
-├── mkdocs.yml                           # MkDocs 核心配置
 ├── requirements.txt                     # Python 依赖列表
 └── _redirects                           # 重定向规则
 ```
@@ -88,7 +89,7 @@ math/
 
 参与 **EDU Wiki** 的编写 **需要** 一个 GitHub 账号（可以前往 [GitHub 的账号注册页面](https://github.com/signup) 页面注册），但 **不需要** 高超的 GitHub 技巧，即使你是一名新手，只要按照下面所述的步骤操作，也能够 **非常出色** 地完成编辑．
 
-使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/docs/static/scripts/) 下, 您可以对此文件的安全性进行检查. 使用时, 文件可能会寻求管理员或 Root 权限, 请在必要时运行在管理员或 Root 身份下以正常使用. 
+使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/docs/docs/static/scripts/) 下, 您可以对此文件的安全性进行检查. 使用时, 文件可能会寻求管理员或 Root 权限, 请在必要时运行在管理员或 Root 身份下以正常使用. 
 
 <a href="/static/scripts/github_hosts.bat" download="github_hosts.bat">Windows 下载</a>
 
@@ -145,7 +146,7 @@ math/
 
 ### 对于目录和引用的变更
 
-通常情况下，如果您需要添加一个新页面，或者修改已有页面在目录中的链接，您就需要对 [`mkdocs.yml`](https://github.com/Nick-zheng-official/edu-wiki/blob/main/mkdocs.yml) 文件作出改动．
+通常情况下，如果您需要添加一个新页面，或者修改已有页面在目录中的链接，您就需要对 [`mkdocs.yml`](https://github.com/Nick-zheng-official/edu-wiki/blob/main/docs/mkdocs.yml) 文件作出改动．
 
 添加新页面可以参考既有的格式．但除非是进行重构或修正名词，否则 **我们不建议对既有页面的引用链接进行修改**，Pull Requests 中不必要的修改也将被驳回．
 
@@ -195,7 +196,7 @@ GitHub API 在文件目录变更后不能跟踪统计，所以我们在文件头
 
 1. 标题请写明本次 PR 的目的（做了 **什么** 工作，修复了 **什么** 问题）．
 2. 内容请简要叙述修改的内容．如果修复了一个 issue 的问题，请在内容中添加 `fix #xxxx` 字段，其中 `xxxx` 代表 issue 的编号．
-3. 请您仔细阅读 [贡献方式](https://github.com/Nick-zheng-official/edu-wiki/blob/main/docs/home/contrib/contrib.md) ，并在同意后勾选 PR 模板中的框，表示您同意了以上贡献方式．
+3. 请您仔细阅读 [贡献方式](https://github.com/Nick-zheng-official/edu-wiki/blob/main/docs/docs/home/contrib/contrib.md) ，并在同意后勾选 PR 模板中的框，表示您同意了以上贡献方式．
 
 对于 Pull Request 的标题，推荐使用如下格式书写：
 
