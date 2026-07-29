@@ -1,0 +1,226 @@
+# 贡献方式
+
+在文章开始之前，**EDU Wiki** 项目组全体成员十分欢迎您为本项目贡献页面!
+
+这篇文章将主要叙述参与 **EDU Wiki** 编写的写作过程．请在撰稿或者修正 Wiki 页面以前，仔细阅读以下内容，以助您完成更高质量的内容!
+
+## 贡献流程(概括版)
+
+1. 在 Wiki 中确定要贡献的内容. 你可以从 [Issues](https://github.com/Nick-zheng-official/edu-wiki/issues) 或 [Projects](https://github.com/Nick-zheng-official/edu-wiki/projects) 中获取灵感. 
+2. 在阅读 [贡献指南](https://edu-wiki.pages.dev/home/contrib/contrib/) 后, 点击页面上的 **编辑** 按钮.
+3. 注册并登录 GitHub 账号. 你可能需要一些 [技巧](https://edu-wiki.pages.dev/home/contrib/contrib/#github) 来访问 GitHub 仓库.
+4. 检查 Issue 中是否有他人正在维护同样的页面, 或此查看关于此页面的问题讨论或任务建议.
+5. 如果你已经确定要贡献此部分内容, 请开启一个全新的 Issue 记录.
+6. 在编辑器中编辑页面内容. 如何编写请查看 [文章撰写](https://edu-wiki.pages.dev/home/contrib/writing/) .
+7. 如果你新增或删除了新的文件, 请修改 mkdocs.yml 文件, 以正确构建目录.
+8. 新建一个 Pull Request, 并在其中描述你所做的更改. 你可以通过 Cloudflare Pages 来预览你的更改效果.
+9. 等待项目维护者审核并合并你的更改, 或按照建议进行修改. 
+10.恭喜你! 你已经成功贡献了对 **EDU Wiki** 项目的修改!
+
+## 项目结构
+
+项目的基本目录结构如下所示：
+
+```plain
+edu-wiki/
+├── .github/
+│   ├── workflows/                       # GitHub Actions 配置
+│   └── PULL_REQUEST_TEMPLATE.md         # Pull Request 模板
+├── docs/                                # Wiki 文档主目录
+│   ├── docs/                            # 各学科具体内容
+│   │   ├── biology/                     # 生物
+│   │   ├── chemistry/                   # 化学
+│   │   ├── chinese/                     # 语文
+│   │   ├── home/                        # 首页及贡献文档
+│   │   ├── math/                        # 数学
+│   │   ├── physics/                     # 物理
+│   │   ├── static/                      # 静态资源
+│   │   │   ├── scripts/                 # 辅助脚本
+│   │   │   ├── css/                     # 样式表
+│   │   │   ├── img/                     # 图片资源
+│   │   │   └── js/                      # 脚本
+│   │   └── index.md                     # 首页内容
+│   └── mkdocs.yml                       # MkDocs 核心配置
+├── .gitattributes                       # Git 属性配置
+├── .gitignore                           # Git 忽略规则
+├── LICENSE                              # 开源协议
+├── README.md                            # 项目简介
+├── requirements.txt                     # Python 依赖列表
+└── _redirects                           # 重定向规则
+```
+
+对于各学科文件夹, 以数学为例:
+
+```plain
+math/
+├── intro.md              # 数学介绍
+├── tricks.md             # 数学技巧, 用于记录零散的技巧方法
+├── images/               # 用于存储数学图片
+├── calculus/             # 导数
+├── conic-sections/       # 圆锥曲线
+├── functions/            # 函数
+├── inequalities/         # 不等式
+├── logic/                # 集合与逻辑
+├── sequences/            # 数列
+├── solid/                # 立体几何
+├── statistics/           # 概率统计
+├── transition/           # 初高衔接
+├── trigonometry/         # 三角函数
+└── vectors/             # 向量
+```
+
+## 参与协作
+
+**注意**, 在开始编写前, 请查阅 [Issues](https://github.com/Nick-zheng-official/edu-wiki/issues) 以确保没有他人在处理相同的工作, 并开启 [新 Issue](https://github.com/Nick-zheng-official/edu-wiki/issues/new) 记录待编写的内容.
+
+可以在 [Issues](https://github.com/Nick-zheng-official/edu-wiki/issues) 或 [Projects](https://github.com/Nick-zheng-official/edu-wiki/projects) 中获取待处理的问题. 这将会是一个很好的开始!
+
+为了保证条目内容的专业性和准确性，我们建议您在编辑前先考虑以下几点：
+
+1. **选择您熟悉的领域**：请优先编辑那些与您的专业知识、学习背景或兴趣爱好相关的条目．这有助于您创作出高质量的内容．
+2. **谨慎对待新领域**：如果您对某个主题还处于初学阶段或不太了解，建议您先通过阅读、学习加深理解，待有一定把握后再动手编辑．
+3. **查阅相关资料**：为条目添加内容或进行修订时，建议您先查阅权威文献和资料，确保信息准确无误．也欢迎您在页面评论区或我们的社区提出问题，与其他编者交流讨论．
+
+我们珍惜每位贡献者的热情和付出，也理解大家的专业水平不尽相同．让我们携手合作，共同呵护这个知识的乐园，用准确、专业的内容去帮助更多读者．期待您的贡献！在这里引用维基百科的一句话：
+
+> 不要害怕编辑，勇于更新页面！[^ref1]
+
+### 在 GitHub 上编辑
+
+参与 **EDU Wiki** 的编写 **需要** 一个 GitHub 账号（可以前往 [GitHub 的账号注册页面](https://github.com/signup) 页面注册），但 **不需要** 高超的 GitHub 技巧，即使你是一名新手，只要按照下面所述的步骤操作，也能够 **非常出色** 地完成编辑．
+
+使用 Github 可能需要会遇见一些网络问题, 这里我们提供一种文件以帮助您使用. 文件源代码储存在 EDU Wiki 仓库中的 [ `scripts/` 目录](https://github.com/Nick-zheng-official/edu-wiki/tree/main/docs/docs/static/scripts/) 下, 您可以对此文件的安全性进行检查. 使用时, 文件可能会寻求管理员或 Root 权限, 请在必要时运行在管理员或 Root 身份下以正常使用. 
+
+<a href="/static/scripts/github_hosts.bat" download="github_hosts.bat">Windows 下载</a>
+
+<a href="/static/scripts/github_hosts.sh" download="github_hosts.sh">macOS 或 Linux 下载</a> 
+
+你也可以使用 GitClone 对 EDU Wiki 进行 Clone. 
+
+ 在你的更改被合并到 **EDU Wiki** 的主仓库之前，你对 **EDU Wiki** 的内容所作出的修改均不会出现在 **EDU Wiki** 的主站上，所以无需担心你的修改会破坏 **EDU Wiki** 上正在显示的内容．如果还是不放心，可以查看[GitHub 的官方教程](https://skills.github.com/)．
+
+#### 编辑单个页面内的内容
+
+1. 在 **EDU Wiki** 上找到对应页面；
+2. 点击正文右上方（目录左侧）的 **「编辑此页」**（<i class="md-icon">edit</i>）按钮，在确认您已经阅读了本页面和 [格式手册](./writing.md) 后点击按钮根据提示跳转到 GitHub 进行编辑；
+3. 在编辑框内编写你想修改的内容．请注意，在修改和接下来的提交过程中，请 **关闭您的自动翻译软件**，因为它可能产生不必要的麻烦（例如您修改的文件有时会被其错误改名，从而影响目录结构）；
+4. 编写完成后滚动到页面下方，按照本文中 [commit 信息格式规范](#commit-信息格式规范) 填写 commit 信息，之后点击 **Propose changes** 按钮提交修改．点击按钮后，GitHub 会自动帮你创建一份 **EDU Wiki** 仓库的分支，并将你的提交添加到这个分支仓库．
+5. GitHub 会自动跳转到你的分支仓库的页面，此时页面上方会显示一个绿色的 **Create pull request** 按钮，点击后 GitHub 会跳转到一个创建 Pull Request 页面．向下滚动检查自己所作出的修改没有错误后，按照本文中 [Pull Request 信息格式规范](#pull-request-信息格式规范) 一节中的规范书写 Pull Request 信息，然后点击页面上的绿色的 **Create pull request** 按钮创建 Pull Request．
+6. 不出意外的话，你的 Pull Request 就顺利提交到仓库，等待管理员审核并合并到主仓库中即可．
+
+在等待合并的时间里，你可以给他人的 Pull Request 提意见、点赞或者点踩．如果有新消息，会在网页右上角出现提示，并附有邮件提醒（取决于个人设置中配置的通知方式）．
+
+#### 编辑多个页面内的内容
+
+如果你需要同时编辑互相无关联的多个页面的内容，请按照上方的 [编辑单个页面内的内容](#编辑单个页面内的内容) 一节一次修改所有页面．
+
+#### 向 Pull Request 追加更改
+
+1. 打开 [OI-Wiki 的 Pull Request 列表](https://github.com/Nick-zheng-official/edu-wiki/pulls)，找到您提交的 Pull Request 并点击．
+2. Pull Request 页面的标题下方将会有一段例如 `<您的ID> wants to merge x commits into edu-wiki:main from <您的ID>:patch-1` 的文字，点击 `<您的ID>:patch-1` 部分．
+3. 您应该会被重定向到您的分支仓库中，而且文件列表左上角的分支名称是你提交 Pull Request 的分支名称（在本示例中应为 `patch-1`）．
+4. 进行您需要的更改．
+   - 如果您需要编辑单个文件或多个互相无关联的页面的内容，请直接找到你要的文件并进行更改，更改完成后滚动到页面下方，按照本文中 [commit 信息格式规范](#commit-信息格式规范) 填写 commit 信息，之后点击 **Commit changes** 按钮提交修改．
+   - 如果您需要编辑多个文件，点击键盘上的<kbd>.</kbd>按钮（或者将 URL 中的 `github.com` 更改为 `github.dev`）[^ref2]，进入 GitHub 的网页版 VS Code 编辑器并作出更改．然后使用左侧的 Source Control 选项卡，并按照本文中 [commit 信息格式规范](#commit-信息格式规范) 填写 commit 信息并提交修改．
+5. 这时你的更改会被自动追加在您的 Pull Request 中．
+
+### 使用 Git 在本地进行编辑
+
+您可以直接在 GitHub 上进行编辑, 但如果您更熟悉在本地编辑, 您可以按照如下大致流程进行：
+
+1. 将主仓库 Fork 到自己的仓库中；
+2. 将 Fork 后的分支仓库克隆（clone）到本地；
+3. 在本地进行修改后提交（commit）这些更改；
+4. 将这些更改推送（push）到你克隆的分支仓库；
+5. 提交 Pull Request 至主仓库．
+
+#### 向 Pull Request 追加更改
+
+在 clone 下来的本地分支仓库中继续进行修改，并提交（commit）以及推送（push）这些更改即可．你的更改会被自动追加在 Pull Request 中．
+
+### 在构建的网页中预览变更
+
+在 Pull Request 页面中, 可以在 `cloudflare-workers-and-pages Bot` 的评论中找到预览网页的部署情况(Status)及预览网址(Preview URL)，点击预览网址，可以进入自动构建的，由您变更后的页面供您预览．不过, 在预览之前 您可能需要注册 [Cloudflare 账号](https://dash.cloudflare.com/sign-up) , 并将注册邮箱填入预览网址, 获取验证码后可以预览. Cloudflare 账号是免费的，您可以在 [Cloudflare 注册](https://dash.cloudflare.com/sign-up) 页面注册, 建议直接使用 Github 授权．
+
+图片qaqaq
+
+### 对于目录和引用的变更
+
+通常情况下，如果您需要添加一个新页面，或者修改已有页面在目录中的链接，您就需要对 [`mkdocs.yml`](https://github.com/Nick-zheng-official/edu-wiki/blob/main/docs/mkdocs.yml) 文件作出改动．
+
+添加新页面可以参考既有的格式．但除非是进行重构或修正名词，否则 **我们不建议对既有页面的引用链接进行修改**，Pull Requests 中不必要的修改也将被驳回．
+
+如果您坚持要修改链接，请注意更新 author 字段和重定向文件．
+
+### author 字段
+
+GitHub API 在文件目录变更后不能跟踪统计，所以我们在文件头手动维护了一个作者列表来解决这个问题．author 字段位于整个 Markdown 文件的开头，形如 `author: Nick-zheng-official, Tryand`，相邻两个 ID 之间用逗号加空格隔开．这里的 ID 是 GitHub 的用户名，即 GitHub profile 的地址（例如 [https://github.com/Nick-zheng-official](https://github.com/Nick-zheng-official) 中的 `Nick-zheng-official`）．
+
+修改链接时，需要将当前页面中的 contributors 逐一填入 author 字段．
+
+### 重定向文件
+
+在修改链接时，为了避免在站外引用时出现死链，需要修改重定向文件．
+
+[`_redirects`](https://github.com/Nick-zheng-official/edu-wiki/_redirects) 文件每一行表示一个重定向规则，分别写跳转的起点和终点的 url（不包含域名）：
+
+```text
+/old-path/ /new-path/ 301
+```
+
+注：所有跳转均为 301 跳转，只有在修改目录中 url 造成死链的时候需要修改．
+
+### Commit 信息格式规范
+
+对于提交时需要填写的 commit 信息，请遵守以下几点基本要求：
+
+1. commit 摘要请简要描述这一次 commit 改动的内容．注意 commit 摘要的长度不要超过 50 字符，超出的部分会自动置于正文中．
+2. 如果需要进一步描述本次 commit 内容，请在正文中详细说明．
+
+对于 commit 摘要，推荐按照如下格式书写：
+
+```text
+<修改类型>(<文件名>): <修改的内容>
+```
+
+修改类型分为如下几类：
+
+- `增添`：用于添加内容的情况．
+- `修正`：用于修正现有内容错误的情况．
+- `重构`：用于对一个页面进行重构（较大规模的更改）的情况．
+- `回退`：用于回退之前更改的情况．
+
+### Pull Request 信息格式规范
+
+对于 Pull Request，请遵守以下几点要求：
+
+1. 标题请写明本次 PR 的目的（做了 **什么** 工作，修复了 **什么** 问题）．
+2. 内容请简要叙述修改的内容．如果修复了一个 issue 的问题，请在内容中添加 `fix #xxxx` 字段，其中 `xxxx` 代表 issue 的编号．
+3. 请您仔细阅读 [贡献方式](https://github.com/Nick-zheng-official/edu-wiki/blob/main/docs/docs/home/contrib/contrib.md) ，并在同意后勾选 PR 模板中的框，表示您同意了以上贡献方式．
+
+对于 Pull Request 的标题，推荐使用如下格式书写：
+
+```plain
+<修改类型>(<文件名>): <修改的内容> (<对应 issue 的编号>)
+```
+
+修改类型分为如下几类：
+
+- `增添`：用于添加内容的情况．
+- `修正`：用于修正现有内容错误的情况．
+- `重构`：用于对一个页面进行重构（较大规模的更改）的情况．
+- `回退`：用于回退之前更改的情况．
+
+### 协作流程
+
+1. 在收到一个新的 Pull Request 之后，GitHub 会给 reviewer 发送邮件；
+2. 与此同时，Cloudflare Pages 会进行测试，它会把进度同步在 PR 页面中．它会将 PR 中的更新构建出来，方便 reviewer 审核（在测试完成后点击 Details 可以了解更多）；
+3. reviewer 可能会发现问题，并提出 `review` 或 `suggested changes`（建议更改，显示为灰色图标）/`requested changes`（强制更改，显示为红色图标，只会在 reviewer 拥有 repo 写权限时出现）．一般来说，reviewer 也会附上建议和需要进行的更改，在这时，您将会需要继续向 Pull Request 追加其他更改．更改的方法可以参考 `在 GitHub 上编辑` 或者 `使用 Git 在本地进行编辑` 部分的 `向 Pull Request 追加更改` 部分．
+4. 在足够多 reviewer 投票通过一个 PR 之后，这个 PR 才可以合并到 main 分支中；
+5. 在合并到 main 分支之后，Cloudflare Pages 会自动重新部署最新版本的内容．
+
+## 参考资料与注释
+
+[^ref1]: [维基百科：新手入门/编辑](https://zh.wikipedia.org/wiki/Wikipedia:%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80/%E7%B7%A8%E8%BC%AF)
+    
+[^ref2]: [Web-based editor - GitHub Codespaces - GitHub Docs](https://docs.github.com/en/codespaces/developing-in-codespaces/web-based-editor)
