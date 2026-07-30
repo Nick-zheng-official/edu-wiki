@@ -55,9 +55,9 @@ EDU Wiki 还有许多内容没有完善, 例如评论系统, Docker 部署, 更�
 
 本项目目前采用 [mkdocs](https://github.com/mkdocs/mkdocs) 部署在 [https://edu-wiki.pages.dev/](https://edu-wiki.pages.dev/). 
 
- 本项目可以直接部署在本地, 具体方式如下:
- 
- ```bash
+本项目可以直接部署在本地, 具体方式如下:
+
+```bash
 # 克隆仓库
 git clone https://github.com/Nick-zheng-official/edu-wiki.git
 cd edu-wiki
@@ -70,8 +70,8 @@ mkdocs serve
 ```
 
 启动后访问 <http://127.0.0.1:8000/> 即可查看网站。mkdocs 本地部署的网站是动态更新的，即当你修改并保存 md 文件后，刷新页面就能随之动态更新。
- 
- ## 如何让 EDU Wiki 更好?
+
+## 如何让 EDU Wiki 更好?
  
  我们非常欢迎你为 Wiki 编写内容，将自己的所学所得与大家分享。我们期待着你的加入！
 
