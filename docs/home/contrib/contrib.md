@@ -151,9 +151,11 @@ git clone https://gitclone.com/github.com/EDU-wiki/EDU-wiki
 
 ### 在构建的网页中预览变更
 
-在 Pull Request 页面中, 可以在 `cloudflare-workers-and-pages Bot` 的评论中找到预览网页的部署情况(Status)及预览网址(Preview URL)，点击预览网址，可以进入自动构建的，由您变更后的页面供您预览．不过, 在预览之前 您可能需要注册 [Cloudflare 账号](https://dash.cloudflare.com/sign-up) , 并将注册邮箱填入预览网址, 获取验证码后可以预览. Cloudflare 账号是免费的，您可以在 [Cloudflare 注册](https://dash.cloudflare.com/sign-up) 页面注册, 建议直接使用 Github 授权．
+在 Pull Request 页面中, 可以在 `Cloudflare-workers-and-pages Bot` 的评论中找到预览网页的部署情况(Status)及预览网址(Preview URL)，点击预览网址，可以进入自动构建的，由您变更后的页面供您预览．不过, 在预览之前 您可能需要注册 [Cloudflare 账号](https://dash.cloudflare.com/sign-up) , 并将注册邮箱填入预览网址, 获取验证码后可以预览. Cloudflare 账号是免费的，您可以在 [Cloudflare 注册](https://dash.cloudflare.com/sign-up) 页面注册, 建议直接使用 Github 授权．
 
 ![](../images/bots.png)
+
+`CF Bot` 的评论加载有一定延迟, 请耐心等待. 
 
 ### 对于目录和引用的变更
 

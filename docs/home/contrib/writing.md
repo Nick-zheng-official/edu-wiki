@@ -13,15 +13,15 @@
 **Markdown** 是一种轻量级文档排版系统, 它允许你使用一些符号来表示排版布局, 并通过特定方式渲染出文档结构. 它简单易学, 其基础用法如下: 
 
 - 标题. 你可以在标题前添加若干 `#` 来表示这是几级标题, 几个 `#` 就代表几级标题, 如本文的一级标题为 `# 文章撰写` , 此段所在的三级标题为 `### Markdown`.
-- 粗体与斜体. 你可以使用左右各一个 `*` 括起你想写为斜体的文字, 如 *斜体* ( `*斜体*` ); 类似地你可以使用左右各两个 `*` 括起你想写为粗体的文字, 如 **粗体** ( `**粗体**` ); 当然, 你也可以使用左右各三个 `*` 括起你想写为粗斜体的文字, 如 ***粗斜体*** ( `***粗斜体***` ). 实际上, `*` 也可被替代为 `_` , 但为统一文风建议写作 `*` . 
+- 粗体与斜体. 你可以使用左右各一个 `*` 括起你想写为斜体的文字, 如 *斜体* ( `*斜体*` ); 类似地你可以使用左右各两个 `*` 括起你想写为粗体的文字, 如 **粗体** ( `**粗体**` ); 当然, 你也可以使用左右各三个 `*` 括起你想写为粗斜体的文字, 如 ***粗斜体*** ( `***粗斜体***` ). 实际上, `*` 也可被替代为 `_` , 但为统一格式建议写作 `*` . 
 - 删除线. 我们不建议你在本 **Wiki** 中使用删除线语法. ~~删除线~~ 可以使用 `~~删除线~~` 得到. 
-- 列表. 列表分为有序列表与无序列表. 无序列表可以使用并列的, 统一缩进的 `-` 来表示, 如 `- 无序列表项`; 有序列表可以使用并列的, 统一缩进的数字加点号, 如 `1. 有序列表项` . 注意, `-` 或 `1.` 与列表项间应有空格. 实际上, 无序列表中的 `-` 可以使用 `*` 或 `+` 来替代, 但为统一文风建议写作 `-` . 
+- 列表. 列表分为有序列表与无序列表. 无序列表可以使用并列的, 统一缩进的 `-` 来表示, 如 `- 无序列表项`; 有序列表可以使用并列的, 统一缩进的数字加点号, 如 `1. 有序列表项` . 注意, `-` 或 `1.` 与列表项间应有空格; 列表项若为句子, 需要在末尾添加标点符号, 除最后一项使用 `;` , 最后一项使用 `.` . 实际上, 无序列表中的 `-` 可以使用 `*` 或 `+` 来替代, 但为统一格式建议写作 `-` . 
 - 链接与图片. 你可以使用 `[链接文字](链接地址)` 来添加链接, 如 `[EDU Wiki](https://edu-wiki.pages.dev/)`. 对于图片, 你需要使用 `![图片描述](图片地址)` (增加一个 `!` )才能保证其正常渲染, 如 `![EDU Wiki Logo](/docs/static/img/logo.png)`. 特殊地, 你被建议使用如 `<https://edu-wiki.pages.dev/>` 等此类格式来代替 `[https://edu-wiki.pages.dev/](https://edu-wiki.pages.dev/)` 以实现 [https://edu-wiki.pages.dev/](https://edu-wiki.pages.dev/) 的效果. 对于其中涉及到的地址的写法, 下文会介绍. 
 - 下载: 下载文件需要使用 **html** 格式, 如 `<a href="https://raw.githubusercontent.com/Nick-zheng-official/edu-wiki/main/docs/static/img/logo.psd" download="logo.psd">下载 logo.psd</a>` , 其中 `href` 是文件的 URL, `download` 是文件的下载名, `<a>` 与 `</a>` 间的内容为链接显示的文字. 对于其中涉及到的地址的写法, 下文会介绍. 
 - 引用. `>` 被用于表示引用, 其后为引用的文字. 如 `> 这是一个引用` . 当然, 你可以使用多个 `>` , 辅以适当的缩进, 来表示引用的层级. 或者, 你也可以连续多行使用 `>` 来表示连续引用. 
-- 代码. 行内代码使用 `` ` `` 括起, 如 `` `这是一个行内代码` `` . 对于代码块, 你需要在上下均使用 ```` ``` ```` 来包裹代码块, 且上方 ```` ``` ```` 后可以选择声明代码块语言(如 `md` , `latex` , `plain` 等, 或不添加也可), 以获得对应语言的高亮显示. 下文有具体实例. 需要注意的是, 如果行内代码或行间代码块内需要出现字符 `` ` `` 或 ```` ``` ```` , 则考虑将外层包裹的 `` ` `` 或 ```` ``` ```` 改为 ``` `` ``` 或 ````` ```` ````` , 以此类推. 
+- 代码. 行内代码使用 ` ` ` 括起, 如 ` `这是一个行内代码` ` . 对于代码块, 你需要在上下均使用 ` ``` ` 来包裹代码块, 且上方 ` ``` ` 后可以选择声明代码块语言(如 `md` , `latex` , `plain` 等, 或不添加也可), 以获得对应语言的高亮显示. 下文有具体实例. 需要注意的是, 如果行间代码块内需要出现 ` ``` ` , 则考虑将外层包裹的 ` ``` ` 改为 ` `` `` ` . 
 - 数学公式. 在本项目中, 针对行内公式, 你可以使用两个 `$` 括起你使用 **LaTeX** 编写的数学公式, 如 `$1 + 1 = 2$` . 对于行间公式, 你需要在上下均使用 `$$` 来包裹 **LaTeX** 数学公式, 下文有具体实例. 
-- 分割线. 你可以使用 `---` 来添加分割线, 注意其上下各一行内 **不能** 有 **任何** 内容, 否则会出现格式问题. 同样地, 你也可以使用 `***` 来表示分割线, 但因文风问题不建议使用. 
+- 分割线. 你可以使用 `---` 来添加分割线, 注意其上下各一行内 **不能** 有 **任何** 内容, 否则会出现格式问题. 同样地, 你也可以使用 `***` 来表示分割线, 但因格式统一问题不建议使用. 
 - 表格. 你可以使用 `|` 与 `---` 来绘制表格, 但更建议你通过编辑器的可视化工具来绘制表格. 对齐方式有以下三种: `:---` 左对齐; `:---:` 居中; `---:` 右对齐. 
 - 任务清单. `- [ ] 代办任务` 与 `- [x] 已完成任务` . 
 - 脚注. `[^1]` 等可以用于添加注释. 显然, 你需要在文档末尾添加对应的注释, 通过再次使用 `[^1]: 这是注释内容 1` 来实现. 如此, 你可以在注释的"定义"与"应用"间进行跳转. 实际上, `1` 可以被替换为任意文本. 
@@ -30,37 +30,39 @@
 注意, 特殊地排版效果, 如居中或改变颜色等不被 Markdown 所支持, 需要使用 **html** 格式来实现. 如 `<div style="text-align: center;">居中文字</div>` 与 
 `<span style="color: red;">红色文字</span>`. 
 
+需要注意的是, 文章会自动换行. 若你确需要手动换行, 可以在行末使用两个连续的空格. 若你想另起一段, 请在段落间留出一行或多行空行. 多行空行仅会被当作一行空行; 多个连续的空格实现的间距也仅为一个空格间距. 
+
 对于代码块, 行间公式, 列表, 表格, 多行注释等占用多行的内容, 你需要在其上下各留出一行 **空白行**, 否则会出现格式问题. 如:
 
 ````plain
-(空行)
+
 ```plain
 这是一个代码块. 
 ```
-(空行)
+
 $$
 1 + 1 = 2
 $$
-(空行)
+
 - 无序列表项 1
 - 无序列表项 2
 - 无序列表项 3
-(空行)
+
 1. 有序列表项 1
 2. 有序列表项 2
 3. 有序列表项 3
-(空行)
+
 | A | B | C |
 | --- | --- | --- |
 | 1 | 2 | 3 |
 | 4 | 5 | 6 |
 | 7 | 8 | 9 |
-(空行)
+
 <!--
 这是多行注释第一行
 这是多行注释第二行
 -->
-(空行)
+
 ````
 
 Markdown 文档的后缀为 `.md` . 此类文件的编辑, 我们一般使用特殊地编辑器, 如 "所见即所得" 的 `Typora` , `Obsidian` ; 当然, 如果你喜欢同时查看源文本与预览效果, 你可以选择万能的 `VS Code` 及其插件. 
@@ -77,44 +79,39 @@ LaTeX 基于 TeX（Donald Knuth 在 1978 年为数字化排版设计的排版系
 
 一个 LaTeX 文档是一个以 `.tex` 结尾的文本文件，可以使用任意的文本编辑器编辑，当然, 本文不会介绍如何编辑 LaTeX 文档, 因为本项目主要使用其数学模式的公式功能．正如前文所述, 我们使用 `$` 与 `$$` 来包裹 `LaTeX` 数学公式, 启用数学模式. 
 
-
-
-
-
-
----- 今天写到这
-
-
-
-
-
-
 如果是生成带标号的公式，可以使用 `\begin{equation}...\end{equation}`．例如：
 
-```tex
+```latex
 \begin{equation}
-  1+2=3
+1 + 1 = 2
 \end{equation}
 ```
 
 生成的效果为：
 
-![equation](images/latex-equation.svg)
+$$
+\begin{equation}
+1 + 1 = 2
+\end{equation}
+$$
 
-数字 6 代表的是章节的编号，仅当你的文档有设置章节时才会出现，比如 **report** 类型的文档．
-
-使用 `\begin{eqnarray}...\end{eqnarray}` 来撰写一组带标号的公式．例如：
+使用 `\begin{align}...\end{align}` 来撰写多行公式．例如：
 
 ```tex
-\begin{eqnarray}
-  a & = & b + c \\
-  & = & y - z
-\end{eqnarray}
+\begin{align}
+  a & = b + c \\
+    & = y - z
+\end{align}
 ```
 
 生成的效果为
 
-![eqnarray](images/latex-eqnarray.svg)
+$$
+\begin{eqnarray}
+  a & = b + c \\
+    & = y - z
+\end{eqnarray}
+$$
 
 要撰写不标号的公式就在环境标志的后面添加 `*` 字符，如 `{equation*}`，`{eqnarray*}`．
 
@@ -129,13 +126,37 @@ LaTeX 基于 TeX（Donald Knuth 在 1978 年为数字化排版设计的排版系
 
     详见[更多阅读](#更多阅读) 中第一篇资料的「4.4 多行公式」．
 
-### 常用数学符号
+#### 常用数学符号
 
 尽管一些基础的符号可以直接键入，但大多数特殊符号需要使用命令来显示．
 
 本书只是数学符号使用的入门教程，LaTeX Wikibook 的数学符号章节是另一个更好更完整的教程．如果想要了解更多关于数学符号的内容请移步．如果你想找到一个特定的符号，可以使用 [Detexfiy](http://detexify.kirelabs.org)，它可以识别手写字符．当然, 也可查阅 [数学符号表](https://edu-wiki.pages.dev/home/contrib/symbols/) 来获取更多符号的命令．
 
-#### 上标和下标
+在写作中, 难免会需要输入一些不熟悉的数学符号. 这时, 询问 AI 来获取符号的命令是可取的. 当然, 使用上述两个工具也可以获取符号的命令．以下介绍最基础的数学符号的命令．
+
+##### 调整间距与换行
+
+我们可以键入空格或使用 `\, , \; , \quad, \qquad` 等命令来调整间距, 间距大小递增. 多个空格连续使用时, 仅识别为一个空格, 但其余命令可以叠加．你可以自行尝试不同的命令以找到合适的间距. 
+
+在 LaTeX 环境下, 我们使用 `\\` 来换行. 同时, 由于 LaTeX 行间公式默认居中, 故对于不同行的对齐, 考虑使用 `$`. 例如:
+
+```latex
+\begin{align}
+  原式 & = 1 + 1 \\
+    & = 2
+\end{align}
+```
+
+效果为:
+
+$$
+\begin{align}
+  原式 & = 1 + 1 \\
+    & = 2
+\end{align}
+$$
+
+##### 上标和下标
 
 上标（Powers）使用 `^` 来表示，比如 `$n^2$` 生成的效果为 $n^2$．
 
@@ -143,9 +164,9 @@ LaTeX 基于 TeX（Donald Knuth 在 1978 年为数字化排版设计的排版系
 
 如果上标或下标的内容包含多个字符，请使用花括号包裹起来．比如 `$b_{a-2}$` 的效果为 $b_{a-2}$．
 
-#### 分数
+##### 分数
 
-分数使用 `\frac{numerator}{denominator}` 命令插入．比如 `$$\frac{a}{3}$$` 的生成效果为
+分数使用 `\frac{分子}{分母}` 命令插入．比如 `$$\frac{a}{3}$$` 的生成效果为
 
 $$
 \frac{a}{3}
@@ -157,52 +178,61 @@ $$
 \frac{y}{\frac{3}{x}+b}
 $$
 
-#### 根号
+##### 根号
 
 我们使用 `\sqrt{...}` 命令插入根号．省略号的内容由被开根的内容替代．如果需要添加开根的次数，使用方括号括起来即可．
 
-例如 `$$\sqrt{y^2}$$` 的生成效果为
+例如 `$$\sqrt{n^2}$$` 的生成效果为
 
 $$
-\sqrt{y^2}
+\sqrt{n^2}
 $$
 
-而 `$$\sqrt[x]{y^2}$$` 的生成效果为
+而 `$$\sqrt[3]{n^2}$$` 的生成效果为
 
 $$
-\sqrt[x]{y^2}
+\sqrt[3]{n^2}
 $$
 
-#### 求和与积分
+##### 运算符
 
-使用 `\sum` 和 `\int` 来插入求和式与积分式．对于两种符号，上限使用 `^` 来表示，而下限使用 `_` 表示．
+对于键盘可键入的运算符，直接键入即可．需要注意的是, 一些特殊符号, 如 `%`, `&`, `^`, `_` 等, 需要使用反斜杠来转义, 才能正常显示．例如 `1 + [0 + (1 - 1)] = 1, 0.1\% > 0` . 对于部分运算符, 我们需要通过命令来表示, 如 `\times` 或 `\cdot` , `\div`, `\pm`, `\mp` , `\approx` , `\ne` , `\ge` , `\le` , `\dots` , `\bmod` , `\pmod` (请注意不要使用已弃用的 `\mod` ), `\log` , `\lim` , `\sin` , `\to` , `\in` , `\max` , `\min` 等, 分别显示为 $\times, \cdot, \div, \pm, \mp, \approx, \ne, \ge, \le, \dots, \bmod, \pmod, \log, \lim, \sin, \to, \in, \max, \min$ ．
 
-`$$\sum_{x=1}^5 y^z$$` 的生成效果为
+使用 `\sum` 和 `\prod` 来插入求和式与求积式．对于两种符号，上限使用 `^` 来表示，而下限使用 `_` 表示．
 
-$$
-\sum_{x=1}^5y^z
-$$
-
-而 `$$\int_a^b f(x)$$` 的生成效果为
+`$$\sum_{i = 1}^n 2^i$$` 的生成效果为
 
 $$
-\int_a^b f(x)
+\sum_{i = 1}^n 2^i
 $$
 
-#### 希腊字母
+而 `$$\prod_{i = 1}^n 2^i$$` 的生成效果为
 
-我们可以使用反斜杠加希腊字母的名称来表示一个希腊字母．名称的首字母的大小写决定希腊字母的形态．例如
+$$
+\prod_{i = 1}^n 2^i
+$$
 
-- `$\alpha$`=$\alpha$
-- `$\beta$`=$\beta$
+##### 希腊字母
+
+我们可以使用反斜杠加希腊字母的名称来表示一个希腊字母．名称的首字母的大小写决定希腊字母的大小写．例如: 
+
+- `$\alpha, \Alpha$`=$\alpha, \Alpha$
+- `$\beta, \Beta$`=$\beta, \Beta$
 - `$\delta, \Delta$`=$\delta, \Delta$
 - `$\pi, \Pi$`=$\pi, \Pi$
 - `$\sigma, \Sigma$`=$\sigma, \Sigma$
 - `$\phi, \Phi, \varphi$`=$\phi, \Phi, \varphi$
-- `$\psi, \Psi$`=$\psi, \Psi$
+- `$\theta, \Theta$`=$\theta, \Theta$
 - `$\omega, \Omega$`=$\omega, \Omega$
+- `$\mu, \Mu$`=$\mu, \Mu$
+- `$\nu, \Nu$`=$\nu, \Nu$
+- `$\epsilon, \Epsilon$`=$\epsilon, \Epsilon$
 
-## 太长不看版
+## 格式手册
+
+在格式方面, **EDU Wiki** 与 **OI Wiki** 基本保持一致. 下文节选自 **OI Wiki** 的 [格式手册](https://oi-wiki.org//intro/format/) , 有部分修改.
+
+### 太长不看版
 
 为方便初次阅读本文档的用户，本节列举该手册中的若干重点事项：
 
@@ -221,7 +251,7 @@ $$
   - 注意区分连接号（hyphen、en dash、em dash）．详见 [PUNC-8](#PUNC-8)．
 - Markdown 语法与主题扩展语法：
 
-  - 只应使用二级、三级、四级标题．不要使用标题替代加粗．不要在标题写 LaTeX 公式．详见 [LINT-1](#LINT-1)、[MDFM-1](#MDFM-1)、[CONT-4](#CONT-4)、[CONT-9](#CONT-9)．
+  - 不要使用标题替代加粗．不要在标题写 LaTeX 公式．详见 [LINT-1](#LINT-1)、[MDFM-1](#MDFM-1)、[CONT-4](#CONT-4)、[CONT-9](#CONT-9)．
   - 使用折叠框[^note3]语法和选项卡[^note6]语法时，须保持内部缩进一致，**对空行也是如此**．**不要漏掉** 空行的空格缩进．详见 [LINT-6](#LINT-6)、[MDFM-6](#MDFM-6)．
   - 不要使用删除线 `~~foo~~` 语法．详见 [LINT-3](#LINT-3)．
   - 行间公式应写作
@@ -240,20 +270,15 @@ $$
   - 不应与 [数学符号表](./symbols.md) 相冲突．详见 [MATH-1.1](#MATH-1.1)．
   - 注意字体的使用，详见 [MATH-1.2](#MATH-1.2)、[MATH-1.15](#MATH-1.15)、[MATH-2.6](#MATH-2.6)、[MATH-2.7](#MATH-2.7)．
   - 不要滥用 LaTeX 公式．详见 [MATH-1.14](#MATH-1.14)．
-  - 不要 LaTeX 公式里使用程序设计语言的表示方式．（如：不要使用 $a==b$、$a<<1$、$a\%b$．）不要使用中括号连缀（$a[i][j]$）．详见 [MATH-1.9](#MATH-1.9)、[MATH-1.10](#MATH-1.10)．
-- 代码：
 
-  - 尽可能简洁易懂，避免压行等不良习惯．尽可能保证可读性，突出算法思想．详见 [CONT-10](#CONT-10)．
-  - 不推荐直接把代码插入 Markdown 文档中．详见 [CODE-1.1](#CODE-1.1)、[CODE-1.2](#CODE-1.2)．
-
-## 对本文档的格式要求
+### 对本文档的格式要求
 
 - <a id="FREQ-1"></a>FREQ-1：修订格式手册的条目时需同时补充 Changelog．若只是修正格式，则无需补充 Changelog．
 - <a id="FREQ-2"></a>FREQ-2：除 [太长不看版](#太长不看版) 一节外，格式手册的条目都需要有不重复的编号，编号需要匹配正则表达式 `(?<category>[A-Z]{4})-(?<id>[1-9][0-9]*(?:\.[1-9][0-9]*)*)`，其中 `category` 应具有直观的含义．说明文字不需要有编号．
 - <a id="FREQ-3"></a>FREQ-3：[太长不看版](#太长不看版) 的条目必须来自格式手册其他章节的内容，且需在末尾引用对应的条目编号．
 - <a id="FREQ-4"></a>FREQ-4：条目的编号一旦确定就不应更改．如果确需更改（如删除、合并条目），则应用类似「已废止」、「迁移至 XXXX-id」的文字注明．
 
-## 贡献文档要求
+### 贡献文档要求
 
 当你打算贡献某部分的内容时，你应该尽量熟悉以下三部分：
 
@@ -261,7 +286,7 @@ $$
 - 文档的合理性
 - remark-lint 和 $\rm{\LaTeX}$ 公式的格式要求
 
-### 文档引用与存储的格式
+#### 文档引用与存储的格式
 
 - <a id="SAVE-1"></a>SAVE-1：**文件名请务必都小写，以 `-` 分割．** 例如：`file-name.md`．
 - <a id="SAVE-2"></a>SAVE-2：请务必确保文档中引用的 **外链** 图片已经全部转存到了 **本库内** 对应的 `images` 文件夹中（防止触发某些网站的防盗链），建议处理成 `MD 文档名称 + 编号` 的形式（可参考已有文档中图片的处理方式）．例如：本篇文档的文件名称为 format，则文档中引用的第一张图片的名字为 `format1.png`．
@@ -271,7 +296,7 @@ $$
 - <a id="SAVE-6"></a>SAVE-6：请确保您的文档中的引用链接的稳定性．**不推荐** 引用 **自建** 服务中的资源（如自建 OJ 里的题目）．建议在添加时同时将该外链存于互联网档案馆[^webarchive]，以防无法替代的链接失效．
 - <a id="SAVE-7"></a>SAVE-7：站内链接请去掉网站域名，并且使用相对路径链接对应 `.md` 文件．例如，在本页面（`intro/format`）中链接杂项简介（`misc`），应使用 `[杂项简介](../misc/index.md)`．可以在链接中添加 hash 来链接到某一节，例如 [`[Pull Request 信息格式规范](./contrib.md#pull-request-信息格式规范)`](./contrib.md#pull-request-信息格式规范)，hash 的值可以通过位于每个标题右侧的按钮或者位于网页右侧的目录中的链接得到．
 
-### 文档的合理性
+#### 文档的合理性
 
 **合理性**，指所编写的 **内容** 必须具有如下的特性：
 
@@ -294,9 +319,9 @@ $$
 
 除现有内容质量较低的情况外，建议尽量从 **补充** 的角度来做贡献，而非采取直接覆盖的方式．如果拿不准主意，可以参考 [关于本项目的交流方式](./discuss.md) 一节，与 **OI Wiki** 项目组联系．
 
-### 文档的基本格式要求
+#### 文档的基本格式要求
 
-#### Remark-lint 的格式要求
+##### Remark-lint 的格式要求
 
 [remark-lint](https://github.com/remarkjs/remark-lint) 可以自动给项目内文件统一风格．**OI Wiki** 现在启用的配置文件托管在 [.remarkrc](https://github.com/OI-wiki/OI-wiki/blob/master/.remarkrc)．
 
@@ -327,7 +352,7 @@ $$
   这个 `???` 是什么的问题会在 [下文](#MDFM-5) 解答．
 - <a id="LINT-7"></a>LINT-7：代码样式的纯文本块请使用 ` ```text`．直接使用 ` ``` ` 而不指定纯文本块里的语言，可能会导致内容被错误地缩进．
 
-#### 标点符号的使用
+##### 标点符号的使用
 
 - <a id="PUNC-1"></a>PUNC-1：请在每句话的末尾添加 **句号**．
 
@@ -364,7 +389,7 @@ $$
   6.  回到第三步，直到队列为空．
   -   KMP 算法（Knuth–Morris–Pratt algorithm, KMP algorithm）由 Knuth、Pratt 和 Morris 在 1977 年共同发布．[^note2]
 
-#### Markdown 格式与主题扩展格式要求
+##### Markdown 格式与主题扩展格式要求
 
 - <a id="MDFM-1"></a>MDFM-1：表示强调时请使用 `**SOMETHING**` 和 `「」`，而非某级标题，因为使用标题会导致文章结构层次混乱和（或）目录出现问题．
 - <a id="MDFM-2"></a>MDFM-2：当需要引用题目链接时，应尽可能使用原 OJ 题库中的链接而不是镜像链接．
@@ -391,7 +416,7 @@ $$
 
   2020年1月21日，CCF宣布恢复NOIP．[^ref2]
 
-  ## 参考资料与注释
+##### 参考资料与注释
 
   [^ref1]: [cstdio stdio.h namespace](https://stackoverflow.com/questions/10460250/cstdio-stdio-h-namespace)
 
@@ -470,7 +495,7 @@ $$
 
 如果对 mkdocs-material（我们使用的这个主题）还有什么问题，还可以查阅 [MkDocs 使用说明](https://github.com/ctf-wiki/ctf-wiki/wiki/Mkdocs-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)，其介绍了 mkdocs-material 主题的插件使用方式．
 
-#### 文本内容的格式要求
+##### 文本内容的格式要求
 
 - <a id="CONT-1"></a>CONT-1：所有的 **OI Wiki** 文本都应使用粗体标记．
 - <a id="CONT-2"></a>CONT-2：在页面的开头应有一段简短的文字（如「本页面将介绍……」），用于概述页面内容．
@@ -512,38 +537,8 @@ $$
   - 数列的第一项．
   - 输入文件的第一行．
 - <a id="CONT-9"></a>CONT-9：请尽量避免在标题中使用 MathJax 公式，无论是几级标题．在标题中使用公式有可能会导致目录显示错误．[^ref3]
-- <a id="CONT-10"></a>CONT-10：请注意代码的可读性．
 
-  - <a id="CONT-10.1.1"></a>CONT-10.1.1：代码应拥有清晰的逻辑，尽可能简洁易懂．不要过度压行，不要引入过多无关代码．尽量避免与算法思想无关的内容．
-  - <a id="CONT-10.1.2"></a>CONT-10.1.2：建议在参考代码中添加适当注释以方便读者理解．
-
-  对 C/C++ 类语言：
-
-  - <a id="CONT-10.2.1"></a>CONT-10.2.1：尽量避免出现影响阅读的预编译指令和宏定义．
-  - <a id="CONT-10.2.2"></a>CONT-10.2.2：不要用 `0` 代替 `false`/`NULL`/`nullptr` 等，不要用 `1` 代替 `true` 等．
-  - <a id="CONT-10.2.3"></a>CONT-10.2.3：在声明 [类型别名](https://en.cppreference.com/w/cpp/language/type_alias) 时，不推荐使用 `typedef`，推荐使用 `using`．
-  - <a id="CONT-10.2.4"></a>CONT-10.2.4：不推荐用宏定义定义常量，推荐直接使用 `constexpr`/`const` 等关键字定义常量．
-  - <a id="CONT-10.2.5"></a>CONT-10.2.5：不推荐对函数使用 `inline` 关键字，详见 [编译优化](../lang/optimizations.md#inline---内联)．
-  - <a id="CONT-10.2.6"></a>CONT-10.2.6：尽量避免类型萃取、偏特化等复杂的模板元编程技巧．如确需使用，则需添加注释解释含义．
-
-    ???+ failure "不推荐的写法"
-    ``cpp --8<-- "docs/intro/code/format/format_1.cpp:not-recommended" ``
-
-    该代码给出了一个求 [最大公约数](../math/number-theory/gcd.md) 的复杂实现，其中：
-
-    -   第一个 `gcd` 接受两个无符号整数 `x`，`y`，返回 `x`，`y` 的最大公约数，返回值类型的范围保证能同时包含 `x` 和 `y`．
-    -   第二个 `gcd` 接受两个整数 `x`，`y`，其中 `x`，`y` 至少有一个是有符号整数，返回 `x`，`y` 的最大公约数．
-    -   第三个 `gcd` 接受超过两个整数，返回这些整数的最大公约数．
-    -   第四个 `gcd` 接受一个容器，返回容器中所有数的最大公约数．
-
-    对 **OI Wiki** 来说，我们只关注最大公约数这个算法的思想，这份代码涵盖了过多无关且复杂的技术细节，是需要避免的．
-
-    ???+ success "推荐的写法"
-    ``cpp --8<-- "docs/intro/code/format/format_1.cpp:recommended" ``
-
-    诸如「添加类型检查」、「处理负数输入」、「让函数支持多参数」等更多是工程上关注的话题，我们的重点始终应该是算法的思想．
-
-#### LaTeX 公式的格式要求
+##### LaTeX 公式的格式要求
 
 LaTeX 作为公式排版的首选，我们应当正确地使用它．因此对于 LaTeX 的使用我们有严格的要求．如果您想要快速上手，可以阅读本章节末给出的表格．
 
@@ -554,7 +549,7 @@ LaTeX 作为公式排版的首选，我们应当正确地使用它．因此对�
   \log, \ln, \lg, \sin, \cos, \tan, \sec, \csc, \cot, \gcd, \min, \max, \exp, \inf, \mod, \bmod, \pmod
   ```
 
-  所以在输入常量、函数名、运算符等时，请先检查一下是否应该使用 Roman 体或其它字体．LaTeX 符号的书写可参考 [KaTeX 的 Supported Functions 页面](https://katex.org/docs/supported.html)（不是全部），也可以搜索求解．
+  所以在输入常量、函数名、运算符等时，请先检查一下是否应该使用 Roman 体或其它字体．LaTeX 符号的书写可参考 [KaTeX 的 Supported Functions 页面](https://katex.org/docs/supported.html)（不是全部），也可以搜索求解, 或询问 AI 工具．
 
   由于 LaTeX 书写 Roman 体小写希腊字母较为困难，故小写希腊字母常量、算子和函数可以使用 Italic 体，如 $\pi$ 以及 $\delta x$ 中的 $\delta$.
 
@@ -612,11 +607,11 @@ LaTeX 作为公式排版的首选，我们应当正确地使用它．因此对�
 | `$\emptyset$`                        | $\emptyset$          | `$\varnothing$`                          | $\varnothing$                                |
 | `$size$`                             | $size$               | `$\textit{size}$`                        | $\textit{size}$                              |
 
-#### 对数学公式的附加格式要求
+##### 对数学公式的附加格式要求
 
 请注意，尽管上述输入公式的语法和真正的 LaTeX 排版系统非常相似，但 **MathJax 和 LaTeX 是两个完全没有关系的东西**，MathJax 仅仅使用了一部分与 LaTeX 非常相似的语法而已．实际上，二者之间有不少细节差别，而这些差别经常导致写出来的公式在二者之间不通用．
 
-由于 **OI Wiki** 使用 LaTeX 排版引擎开发了 PDF 导出工具，因此有必要强调公式在 MathJax 和 LaTeX 之间的兼容性．**请各位在 Wiki 中书写数学公式时注意以下几点．**
+考虑到 MathJax 和 LaTeX 之间的兼容性, **请各位在 Wiki 中书写数学公式时注意以下几点．**
 
 这些规则已经向 MathJax 做了尽可能多的妥协．导出工具兼容了一部分原本仅能在 MathJax 中正常输出的写法．
 
@@ -638,151 +633,8 @@ LaTeX 作为公式排版的首选，我们应当正确地使用它．因此对�
   $$
   ```
 
-#### 伪代码格式
 
-伪代码具体格式没有严格要求，请参考算法导论或学术论文．注意不要写成 Python．
-
-<a id="PCOD-1"></a>PCOD-1：Wiki 内使用 LaTeX 书写伪代码，整体处于 array 环境中，缩进使用 `$\qquad$`，文字描述使用 `$\text$`，关键字使用 `$\textbf$`，多字母变量使用 `$\textit$`，赋值使用 `$\gets$`．
-
-参考示例：
-
-$$
-\begin{array}{l}
-\textbf{Input. } \text{The edges of the graph } e , \text{ where each element in } e \text{ is } (u, v, w) \\
-\text{ denoting that there is an edge between } u \text{ and } v \text{ weighted } w . \\
-\textbf{Output. } \text{The edges of the MST of the input graph}. \\
-\textbf{Method. } \\
-\begin{array}{ll} 
-1 &  \textit{result} \gets \varnothing \\
-2 &  \text{sort } e \text{ into nondecreasing order by weight } w \\ 
-3 &  \textbf{for} \text{ each } (u, v, w) \text{ in the sorted } e \\ 
-4 &  \qquad \textbf{if } u \text{ and } v \text{ are not connected in the union-find set } \\
-5 &  \qquad\qquad \text{connect } u \text{ and } v \text{ in the union-find set} \\
-6 &  \qquad\qquad \textit{result} \gets \textit{result}\;\bigcup\ \{(u, v, w)\} \\
-7 &  \textbf{return } \textit{result}
-\end{array}
-\end{array}
-$$
-
-```latex
-$$
-\begin{array}{l}
-\textbf{Input. } \text{The edges of the graph } e , \text{ where each element in } e \text{ is } (u, v, w) \\
-\text{ denoting that there is an edge between } u \text{ and } v \text{ weighted } w . \\
-\textbf{Output. } \text{The edges of the MST of the input graph}. \\
-\textbf{Method. } \\
-\begin{array}{ll} 
-1 &  \textit{result} \gets \varnothing \\
-2 &  \text{sort } e \text{ into nondecreasing order by weight } w \\ 
-3 &  \textbf{for} \text{ each } (u, v, w) \text{ in the sorted } e \\ 
-4 &  \qquad \textbf{if } u \text{ and } v \text{ are not connected in the union-find set } \\
-5 &  \qquad\qquad \text{connect } u \text{ and } v \text{ in the union-find set} \\
-6 &  \qquad\qquad \textit{result} \gets \textit{result}\;\bigcup\ \{(u, v, w)\} \\
-7 &  \textbf{return } \textit{result}
-\end{array}
-\end{array}
-$$
-```
-
-#### 代码块的格式要求
-
-代码块目前分为两种：片段和例题．
-
-关于片段代码：
-
-- <a id="CODE-1.1"></a>CODE-1.1：若代码片段足够短且没有必要测试，可以直接在 Markdown 文档中修改．
-- <a id="CODE-1.2"></a>CODE-1.2：由于 Markdown 文档中内嵌的代码难以实现自动化测试，所以推荐使用例题代码的格式插入片段代码．可以选择 [多文件编译方案](https://github.com/OI-wiki/OI-wiki/pull/5729) 或 [Snippet Sections](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippet-sections) 语法：
-
-  多文件编译方案示例：[冒泡排序](https://github.com/OI-wiki/OI-wiki/blob/c35defebff6cea072d6cfeb359642f6fd84e66c7/docs/basic/bubble-sort.md?plain=1#L48)．正文引用 [bubble-sort\_1.cpp](https://github.com/OI-wiki/OI-wiki/blob/c35defebff6cea072d6cfeb359642f6fd84e66c7/docs/basic/code/bubble-sort/bubble-sort_1.cpp)，测试代码放在 [bubble-sort\_1.aux1.cpp](https://github.com/OI-wiki/OI-wiki/blob/c35defebff6cea072d6cfeb359642f6fd84e66c7/docs/basic/code/bubble-sort/bubble-sort_1.aux1.cpp) 中．
-
-  Snippet Sections 示例：[前缀和](https://github.com/OI-wiki/OI-wiki/blob/c7cf6d6de13b44757f1d0528e952349beb921f8a/docs/basic/prefix-sum.md?plain=1#L37)．正文中不需要引用 [prefix-sum\_1.cpp](https://github.com/OI-wiki/OI-wiki/blob/c7cf6d6de13b44757f1d0528e952349beb921f8a/docs/basic/code/prefix-sum/prefix-sum_1.cpp) 中的测试部分，所以选择插入主要的代码片段．
-
-  **注意**：不要使用 [Snippet Lines](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/#snippet-lines) 语法．
-
-  为了提高代码复用率，您也可以将代码拆分成头文件，测试时在不同的测试代码里引用．如果正文中需要出现完整的测试代码作为例题的参考实现，那么正文中应该另外用 Snippet Sections 语法拼接成单文件代码，以便读者阅读．示例：[红黑树](https://github.com/OI-wiki/OI-wiki/blob/3b721e22ea60d59a2687a9b10555263de7bdc2f0/docs/ds/rbtree.md?plain=1#L218-L231)．
-
-关于例题代码：
-
-- <a id="CODE-2.1"></a>CODE-2.1：例题代码的表示形式为 `--8<-- "path"`，代码均存储在 `path` 中．路径通常为 `docs/主题/code/内容/内容_编号.cpp`．
-- <a id="CODE-2.2"></a>CODE-2.2：修改例题代码时，请保证你的代码是正确的．例题代码均拥有一组测试数据，存储在 `/docs/主题/examples/内容/内容_编号.in/ans` 中．
-
-如果你需要添加例题：
-
-- 请在 `docs/主题/code/内容` 中添加你的例题代码，并编号．通常，该 `内容` 文件夹中已经有了一个或者多个代码．例子：如果需要修改 `dag.md` 的代码，那么路径为 `docs/dp/code/dag`，其中 `dp` 为主题，而 `dag` 为内容．
-- 如果需要在所有例题的最后添加一个例题代码，请顺延目前的编号．比如已经存在了 `code/prefix-sum/prefix-sum_3.cpp`，如果需要在最后一个例题后继续添加一个例题，请将你的代码命名为 `prefix-sum_4.cpp` 并添加到 `docs/basic/code/prefix-sum` 中．
-- 如果需要在文章中间添加一个例题代码，请插入并改变原先的编号．比如已经存在了 `prefix-sum_2.cpp` 和 `prefix-sum_3.cpp`，如果你需要在第二个例题和第三个例题中间再添加一个例题，请将你的代码命名为 `prefix-sum_3.cpp` 并将原先的 `prefix-sum_3.cpp` 改名为 `prefix-sum_4.cpp` 同时 **在 Markdown 文档和测试数据存放的文件夹中同步修改编号**．
-- **别忘记，你还要对你的代码添加一组测试数据，以保证这个代码是可以成功运行的．** 你需要在 `docs/主题/examples/内容` 文件夹中添加一组测试数据，将输入数据存储为 `内容_编号.in`，将标准答案存储为 `内容_编号.ans`．
-- 最后，可以将代码添加到文档中了．请直接在文档中用添加代码块的格式，并将代码块内部直接写成 `--8<-- "你的代码路径"` 的格式就可以了．
-
-**OI Wiki** 会对例题代码进行全平台测试，为保证您的代码能够顺利通过测试，请遵守如下规则：
-
-- <a id="CODE-3.1"></a>CODE-3.1：您的代码需要同时支持在 C++14、C++17、C++20 标准下编译和运行．
-- <a id="CODE-3.2"></a>CODE-3.2：不要使用 `<bits/stdc++.h>`、`<bits/extc++.h>` 等非标准头文件．
-- <a id="CODE-3.3"></a>CODE-3.3：标准答案文件不要有多余空格．
-- <a id="CODE-3.4"></a>CODE-3.4：不要使用 [代用记号](https://en.cppreference.com/w/cpp/language/operator_alternative#Alternative_tokens)．
-- <a id="CODE-3.5"></a>CODE-3.5：使用 [聚合初始化](https://en.cppreference.com/w/cpp/language/aggregate_initialization) 时，`object{args}` 不可写成 `(object){args}`．
-- <a id="CODE-3.6"></a>CODE-3.6：使用 [运算符重载](https://en.cppreference.com/w/cpp/language/operators) 时注意格式，如重载比较运算符时，若使用成员函数写法，则不可省略 `const` 限定符．
-- <a id="CODE-3.7"></a>CODE-3.7：不要使用类似 `#define int long long` 的宏定义．
-- <a id="CODE-3.8"></a>CODE-3.8：若您需要使用 C 风格的 [有格式输入/输出](https://en.cppreference.com/w/cpp/io/c#Formatted_input.2Foutput)，请特别留意格式指示符的写法：如 `size_t` 对应 `%zu`，`ptrdiff_t` 对应 `%td`．例如输出某 STL 容器的大小时，代码应类似 `printf("%zu", container.size());`．
-- <a id="CODE-3.9"></a>CODE-3.9：由于当前测试环境 libstdc++ 的 `<chrono>` 库有 [BUG](https://github.com/actions/runner-images/issues/8659)，所以请避免使用 `<chrono>` 库．
-- <a id="CODE-3.10"></a>CODE-3.10：由于 `long` 与 `unsigned long` 在某些测试环境下为 32 位，而在另一些测试环境下为 64 位，为确保各平台代码行为一致，故不推荐使用这两种类型．推荐使用 [定宽整数类型](../lang/var.md#定宽整数类型)．
-- <a id="CODE-3.11"></a>CODE-3.11：不建议使用 `__gcd`、`__int128`、`__builtin_` 系列函数等非标准内容．如果您需要使用，则需确保您的代码能通过全平台测试，如 [此代码](https://github.com/OI-wiki/OI-wiki/blob/4af83d6db6017f4c36db6d4a7583bbc3f6257484/docs/ds/code/tree-decompose/tree-decompose_1.cpp#L24-L47) 提供了 libstdc++ 中 [std::bitset](../lang/csl/bitset.md) 特有成员函数 `_Find_first()` 的全平台实现．
-
-此外，为了提高代码的可读性，建议遵守 [CONT-10](#CONT-10)．
-
-## 图解
-
-可能上述要求把握起来有些困难，接下来我们给出一些图片来具体分析哪种格式应该使用，哪种不该使用：
-
-### 例 1
-
-![](./images/format-1.png)
-
-将复杂的 LaTeX 公式使用行间格式，可以使得页面错落有致．但 **OI Wiki** 作为一个以中文为主体的站点，我们希望大部分纲领性的信息（如标题）尽量使用中文（除英文专有名词）．
-
-### 例 2
-
-![](./images/format-2.png)
-
-较复杂度的 LaTeX 公式请注意等号的对齐，同时可以适当引用 Wiki 的页面 **链接** 来完善内容．
-
-### 例 3
-
-![](./images/format-3.png)
-
-一般情况下，我们建议将引用的资料列在文末的 `##参考资料与注释` 一节，并在原句后面加上脚注，而不是直接给出链接．同时一定要避免使用 LaTeX 公式表达代码，上图中两个中括号就是不规范的写法．我们建议使用 `dp(i,j)` 或者 `dp_{i,j}`．
-
-### 例 4
-
-![](./images/format-4.png)
-
-注意我们描述 **乘法** 的时候一般使用 `\times` 或者 `\cdot`，特殊情况（如卷积）下会使用 `*`（也可以写成 `\ast`）．标题是简洁的词组，但我们不希望正文部分由词组拼凑而成．上图中「两个要素」，建议更改为「动态规划的原理具有以下两个要素」，上下文保持连贯．可取的地方是，适当使用 **有序** 列表可以更有条理地表述内容．再次提醒，在使用列表的时候，每一项如果是一句话，需要在末位添加 **标点符号**．有序列表通常添加分号，在最后一项末位添加句号；无序列表统一添加句号．
-
-### 例 5
-
-![](./images/format-5.png)
-
-适当引用 **图片** 可以增强文章易读性．使用 **伪代码** 的方式表达算法过程可以方便又简洁地描述算法过程，相比于直接贴模板代码更加好懂．
-
-### 例 6
-
-![](./images/format-6.png)
-
-同样的问题，标题使用英文．并且在使用完括号后没有句号．另外，上图中的行间公式虽然没有使用括号，但是由于下标嵌套过多，使得最底层的下标字体很小，整个公式也并不美观．建议将 `son_{now,i}` 更换为 `son(now,i)`，或者把 `f_{now}` 替换为 `f(now)`．我们希望尽量控制上下标嵌套在两层以内（需要多次嵌套上标时建议使用 Knuth 箭头，如用 $2 \uparrow (2 \uparrow (2 \uparrow (2 \uparrow \cdots)))$ 代替 $2^{2^{2^{2^{\cdots}}}}$，《上帝造题的七分钟》）．
-
-### 例 7
-
-![](./images/format-7.png)
-
-使用 MkDocs 扩展语法，让例题题面与算法描述区分开．将代码折叠，可以让文章更紧凑．（毕竟看 Wiki 的大多数是了解思路，除了模板代码需要阅读外，习题的代码大多可以折叠．）在描述函数操作时，使用行内代码和 LaTeX 公式都是不错的选择．
-
-### 例 8
-
-![](./images/format-8.png)
-
-在文末罗列出参考文献，可以使页面的内容更严谨，真实可信．
-
-## 外部链接
+### 外部链接
 
 - [标点符号用法（GB/T 15834—2011）](http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/201001/W020190128580990138234.pdf)
 - [维基百科：格式手册/标点符号](https://zh.wikipedia.org/wiki/Wikipedia:%E6%A0%BC%E5%BC%8F%E6%89%8B%E5%86%8C/%E6%A0%87%E7%82%B9%E7%AC%A6%E5%8F%B7)
@@ -791,7 +643,7 @@ $$
 - [一份（不太）简短的 LATEX2ε 介绍或 106 分钟了解 LATEX2ε](https://github.com/CTeX-org/lshort-zh-cn/releases)
 - [中文出版物夹用英文的编辑规范](https://www.nppa.gov.cn/xxgk/fdzdgknr/hybz/202210/t20221004_445147.html)
 
-## 参考资料与注释
+### 参考资料与注释
 
 [^ref2]: [CCF关于恢复NOIP竞赛的公告-中国计算机学会](https://www.ccf.org.cn/c/2020-01-21/694716.shtml)
     
