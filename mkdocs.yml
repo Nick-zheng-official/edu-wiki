@@ -58,6 +58,7 @@ nav:
       - FAQ: home/faq.md
   - 语文:
       - 语文简介: chinese/intro.md
+      - 作文: chinese/composition.md
   - 数学:
       - 数学简介: math/intro.md
       - 初高衔接:
