@@ -84,7 +84,6 @@ body {
 }
 
 [data-md-color-scheme="slate"] .md-typeset img {
-  background: white;
   filter: brightness(0.9);
 }
 

@@ -1,6 +1,6 @@
 # EDU Wiki
 
-![](./static/img/logo.png)
+![](./docs/static/img/logo.png){ width=128px }
 
 欢迎来到 EDU Wiki！
 
