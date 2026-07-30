@@ -1,18 +1,14 @@
 <div align="center">
-
-<a href="https://edu-wiki.pages.dev" target="_blank"><img src="https://edu-wiki.pages.dev/static/img/logo.png" width="128" height="128"></a>
+  <a href="https://edu-wiki.pages.dev" target="_blank"><img src="https://edu-wiki.pages.dev/static/img/logo.png" width="128" height="128"></a>
+</div>
 
 # EDU Wiki
 
 欢迎来到 EDU Wiki！
 
-<p align="center">
-  <a href="https://github.com/Nick-zheng-official/edu-wiki/stargazers"><img src="https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white" alt="Stars"></a>
-  <a href="https://edu-wiki.pages.dev/"><img src="https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site" alt="Site"></a>
-  <a href="https://qm.qq.com/q/2181927847"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-2181927847-blue?style=for-the-badge&logo=tencent-qq&logoColor=white" alt="QQ群"></a>
-</p>
-
-</div>
+[![Stars](https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white)](https://github.com/Nick-zheng-official/edu-wiki/stargazers)
+[![Site](https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site)](https://edu-wiki.pages.dev/)
+[![QQ](https://img.shields.io/badge/QQ%E7%BE%A4-2181927847-blue?style=for-the-badge&logo=tencent-qq&logoColor=white)](https://qm.qq.com/q/2181927847)
 
 ## 关于我们
 
