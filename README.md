@@ -1,13 +1,13 @@
-<div align="center">
-  <a href="https://edu-wiki.pages.dev" target="_blank"><img src="https://edu-wiki.pages.dev/static/img/logo.png" width="128" height="128"></a>
-</div>
-
 # EDU Wiki
+
+![](./static/img/logo.png)
 
 欢迎来到 EDU Wiki！
 
 [![Stars](https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white)](https://github.com/Nick-zheng-official/edu-wiki/stargazers)
+
 [![Site](https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site)](https://edu-wiki.pages.dev/)
+
 [![QQ](https://img.shields.io/badge/QQ%E7%BE%A4-2181927847-blue?style=for-the-badge&logo=tencent-qq&logoColor=white)](https://qm.qq.com/q/2181927847)
 
 ## 关于我们
