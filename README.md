@@ -9,7 +9,6 @@
 <p align="center">
 
 [![Stars](https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white)](https://github.com/Nick-zheng-official/edu-wiki/stargazers)
-[![Build](https://img.shields.io/github/actions/workflow/status/Nick-zheng-official/edu-wiki/cloudflare-pages.yml?style=for-the-badge&branch=main&label=Build)](https://github.com/Nick-zheng-official/edu-wiki/actions)
 [![Site](https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site)](https://edu-wiki.pages.dev/)
 [![QQ](https://img.shields.io/badge/QQ%E7%BE%A4-2181927847-blue?style=for-the-badge&logo=tencent-qq&logoColor=white)](https://qm.qq.com/q/2181927847)
 
@@ -31,15 +30,15 @@ EDU Wiki 是一个整合了高中语文, 数学, 物理, 化学, 生物知识的
 
 ## 如何使用
 
-使用顶部导航栏选择学科, 在左侧边栏浏览具体知识点, 从右侧目录中跳转到具体内容. 或使用上方搜索功能查找特定内容. 
+使用顶部导航栏选择学科, 在左侧边栏浏览具体知识点, 从右侧目录中跳转到具体内容. 或使用上方搜索功能查找特定内容.
 
 ## 部署
 
-本项目目前采用 [mkdocs](https://github.com/mkdocs/mkdocs) 部署在 [https://edu-wiki.pages.dev/](https://edu-wiki.pages.dev/). 
+本项目目前采用 [mkdocs](https://github.com/mkdocs/mkdocs) 部署在 [https://edu-wiki.pages.dev/](https://edu-wiki.pages.dev/).
 
  本项目可以直接部署在本地, 具体方式如下:
- 
- ```bash
+
+```bash
 # 克隆仓库
 git clone https://github.com/Nick-zheng-official/edu-wiki.git
 cd edu-wiki
@@ -51,7 +50,7 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-启动后访问 <http://127.0.0.1:8000/> 即可查看网站。mkdocs 本地部署的网站是动态更新的，即当你修改并保存 md 文件后，刷新页面就能随之动态更新。
+启动后访问 [http://127.0.0.1:8000/](http://127.0.0.1:8000/) 即可查看网站。mkdocs 本地部署的网站是动态更新的，即当你修改并保存 md 文件后，刷新页面就能随之动态更新。
 
 ## 贡献指南
 
@@ -59,7 +58,7 @@ mkdocs serve
 
 ## 许可证
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。
+本作品采用进行许可。
 
 ## 鸣谢
 

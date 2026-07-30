@@ -9,7 +9,6 @@
 <p align="center">
 
 [![Stars](https://img.shields.io/github/stars/Nick-zheng-official/edu-wiki?style=for-the-badge&color=black&label=Stars&logo=github&logoColor=white)](https://github.com/Nick-zheng-official/edu-wiki/stargazers)
-[![Build](https://img.shields.io/github/actions/workflow/status/Nick-zheng-official/edu-wiki/cloudflare-pages.yml?style=for-the-badge&branch=main&label=Build)](https://github.com/Nick-zheng-official/edu-wiki/actions)
 [![Site](https://img.shields.io/website?style=for-the-badge&url=https://edu-wiki.pages.dev/&label=Site)](https://edu-wiki.pages.dev/)
 [![QQ](https://img.shields.io/badge/QQ%E7%BE%A4-2181927847-blue?style=for-the-badge&logo=tencent-qq&logoColor=white)](https://qm.qq.com/q/2181927847)
 
