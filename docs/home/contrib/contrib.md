@@ -26,7 +26,6 @@
 ```plain
 edu-wiki/
 ├── .github/
-│   ├── workflows/                       # GitHub Actions 配置
 │   └── PULL_REQUEST_TEMPLATE.md         # Pull Request 模板
 ├── docs/                                # Wiki 文档目录
 │   ├── biology/                         # 生物
