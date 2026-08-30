@@ -89,9 +89,10 @@ nav:
       - 运动学:
           - 冲量与动量: physics/kinematics/momentum.md
           - 简谐运动: physics/kinematics/shm.md
-          - 圆周运动: physics/kinematics/circular.md
+          - 曲线运动: physics/kinematics/circular.md
           - 运动学: physics/kinematics/kinematics.md
       - 磁学:
+          - 磁场: physics/magnetism/magnetic-field.md
           - 电磁感应: physics/magnetism/induction.md
       - 电学:
           - 交流电: physics/ac/ac.md
