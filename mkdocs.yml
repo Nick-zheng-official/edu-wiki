@@ -95,6 +95,7 @@ nav:
           - 磁场: physics/magnetism/magnetic-field.md
           - 电磁感应: physics/magnetism/induction.md
       - 电学:
+          - 恒定电流: physics/dc/dc.md
           - 交流电: physics/ac/ac.md
           - 电学: physics/electricity/electricity.md
       - 机械波:
@@ -137,13 +138,20 @@ nav:
       - 物质运输:
           - 物质运输: biology/transport/transport.md
       - 稳态与调节:
-          - 神经调节: biology/regulation/neural.md
           - 稳态: biology/regulation/homeostasis.md
+          - 神经调节: biology/regulation/neural.md
+          - 激素调节: biology/regulation/hormonal.md
+          - 免疫调节: biology/regulation/immunity.md
+          - 植物激素: biology/regulation/plant-hormones.md
       - 细胞:
           - 细胞: biology/cells/cells.md
           - 走进细胞: biology/cells/cells-intro.md
       - 细胞代谢:
           - 细胞代谢: biology/metabolism/metabolism.md
+      - 细胞生命历程:
+          - 细胞生命历程: biology/cell-cycle/cell-cycle.md
+      - 遗传:
+          - 遗传: biology/heredity/heredity.md
       - 发酵工程:
           - 发酵工程: biology/fermentation/fermentation.md
       - 基因工程:
